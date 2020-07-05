@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name Keebio)(type KiCad)(uri ${KIPRJMOD}/../Keebio-Parts.pretty)(options "")(descr ""))
+  (lib (name kicad-usb)(type KiCad)(uri ${KIPRJMOD}/../kicad-footprints/Connector_USB.pretty)(options "")(descr ""))
+  (lib (name kicad-harwin)(type KiCad)(uri ${KIPRJMOD}/../kicad-footprints/Connector_Harwin.pretty)(options "")(descr ""))
+)

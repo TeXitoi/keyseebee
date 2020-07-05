@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:keyboard-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -1045,7 +1044,7 @@ U 1 1 5EDBCB44
 P 7500 2200
 F 0 "J3" H 7473 2173 50  0000 R CNN
 F 1 "Conn_01x12_Male" H 7473 2082 50  0000 R CNN
-F 2 "kicad-usb:Harwin_M20-89012xx_1x12_P2.54mm_Horizontal" H 7500 2200 50  0001 C CNN
+F 2 "kicad-harwin:Harwin_M20-89012xx_1x12_P2.54mm_Horizontal" H 7500 2200 50  0001 C CNN
 F 3 "~" H 7500 2200 50  0001 C CNN
 	1    7500 2200
 	-1   0    0    -1  
@@ -1077,4 +1076,15 @@ Text GLabel 7300 2400 0    50   Input ~ 0
 PA7
 Text GLabel 6700 3000 2    50   Input ~ 0
 PA5
+$Comp
+L power:GND #PWR?
+U 1 1 5F02320E
+P 5400 3700
+F 0 "#PWR?" H 5400 3450 50  0001 C CNN
+F 1 "GND" V 5405 3572 50  0000 R CNN
+F 2 "" H 5400 3700 50  0001 C CNN
+F 3 "" H 5400 3700 50  0001 C CNN
+	1    5400 3700
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC

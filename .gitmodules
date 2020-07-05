@@ -4,3 +4,6 @@
 [submodule "pcb/kicad/Keebio-Parts.pretty"]
 	path = pcb/kicad/Keebio-Parts.pretty
 	url = https://github.com/keebio/Keebio-Parts.pretty
+[submodule "pcb/kicad/kbd"]
+	path = pcb/kicad/kbd
+	url = https://github.com/foostan/kbd.git
