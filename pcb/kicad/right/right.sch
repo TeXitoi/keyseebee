@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:right-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -354,15 +355,15 @@ Wire Wire Line
 Text GLabel 4000 900  0    50   Input ~ 0
 3.3V
 $Comp
-L pspice:DIODE D11
+L Diode:1N4148WS D11
 U 1 1 5DF621C8
-P 950 3350
-F 0 "D11" H 950 3615 50  0000 C CNN
-F 1 "D3.3" H 950 3524 50  0000 C CNN
-F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 950 3350 50  0001 C CNN
-F 3 "~" H 950 3350 50  0001 C CNN
-	1    950  3350
-	1    0    0    -1  
+P 1000 3350
+F 0 "D11" H 1000 3615 50  0000 C CNN
+F 1 "D3.3" H 1000 3524 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 1000 3350 50  0001 C CNN
+F 3 "~" H 1000 3350 50  0001 C CNN
+	1    1000 3350
+	-1   0    0    1   
 $EndComp
 $Comp
 L Switch:SW_Push SW9
@@ -376,15 +377,15 @@ F 3 "" H 1350 3550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L pspice:DIODE D12
+L Diode:1N4148WS D12
 U 1 1 5DF621D6
-P 950 3750
-F 0 "D12" H 950 4015 50  0000 C CNN
-F 1 "D4.3" H 950 3924 50  0000 C CNN
-F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 950 3750 50  0001 C CNN
-F 3 "~" H 950 3750 50  0001 C CNN
-	1    950  3750
-	1    0    0    -1  
+P 1000 3750
+F 0 "D12" H 1000 4015 50  0000 C CNN
+F 1 "D4.3" H 1000 3924 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 1000 3750 50  0001 C CNN
+F 3 "~" H 1000 3750 50  0001 C CNN
+	1    1000 3750
+	-1   0    0    1   
 $EndComp
 $Comp
 L Switch:SW_Push SW10
@@ -398,15 +399,15 @@ F 3 "" H 1350 3950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L pspice:DIODE D10
+L Diode:1N4148WS D10
 U 1 1 5DF621F2
-P 950 2950
-F 0 "D10" H 950 3215 50  0000 C CNN
-F 1 "D2.3" H 950 3124 50  0000 C CNN
-F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 950 2950 50  0001 C CNN
-F 3 "~" H 950 2950 50  0001 C CNN
-	1    950  2950
-	1    0    0    -1  
+P 1000 2950
+F 0 "D10" H 1000 3215 50  0000 C CNN
+F 1 "D2.3" H 1000 3124 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 1000 2950 50  0001 C CNN
+F 3 "~" H 1000 2950 50  0001 C CNN
+	1    1000 2950
+	-1   0    0    1   
 $EndComp
 $Comp
 L Switch:SW_Push SW8
@@ -420,15 +421,15 @@ F 3 "" H 1350 3150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L pspice:DIODE D9
+L Diode:1N4148WS D9
 U 1 1 5DF62200
-P 950 2550
-F 0 "D9" H 950 2815 50  0000 C CNN
-F 1 "D1.3" H 950 2724 50  0000 C CNN
-F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 950 2550 50  0001 C CNN
-F 3 "~" H 950 2550 50  0001 C CNN
-	1    950  2550
-	1    0    0    -1  
+P 1000 2550
+F 0 "D9" H 1000 2815 50  0000 C CNN
+F 1 "D1.3" H 1000 2724 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 1000 2550 50  0001 C CNN
+F 3 "~" H 1000 2550 50  0001 C CNN
+	1    1000 2550
+	-1   0    0    1   
 $EndComp
 $Comp
 L Switch:SW_Push SW7
@@ -443,13 +444,13 @@ F 3 "" H 1350 2750 50  0001 C CNN
 $EndComp
 Text GLabel 1550 2550 2    50   Input ~ 0
 COL3
-Text GLabel 750  2950 0    50   Input ~ 0
+Text GLabel 850  2950 0    50   Input ~ 0
 ROW2
-Text GLabel 750  3350 0    50   Input ~ 0
+Text GLabel 850  3350 0    50   Input ~ 0
 ROW3
-Text GLabel 750  3750 0    50   Input ~ 0
+Text GLabel 850  3750 0    50   Input ~ 0
 ROW4
-Text GLabel 750  2550 0    50   Input ~ 0
+Text GLabel 850  2550 0    50   Input ~ 0
 ROW1
 Text GLabel 5400 2500 0    50   Input ~ 0
 ROW1
@@ -468,15 +469,15 @@ Wire Wire Line
 	1550 3350 1550 3750
 Connection ~ 1550 3350
 $Comp
-L pspice:DIODE D25
+L Diode:1N4148WS D25
 U 1 1 5DFE23D1
-P 2300 3350
-F 0 "D25" H 2300 3615 50  0000 C CNN
-F 1 "D3.4" H 2300 3524 50  0000 C CNN
-F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 2300 3350 50  0001 C CNN
-F 3 "~" H 2300 3350 50  0001 C CNN
-	1    2300 3350
-	1    0    0    -1  
+P 2350 3350
+F 0 "D25" H 2350 3615 50  0000 C CNN
+F 1 "D3.4" H 2350 3524 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 2350 3350 50  0001 C CNN
+F 3 "~" H 2350 3350 50  0001 C CNN
+	1    2350 3350
+	-1   0    0    1   
 $EndComp
 $Comp
 L Switch:SW_Push SW23
@@ -490,15 +491,15 @@ F 3 "" H 2700 3550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L pspice:DIODE D26
+L Diode:1N4148WS D26
 U 1 1 5DFE23DF
-P 2300 3750
-F 0 "D26" H 2300 4015 50  0000 C CNN
-F 1 "D4.4" H 2300 3924 50  0000 C CNN
-F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 2300 3750 50  0001 C CNN
-F 3 "~" H 2300 3750 50  0001 C CNN
-	1    2300 3750
-	1    0    0    -1  
+P 2350 3750
+F 0 "D26" H 2350 4015 50  0000 C CNN
+F 1 "D4.4" H 2350 3924 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 2350 3750 50  0001 C CNN
+F 3 "~" H 2350 3750 50  0001 C CNN
+	1    2350 3750
+	-1   0    0    1   
 $EndComp
 $Comp
 L Switch:SW_Push SW24
@@ -512,15 +513,15 @@ F 3 "" H 2700 3950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L pspice:DIODE D24
+L Diode:1N4148WS D24
 U 1 1 5DFE23FB
-P 2300 2950
-F 0 "D24" H 2300 3215 50  0000 C CNN
-F 1 "D2.4" H 2300 3124 50  0000 C CNN
-F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 2300 2950 50  0001 C CNN
-F 3 "~" H 2300 2950 50  0001 C CNN
-	1    2300 2950
-	1    0    0    -1  
+P 2350 2950
+F 0 "D24" H 2350 3215 50  0000 C CNN
+F 1 "D2.4" H 2350 3124 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 2350 2950 50  0001 C CNN
+F 3 "~" H 2350 2950 50  0001 C CNN
+	1    2350 2950
+	-1   0    0    1   
 $EndComp
 $Comp
 L Switch:SW_Push SW22
@@ -534,15 +535,15 @@ F 3 "" H 2700 3150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L pspice:DIODE D23
+L Diode:1N4148WS D23
 U 1 1 5DFE2409
-P 2300 2550
-F 0 "D23" H 2300 2815 50  0000 C CNN
-F 1 "D1.4" H 2300 2724 50  0000 C CNN
-F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 2300 2550 50  0001 C CNN
-F 3 "~" H 2300 2550 50  0001 C CNN
-	1    2300 2550
-	1    0    0    -1  
+P 2350 2550
+F 0 "D23" H 2350 2815 50  0000 C CNN
+F 1 "D1.4" H 2350 2724 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 2350 2550 50  0001 C CNN
+F 3 "~" H 2350 2550 50  0001 C CNN
+	1    2350 2550
+	-1   0    0    1   
 $EndComp
 $Comp
 L Switch:SW_Push SW21
@@ -557,13 +558,13 @@ F 3 "" H 2700 2750 50  0001 C CNN
 $EndComp
 Text GLabel 2900 2550 2    50   Input ~ 0
 COL4
-Text GLabel 2100 2950 0    50   Input ~ 0
+Text GLabel 2200 2950 0    50   Input ~ 0
 ROW2
-Text GLabel 2100 3350 0    50   Input ~ 0
+Text GLabel 2200 3350 0    50   Input ~ 0
 ROW3
-Text GLabel 2100 3750 0    50   Input ~ 0
+Text GLabel 2200 3750 0    50   Input ~ 0
 ROW4
-Text GLabel 2100 2550 0    50   Input ~ 0
+Text GLabel 2200 2550 0    50   Input ~ 0
 ROW1
 Wire Wire Line
 	2900 2550 2900 2950
@@ -574,15 +575,15 @@ Wire Wire Line
 	2900 3350 2900 3750
 Connection ~ 2900 3350
 $Comp
-L pspice:DIODE D35
+L Diode:1N4148WS D35
 U 1 1 5DFE3E8A
-P 3650 3350
-F 0 "D35" H 3650 3615 50  0000 C CNN
-F 1 "D3.5" H 3650 3524 50  0000 C CNN
-F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 3650 3350 50  0001 C CNN
-F 3 "~" H 3650 3350 50  0001 C CNN
-	1    3650 3350
-	1    0    0    -1  
+P 3700 3350
+F 0 "D35" H 3700 3615 50  0000 C CNN
+F 1 "D3.5" H 3700 3524 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 3700 3350 50  0001 C CNN
+F 3 "~" H 3700 3350 50  0001 C CNN
+	1    3700 3350
+	-1   0    0    1   
 $EndComp
 $Comp
 L Switch:SW_Push SW33
@@ -596,15 +597,15 @@ F 3 "" H 4050 3550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L pspice:DIODE D36
+L Diode:1N4148WS D36
 U 1 1 5DFE3E98
-P 3650 3750
-F 0 "D36" H 3650 4015 50  0000 C CNN
-F 1 "D4.5" H 3650 3924 50  0000 C CNN
-F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 3650 3750 50  0001 C CNN
-F 3 "~" H 3650 3750 50  0001 C CNN
-	1    3650 3750
-	1    0    0    -1  
+P 3700 3750
+F 0 "D36" H 3700 4015 50  0000 C CNN
+F 1 "D4.5" H 3700 3924 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 3700 3750 50  0001 C CNN
+F 3 "~" H 3700 3750 50  0001 C CNN
+	1    3700 3750
+	-1   0    0    1   
 $EndComp
 $Comp
 L Switch:SW_Push SW34
@@ -618,15 +619,15 @@ F 3 "" H 4050 3950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L pspice:DIODE D34
+L Diode:1N4148WS D34
 U 1 1 5DFE3EB4
-P 3650 2950
-F 0 "D34" H 3650 3215 50  0000 C CNN
-F 1 "D2.5" H 3650 3124 50  0000 C CNN
-F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 3650 2950 50  0001 C CNN
-F 3 "~" H 3650 2950 50  0001 C CNN
-	1    3650 2950
-	1    0    0    -1  
+P 3700 2950
+F 0 "D34" H 3700 3215 50  0000 C CNN
+F 1 "D2.5" H 3700 3124 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 3700 2950 50  0001 C CNN
+F 3 "~" H 3700 2950 50  0001 C CNN
+	1    3700 2950
+	-1   0    0    1   
 $EndComp
 $Comp
 L Switch:SW_Push SW32
@@ -640,15 +641,15 @@ F 3 "" H 4050 3150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L pspice:DIODE D33
+L Diode:1N4148WS D33
 U 1 1 5DFE3EC2
-P 3650 2550
-F 0 "D33" H 3650 2815 50  0000 C CNN
-F 1 "D1.5" H 3650 2724 50  0000 C CNN
-F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 3650 2550 50  0001 C CNN
-F 3 "~" H 3650 2550 50  0001 C CNN
-	1    3650 2550
-	1    0    0    -1  
+P 3700 2550
+F 0 "D33" H 3700 2815 50  0000 C CNN
+F 1 "D1.5" H 3700 2724 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 3700 2550 50  0001 C CNN
+F 3 "~" H 3700 2550 50  0001 C CNN
+	1    3700 2550
+	-1   0    0    1   
 $EndComp
 $Comp
 L Switch:SW_Push SW31
@@ -663,13 +664,13 @@ F 3 "" H 4050 2750 50  0001 C CNN
 $EndComp
 Text GLabel 4250 2550 2    50   Input ~ 0
 COL5
-Text GLabel 3450 2950 0    50   Input ~ 0
+Text GLabel 3550 2950 0    50   Input ~ 0
 ROW2
-Text GLabel 3450 3350 0    50   Input ~ 0
+Text GLabel 3550 3350 0    50   Input ~ 0
 ROW3
-Text GLabel 3450 3750 0    50   Input ~ 0
+Text GLabel 3550 3750 0    50   Input ~ 0
 ROW4
-Text GLabel 3450 2550 0    50   Input ~ 0
+Text GLabel 3550 2550 0    50   Input ~ 0
 ROW1
 Wire Wire Line
 	4250 2550 4250 2950
@@ -680,15 +681,15 @@ Wire Wire Line
 	4250 3350 4250 3750
 Connection ~ 4250 3350
 $Comp
-L pspice:DIODE D7
+L Diode:1N4148WS D7
 U 1 1 5DFE6378
-P 950 1650
-F 0 "D7" H 950 1915 50  0000 C CNN
-F 1 "D3.1" H 950 1824 50  0000 C CNN
-F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 950 1650 50  0001 C CNN
-F 3 "~" H 950 1650 50  0001 C CNN
-	1    950  1650
-	1    0    0    -1  
+P 1000 1650
+F 0 "D7" H 1000 1915 50  0000 C CNN
+F 1 "D3.1" H 1000 1824 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 1000 1650 50  0001 C CNN
+F 3 "~" H 1000 1650 50  0001 C CNN
+	1    1000 1650
+	-1   0    0    1   
 $EndComp
 $Comp
 L Switch:SW_Push SW5
@@ -702,15 +703,15 @@ F 3 "" H 1350 1850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L pspice:DIODE D6
+L Diode:1N4148WS D6
 U 1 1 5DFE63A2
-P 950 1250
-F 0 "D6" H 950 1515 50  0000 C CNN
-F 1 "D2.1" H 950 1424 50  0000 C CNN
-F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 950 1250 50  0001 C CNN
-F 3 "~" H 950 1250 50  0001 C CNN
-	1    950  1250
-	1    0    0    -1  
+P 1000 1250
+F 0 "D6" H 1000 1515 50  0000 C CNN
+F 1 "D2.1" H 1000 1424 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 1000 1250 50  0001 C CNN
+F 3 "~" H 1000 1250 50  0001 C CNN
+	1    1000 1250
+	-1   0    0    1   
 $EndComp
 $Comp
 L Switch:SW_Push SW4
@@ -724,15 +725,15 @@ F 3 "" H 1350 1450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L pspice:DIODE D5
+L Diode:1N4148WS D5
 U 1 1 5DFE63B0
-P 950 850
-F 0 "D5" H 950 1115 50  0000 C CNN
-F 1 "D1.1" H 950 1024 50  0000 C CNN
-F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 950 850 50  0001 C CNN
-F 3 "~" H 950 850 50  0001 C CNN
-	1    950  850 
-	1    0    0    -1  
+P 1000 850
+F 0 "D5" H 1000 1115 50  0000 C CNN
+F 1 "D1.1" H 1000 1024 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 1000 850 50  0001 C CNN
+F 3 "~" H 1000 850 50  0001 C CNN
+	1    1000 850 
+	-1   0    0    1   
 $EndComp
 $Comp
 L Switch:SW_Push SW3
@@ -747,11 +748,11 @@ F 3 "" H 1350 1050 50  0001 C CNN
 $EndComp
 Text GLabel 1550 850  2    50   Input ~ 0
 COL1
-Text GLabel 750  1250 0    50   Input ~ 0
+Text GLabel 850  1250 0    50   Input ~ 0
 ROW2
-Text GLabel 750  1650 0    50   Input ~ 0
+Text GLabel 850  1650 0    50   Input ~ 0
 ROW3
-Text GLabel 750  850  0    50   Input ~ 0
+Text GLabel 850  850  0    50   Input ~ 0
 ROW1
 Wire Wire Line
 	1550 850  1550 1250
@@ -759,15 +760,15 @@ Wire Wire Line
 	1550 1250 1550 1650
 Connection ~ 1550 1250
 $Comp
-L pspice:DIODE D21
+L Diode:1N4148WS D21
 U 1 1 5DFE63CB
-P 2300 1650
-F 0 "D21" H 2300 1915 50  0000 C CNN
-F 1 "D3.2" H 2300 1824 50  0000 C CNN
-F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 2300 1650 50  0001 C CNN
-F 3 "~" H 2300 1650 50  0001 C CNN
-	1    2300 1650
-	1    0    0    -1  
+P 2350 1650
+F 0 "D21" H 2350 1915 50  0000 C CNN
+F 1 "D3.2" H 2350 1824 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 2350 1650 50  0001 C CNN
+F 3 "~" H 2350 1650 50  0001 C CNN
+	1    2350 1650
+	-1   0    0    1   
 $EndComp
 $Comp
 L Switch:SW_Push SW19
@@ -781,15 +782,15 @@ F 3 "" H 2700 1850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L pspice:DIODE D20
+L Diode:1N4148WS D20
 U 1 1 5DFE63F5
-P 2300 1250
-F 0 "D20" H 2300 1515 50  0000 C CNN
-F 1 "D2.2" H 2300 1424 50  0000 C CNN
-F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 2300 1250 50  0001 C CNN
-F 3 "~" H 2300 1250 50  0001 C CNN
-	1    2300 1250
-	1    0    0    -1  
+P 2350 1250
+F 0 "D20" H 2350 1515 50  0000 C CNN
+F 1 "D2.2" H 2350 1424 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 2350 1250 50  0001 C CNN
+F 3 "~" H 2350 1250 50  0001 C CNN
+	1    2350 1250
+	-1   0    0    1   
 $EndComp
 $Comp
 L Switch:SW_Push SW18
@@ -803,15 +804,15 @@ F 3 "" H 2700 1450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L pspice:DIODE D19
+L Diode:1N4148WS D19
 U 1 1 5DFE6403
-P 2300 850
-F 0 "D19" H 2300 1115 50  0000 C CNN
-F 1 "D1.2" H 2300 1024 50  0000 C CNN
-F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 2300 850 50  0001 C CNN
-F 3 "~" H 2300 850 50  0001 C CNN
-	1    2300 850 
-	1    0    0    -1  
+P 2350 850
+F 0 "D19" H 2350 1115 50  0000 C CNN
+F 1 "D1.2" H 2350 1024 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 2350 850 50  0001 C CNN
+F 3 "~" H 2350 850 50  0001 C CNN
+	1    2350 850 
+	-1   0    0    1   
 $EndComp
 $Comp
 L Switch:SW_Push SW17
@@ -826,11 +827,11 @@ F 3 "" H 2700 1050 50  0001 C CNN
 $EndComp
 Text GLabel 2900 850  2    50   Input ~ 0
 COL2
-Text GLabel 2100 1250 0    50   Input ~ 0
+Text GLabel 2200 1250 0    50   Input ~ 0
 ROW2
-Text GLabel 2100 1650 0    50   Input ~ 0
+Text GLabel 2200 1650 0    50   Input ~ 0
 ROW3
-Text GLabel 2100 850  0    50   Input ~ 0
+Text GLabel 2200 850  0    50   Input ~ 0
 ROW1
 Wire Wire Line
 	2900 850  2900 1250
@@ -838,111 +839,111 @@ Wire Wire Line
 	2900 1250 2900 1650
 Connection ~ 2900 1250
 $Comp
-L pspice:DIODE D16
+L Diode:1N4148WS D16
 U 1 1 5DFEF7D2
-P 950 6700
-F 0 "D16" H 950 6965 50  0000 C CNN
-F 1 "D3.6" H 950 6874 50  0000 C CNN
-F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 950 6700 50  0001 C CNN
-F 3 "~" H 950 6700 50  0001 C CNN
-	1    950  6700
-	1    0    0    -1  
+P 950 5550
+F 0 "D16" H 950 5815 50  0000 C CNN
+F 1 "D3.6" H 950 5724 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 950 5550 50  0001 C CNN
+F 3 "~" H 950 5550 50  0001 C CNN
+	1    950  5550
+	-1   0    0    1   
 $EndComp
 $Comp
 L Switch:SW_Push SW14
 U 1 1 5DFEF7D9
-P 1350 6700
-F 0 "SW14" H 1350 6985 50  0000 C CNN
-F 1 "SW_Push" H 1350 6894 50  0000 C CNN
-F 2 "foostan-kbd:CherryMX_Choc_1u" H 1350 6900 50  0001 C CNN
-F 3 "" H 1350 6900 50  0001 C CNN
-	1    1350 6700
+P 1300 5550
+F 0 "SW14" H 1300 5835 50  0000 C CNN
+F 1 "SW_Push" H 1300 5744 50  0000 C CNN
+F 2 "foostan-kbd:CherryMX_Choc_1u" H 1300 5750 50  0001 C CNN
+F 3 "" H 1300 5750 50  0001 C CNN
+	1    1300 5550
 	1    0    0    -1  
 $EndComp
 $Comp
-L pspice:DIODE D17
+L Diode:1N4148WS D17
 U 1 1 5DFEF7E0
-P 950 7100
-F 0 "D17" H 950 7365 50  0000 C CNN
-F 1 "D4.6" H 950 7274 50  0000 C CNN
-F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 950 7100 50  0001 C CNN
-F 3 "~" H 950 7100 50  0001 C CNN
-	1    950  7100
-	1    0    0    -1  
+P 950 5950
+F 0 "D17" H 950 6215 50  0000 C CNN
+F 1 "D4.6" H 950 6124 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 950 5950 50  0001 C CNN
+F 3 "~" H 950 5950 50  0001 C CNN
+	1    950  5950
+	-1   0    0    1   
 $EndComp
 $Comp
 L Switch:SW_Push SW15
 U 1 1 5DFEF7E7
-P 1350 7100
-F 0 "SW15" H 1350 7385 50  0000 C CNN
-F 1 "SW_Push" H 1350 7294 50  0000 C CNN
-F 2 "foostan-kbd:CherryMX_Choc_1u" H 1350 7300 50  0001 C CNN
-F 3 "" H 1350 7300 50  0001 C CNN
-	1    1350 7100
+P 1300 5950
+F 0 "SW15" H 1300 6235 50  0000 C CNN
+F 1 "SW_Push" H 1300 6144 50  0000 C CNN
+F 2 "foostan-kbd:CherryMX_Choc_1u" H 1300 6150 50  0001 C CNN
+F 3 "" H 1300 6150 50  0001 C CNN
+	1    1300 5950
 	1    0    0    -1  
 $EndComp
 $Comp
-L pspice:DIODE D15
+L Diode:1N4148WS D15
 U 1 1 5DFEF7FC
-P 950 6300
-F 0 "D15" H 950 6565 50  0000 C CNN
-F 1 "D2.6" H 950 6474 50  0000 C CNN
-F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 950 6300 50  0001 C CNN
-F 3 "~" H 950 6300 50  0001 C CNN
-	1    950  6300
-	1    0    0    -1  
+P 950 5150
+F 0 "D15" H 950 5415 50  0000 C CNN
+F 1 "D2.6" H 950 5324 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 950 5150 50  0001 C CNN
+F 3 "~" H 950 5150 50  0001 C CNN
+	1    950  5150
+	-1   0    0    1   
 $EndComp
 $Comp
 L Switch:SW_Push SW13
 U 1 1 5DFEF803
-P 1350 6300
-F 0 "SW13" H 1350 6585 50  0000 C CNN
-F 1 "SW_Push" H 1350 6494 50  0000 C CNN
-F 2 "foostan-kbd:CherryMX_Choc_1u" H 1350 6500 50  0001 C CNN
-F 3 "" H 1350 6500 50  0001 C CNN
-	1    1350 6300
+P 1300 5150
+F 0 "SW13" H 1300 5435 50  0000 C CNN
+F 1 "SW_Push" H 1300 5344 50  0000 C CNN
+F 2 "foostan-kbd:CherryMX_Choc_1u" H 1300 5350 50  0001 C CNN
+F 3 "" H 1300 5350 50  0001 C CNN
+	1    1300 5150
 	1    0    0    -1  
 $EndComp
 $Comp
-L pspice:DIODE D14
+L Diode:1N4148WS D14
 U 1 1 5DFEF80A
-P 950 5900
-F 0 "D14" H 950 6165 50  0000 C CNN
-F 1 "D1.6" H 950 6074 50  0000 C CNN
-F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 950 5900 50  0001 C CNN
-F 3 "~" H 950 5900 50  0001 C CNN
-	1    950  5900
-	1    0    0    -1  
+P 950 4750
+F 0 "D14" H 950 5015 50  0000 C CNN
+F 1 "D1.6" H 950 4924 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 950 4750 50  0001 C CNN
+F 3 "~" H 950 4750 50  0001 C CNN
+	1    950  4750
+	-1   0    0    1   
 $EndComp
 $Comp
 L Switch:SW_Push SW12
 U 1 1 5DFEF811
-P 1350 5900
-F 0 "SW12" H 1350 6185 50  0000 C CNN
-F 1 "SW_Push" H 1350 6094 50  0000 C CNN
-F 2 "foostan-kbd:CherryMX_Choc_1u" H 1350 6100 50  0001 C CNN
-F 3 "" H 1350 6100 50  0001 C CNN
-	1    1350 5900
+P 1300 4750
+F 0 "SW12" H 1300 5035 50  0000 C CNN
+F 1 "SW_Push" H 1300 4944 50  0000 C CNN
+F 2 "foostan-kbd:CherryMX_Choc_1u" H 1300 4950 50  0001 C CNN
+F 3 "" H 1300 4950 50  0001 C CNN
+	1    1300 4750
 	1    0    0    -1  
 $EndComp
-Text GLabel 1550 5900 2    50   Input ~ 0
+Text GLabel 1500 4750 2    50   Input ~ 0
 COL6
-Text GLabel 750  6300 0    50   Input ~ 0
+Text GLabel 800  5150 0    50   Input ~ 0
 ROW2
-Text GLabel 750  6700 0    50   Input ~ 0
+Text GLabel 800  5550 0    50   Input ~ 0
 ROW3
-Text GLabel 750  7100 0    50   Input ~ 0
+Text GLabel 800  5950 0    50   Input ~ 0
 ROW4
-Text GLabel 750  5900 0    50   Input ~ 0
+Text GLabel 800  4750 0    50   Input ~ 0
 ROW1
 Wire Wire Line
-	1550 5900 1550 6300
+	1500 4750 1500 5150
 Wire Wire Line
-	1550 6300 1550 6700
-Connection ~ 1550 6300
+	1500 5150 1500 5550
+Connection ~ 1500 5150
 Wire Wire Line
-	1550 6700 1550 7100
-Connection ~ 1550 6700
+	1500 5550 1500 5950
+Connection ~ 1500 5550
 Text GLabel 6700 4000 2    50   Input ~ 0
 COL1
 Text GLabel 5400 2800 0    50   Input ~ 0
@@ -1006,7 +1007,7 @@ U 1 1 5ED45338
 P 8750 2150
 F 0 "J2" H 8643 1725 50  0000 C CNN
 F 1 "AudioJack4" H 8643 1816 50  0000 C CNN
-F 2 "Keebio:TRRS-PJ-320A-no-Fmask" H 8750 2150 50  0001 C CNN
+F 2 "keebio:TRRS-PJ-320A-no-Fmask" H 8750 2150 50  0001 C CNN
 F 3 "~" H 8750 2150 50  0001 C CNN
 	1    8750 2150
 	1    0    0    1   
