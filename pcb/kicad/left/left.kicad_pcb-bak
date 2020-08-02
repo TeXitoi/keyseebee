@@ -2885,7 +2885,7 @@
     )
   )
 
-  (gr_text "KeySeeBee v0.1 by TeXitoi" (at 238.125 104.775 90) (layer F.SilkS)
+  (gr_text "KeySeeBee v0.1 by TeXitoi" (at 238.633 104.775 90) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.3)) (justify left))
   )
   (gr_text 5V (at 236.22 62.865) (layer B.SilkS)
