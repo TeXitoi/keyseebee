@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 24)
+    (drawings 25)
     (tracks 719)
     (zones 0)
     (modules 61)
@@ -2841,6 +2841,9 @@
     )
   )
 
+  (gr_text JLCJLCJLCJLC (at 171.45 55.499) (layer F.SilkS)
+    (effects (font (size 0.8 0.8) (thickness 0.2)))
+  )
   (gr_text "KeySeeBee v0.1 by TeXitoi" (at 238.633 104.775 90) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.2)) (justify left))
   )
