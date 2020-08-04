@@ -14,7 +14,7 @@ use keyberon::key_code::KbHidReport;
 use keyberon::key_code::KeyCode::{self, *};
 use keyberon::layout::Layout;
 use keyberon::matrix::{Matrix, PressedKeys};
-use rtfm::app;
+use rtic::app;
 use stm32f0xx_hal::gpio::{gpioa, gpiob, Input, Output, PullUp, PushPull};
 use stm32f0xx_hal::prelude::*;
 use stm32f0xx_hal::usb;
@@ -179,8 +179,10 @@ const APP: () = {
     }
 
     #[task(binds = USB, priority = 2, resources = [usb_dev, usb_class])]
-    fn usb_rx(mut c: usb_rx::Context) {
-        usb_poll(&mut c.resources.usb_dev, &mut c.resources.usb_class);
+    fn usb_rx(c: usb_rx::Context) {
+        if c.resources.usb_dev.poll(&mut [c.resources.usb_class]) {
+            c.resources.usb_class.poll();
+        }
     }
 
     #[task(binds = TIM3, priority = 1, resources = [usb_class, matrix, debouncer, layout, timer])]
@@ -199,15 +201,9 @@ const APP: () = {
 };
 
 fn send_report(iter: impl Iterator<Item = KeyCode>, usb_class: &mut resources::usb_class<'_>) {
-    use rtfm::Mutex;
+    use rtic::Mutex;
     let report: KbHidReport = iter.collect();
     if usb_class.lock(|k| k.device_mut().set_keyboard_report(report.clone())) {
         while let Ok(0) = usb_class.lock(|k| k.write(report.as_bytes())) {}
-    }
-}
-
-fn usb_poll(usb_dev: &mut UsbDevice, keyboard: &mut UsbClass) {
-    if usb_dev.poll(&mut [keyboard]) {
-        keyboard.poll();
     }
 }

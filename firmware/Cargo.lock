@@ -96,28 +96,28 @@ dependencies = [
 ]
 
 [[package]]
-name = "cortex-m-rtfm"
+name = "cortex-m-rtic"
 version = "0.5.3"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "4fc65a600a5c8baf0a5fd3b2c0223b8d8fc7aa7d6d0c9a3350ce40a4da49ccea"
+checksum = "04cd388b154c7e7d212c5af7541ee1f174f29ccb0c22e9117f8d13a5aad233b6"
 dependencies = [
  "cortex-m",
  "cortex-m-rt",
- "cortex-m-rtfm-macros",
+ "cortex-m-rtic-macros",
  "heapless",
- "rtfm-core",
+ "rtic-core",
  "version_check",
 ]
 
 [[package]]
-name = "cortex-m-rtfm-macros"
-version = "0.5.1"
+name = "cortex-m-rtic-macros"
+version = "0.5.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "fa4a3fc88fff9970152a7f79bf6919d538395bc1f11ba90a1e6970a3521d8b88"
+checksum = "29e29e01b3ec80d59bfd96aaf94d04008bebfde3ab7016e12bfbd6c0b466d22a"
 dependencies = [
  "proc-macro2",
  "quote",
- "rtfm-syntax",
+ "rtic-syntax",
  "syn",
 ]
 
@@ -209,12 +209,12 @@ dependencies = [
 ]
 
 [[package]]
-name = "keyberon-f4"
+name = "keyseebee"
 version = "0.1.0"
 dependencies = [
  "cortex-m",
  "cortex-m-rt",
- "cortex-m-rtfm",
+ "cortex-m-rtic",
  "embedded-hal",
  "generic-array 0.13.2",
  "keyberon",
@@ -269,16 +269,16 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "e2a38df5b15c8d5c7e8654189744d8e396bddc18ad48041a500ce52d6948941f"
 
 [[package]]
-name = "rtfm-core"
+name = "rtic-core"
 version = "0.3.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "9ec893edb2aa5b70320b94896ffea22a7ebb1cf3f942bb67cd5b60a865a63493"
+checksum = "ab51fe832317e805f869b3d859f91aadf855c2c3da51f9b84bc645c201597158"
 
 [[package]]
-name = "rtfm-syntax"
+name = "rtic-syntax"
 version = "0.4.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "4455e23c34df3d66454e7e218a4d76a7f83321d04a806be614463341cec4116e"
+checksum = "8152fcaa845720d61e6cc570548b89144c2c307f18a480bbd97e55e9f6eeff04"
 dependencies = [
  "indexmap",
  "proc-macro2",
@@ -356,9 +356,9 @@ dependencies = [
 
 [[package]]
 name = "syn"
-version = "1.0.36"
+version = "1.0.37"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "4cdb98bcb1f9d81d07b536179c269ea15999b5d14ea958196413869445bb5250"
+checksum = "239f255b9e3429350f188c27b807fc9920a15eb9145230ff1a7d054c08fec319"
 dependencies = [
  "proc-macro2",
  "quote",
