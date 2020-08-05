@@ -11,16 +11,17 @@ use keyberon::action::{k, l, m, Action, Action::*};
 use keyberon::debounce::Debouncer;
 use keyberon::impl_heterogenous_array;
 use keyberon::key_code::KbHidReport;
-use keyberon::key_code::KeyCode::{self, *};
-use keyberon::layout::Layout;
+use keyberon::key_code::KeyCode::*;
+use keyberon::layout::{Event, Layout};
 use keyberon::matrix::{Matrix, PressedKeys};
 use rtic::app;
-use stm32f0xx_hal::gpio::{gpioa, gpiob, Input, Output, PullUp, PushPull};
+use stm32f0xx_hal::gpio::{gpioa, gpiob, Floating, Input, Output, PullUp, PushPull};
 use stm32f0xx_hal::prelude::*;
 use stm32f0xx_hal::usb;
 use stm32f0xx_hal::{stm32, timers};
 use usb_device::bus::UsbBusAllocator;
 use usb_device::class::UsbClass as _;
+use usb_device::device::UsbDeviceState;
 
 type UsbClass = keyberon::Class<'static, usb::UsbBusType, ()>;
 type UsbDevice = keyberon::Device<'static, usb::UsbBusType>;
@@ -78,9 +79,6 @@ macro_rules! a {
     };
 }
 
-// The 13th column is the hardware button of the development board,
-// thus all the column is activated when the button is pushed. Because
-// of that, only one action is defined in the 13th column.
 #[rustfmt::skip]
 pub static LAYERS: keyberon::layout::Layers = &[
     &[
@@ -115,6 +113,7 @@ const APP: () = {
         debouncer: Debouncer<PressedKeys<U4, U6>>,
         layout: Layout,
         timer: timers::Timer<stm32::TIM3>,
+        transpose: fn(Event) -> Event,
     }
 
     #[init]
@@ -148,6 +147,14 @@ const APP: () = {
         let mut timer = timers::Timer::tim3(c.device.TIM3, 1.khz(), &mut rcc);
         timer.listen(timers::Event::TimeOut);
 
+        let pb12: &gpiob::PB12<Input<Floating>> = &gpiob.pb12;
+        let is_left = pb12.is_low().unwrap();
+        let transpose = if is_left {
+            transpose_left
+        } else {
+            transpose_right
+        };
+
         let pa15 = gpioa.pa15;
         let matrix = cortex_m::interrupt::free(move |cs| {
             Matrix::new(
@@ -175,35 +182,67 @@ const APP: () = {
             debouncer: Debouncer::new(PressedKeys::default(), PressedKeys::default(), 5),
             matrix: matrix.unwrap(),
             layout: Layout::new(LAYERS),
+            transpose,
         }
     }
 
-    #[task(binds = USB, priority = 2, resources = [usb_dev, usb_class])]
+    #[task(binds = USB, priority = 4, resources = [usb_dev, usb_class])]
     fn usb_rx(c: usb_rx::Context) {
         if c.resources.usb_dev.poll(&mut [c.resources.usb_class]) {
             c.resources.usb_class.poll();
         }
     }
 
-    #[task(binds = TIM3, priority = 1, resources = [usb_class, matrix, debouncer, layout, timer])]
-    fn tick(mut c: tick::Context) {
+    #[task(priority = 3, resources = [usb_dev, usb_class])]
+    fn handle_report(mut c: handle_report::Context, report: KbHidReport) {
+        if !c
+            .resources
+            .usb_class
+            .lock(|k| k.device_mut().set_keyboard_report(report.clone()))
+        {
+            return;
+        }
+        if c.resources.usb_dev.lock(|d| d.state()) != UsbDeviceState::Configured {
+            return;
+        }
+        while let Ok(0) = c.resources.usb_class.lock(|k| k.write(report.as_bytes())) {}
+    }
+
+    #[task(
+        binds = TIM3,
+        priority = 1,
+        spawn = [handle_report],
+        resources = [matrix, debouncer, layout, timer, &transpose],
+    )]
+    fn tick(c: tick::Context) {
         c.resources.timer.wait().ok();
 
         for event in c
             .resources
             .debouncer
             .events(c.resources.matrix.get().unwrap())
+            .map(c.resources.transpose)
         {
-            send_report(c.resources.layout.event(event), &mut c.resources.usb_class);
+            c.spawn
+                .handle_report(c.resources.layout.event(event).collect())
+                .unwrap();
         }
-        send_report(c.resources.layout.tick(), &mut c.resources.usb_class);
+        c.spawn
+            .handle_report(c.resources.layout.tick().collect())
+            .unwrap();
+    }
+
+    extern "C" {
+        fn CEC_CAN();
     }
 };
 
-fn send_report(iter: impl Iterator<Item = KeyCode>, usb_class: &mut resources::usb_class<'_>) {
-    use rtic::Mutex;
-    let report: KbHidReport = iter.collect();
-    if usb_class.lock(|k| k.device_mut().set_keyboard_report(report.clone())) {
-        while let Ok(0) = usb_class.lock(|k| k.write(report.as_bytes())) {}
+fn transpose_left(e: Event) -> Event {
+    e
+}
+fn transpose_right(e: Event) -> Event {
+    match e {
+        Event::Press(x, y) => Event::Press(11 - x, y),
+        Event::Release(x, y) => Event::Release(11 - x, y),
     }
 }
