@@ -243,7 +243,7 @@ Wire Wire Line
 	4450 1600 5400 1600
 Connection ~ 4450 1600
 $Comp
-L Regulator_Linear:LM3480-3.3 U2
+L Regulator_Linear:MCP1703A-3302_SOT23 U2
 U 1 1 5DED53E7
 P 8250 900
 F 0 "U2" H 8250 1050 50  0000 C CNN

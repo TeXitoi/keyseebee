@@ -363,7 +363,7 @@ F 1 "D3.3" H 1000 3524 50  0000 C CNN
 F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 1000 3350 50  0001 C CNN
 F 3 "~" H 1000 3350 50  0001 C CNN
 	1    1000 3350
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
 L Switch:SW_Push SW9
@@ -385,7 +385,7 @@ F 1 "D4.3" H 1000 3924 50  0000 C CNN
 F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 1000 3750 50  0001 C CNN
 F 3 "~" H 1000 3750 50  0001 C CNN
 	1    1000 3750
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
 L Switch:SW_Push SW10
@@ -407,7 +407,7 @@ F 1 "D2.3" H 1000 3124 50  0000 C CNN
 F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 1000 2950 50  0001 C CNN
 F 3 "~" H 1000 2950 50  0001 C CNN
 	1    1000 2950
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
 L Switch:SW_Push SW8
@@ -429,7 +429,7 @@ F 1 "D1.3" H 1000 2724 50  0000 C CNN
 F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 1000 2550 50  0001 C CNN
 F 3 "~" H 1000 2550 50  0001 C CNN
 	1    1000 2550
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
 L Switch:SW_Push SW7
@@ -477,7 +477,7 @@ F 1 "D3.4" H 2350 3524 50  0000 C CNN
 F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 2350 3350 50  0001 C CNN
 F 3 "~" H 2350 3350 50  0001 C CNN
 	1    2350 3350
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
 L Switch:SW_Push SW23
@@ -499,7 +499,7 @@ F 1 "D4.4" H 2350 3924 50  0000 C CNN
 F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 2350 3750 50  0001 C CNN
 F 3 "~" H 2350 3750 50  0001 C CNN
 	1    2350 3750
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
 L Switch:SW_Push SW24
@@ -521,7 +521,7 @@ F 1 "D2.4" H 2350 3124 50  0000 C CNN
 F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 2350 2950 50  0001 C CNN
 F 3 "~" H 2350 2950 50  0001 C CNN
 	1    2350 2950
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
 L Switch:SW_Push SW22
@@ -543,7 +543,7 @@ F 1 "D1.4" H 2350 2724 50  0000 C CNN
 F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 2350 2550 50  0001 C CNN
 F 3 "~" H 2350 2550 50  0001 C CNN
 	1    2350 2550
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
 L Switch:SW_Push SW21
@@ -583,7 +583,7 @@ F 1 "D3.5" H 3700 3524 50  0000 C CNN
 F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 3700 3350 50  0001 C CNN
 F 3 "~" H 3700 3350 50  0001 C CNN
 	1    3700 3350
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
 L Switch:SW_Push SW33
@@ -605,7 +605,7 @@ F 1 "D4.5" H 3700 3924 50  0000 C CNN
 F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 3700 3750 50  0001 C CNN
 F 3 "~" H 3700 3750 50  0001 C CNN
 	1    3700 3750
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
 L Switch:SW_Push SW34
@@ -627,7 +627,7 @@ F 1 "D2.5" H 3700 3124 50  0000 C CNN
 F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 3700 2950 50  0001 C CNN
 F 3 "~" H 3700 2950 50  0001 C CNN
 	1    3700 2950
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
 L Switch:SW_Push SW32
@@ -649,7 +649,7 @@ F 1 "D1.5" H 3700 2724 50  0000 C CNN
 F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 3700 2550 50  0001 C CNN
 F 3 "~" H 3700 2550 50  0001 C CNN
 	1    3700 2550
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
 L Switch:SW_Push SW31
@@ -689,7 +689,7 @@ F 1 "D3.1" H 1000 1824 50  0000 C CNN
 F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 1000 1650 50  0001 C CNN
 F 3 "~" H 1000 1650 50  0001 C CNN
 	1    1000 1650
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
 L Switch:SW_Push SW5
@@ -711,7 +711,7 @@ F 1 "D2.1" H 1000 1424 50  0000 C CNN
 F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 1000 1250 50  0001 C CNN
 F 3 "~" H 1000 1250 50  0001 C CNN
 	1    1000 1250
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
 L Switch:SW_Push SW4
@@ -733,7 +733,7 @@ F 1 "D1.1" H 1000 1024 50  0000 C CNN
 F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 1000 850 50  0001 C CNN
 F 3 "~" H 1000 850 50  0001 C CNN
 	1    1000 850 
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
 L Switch:SW_Push SW3
@@ -768,7 +768,7 @@ F 1 "D3.2" H 2350 1824 50  0000 C CNN
 F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 2350 1650 50  0001 C CNN
 F 3 "~" H 2350 1650 50  0001 C CNN
 	1    2350 1650
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
 L Switch:SW_Push SW19
@@ -790,7 +790,7 @@ F 1 "D2.2" H 2350 1424 50  0000 C CNN
 F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 2350 1250 50  0001 C CNN
 F 3 "~" H 2350 1250 50  0001 C CNN
 	1    2350 1250
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
 L Switch:SW_Push SW18
@@ -812,7 +812,7 @@ F 1 "D1.2" H 2350 1024 50  0000 C CNN
 F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 2350 850 50  0001 C CNN
 F 3 "~" H 2350 850 50  0001 C CNN
 	1    2350 850 
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
 L Switch:SW_Push SW17
@@ -847,7 +847,7 @@ F 1 "D3.6" H 1000 5474 50  0000 C CNN
 F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 1000 5300 50  0001 C CNN
 F 3 "~" H 1000 5300 50  0001 C CNN
 	1    1000 5300
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
 L Switch:SW_Push SW14
@@ -869,7 +869,7 @@ F 1 "D4.6" H 1000 5874 50  0000 C CNN
 F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 1000 5700 50  0001 C CNN
 F 3 "~" H 1000 5700 50  0001 C CNN
 	1    1000 5700
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
 L Switch:SW_Push SW15
@@ -891,7 +891,7 @@ F 1 "D2.6" H 1000 5074 50  0000 C CNN
 F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 1000 4900 50  0001 C CNN
 F 3 "~" H 1000 4900 50  0001 C CNN
 	1    1000 4900
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
 L Switch:SW_Push SW13
@@ -913,7 +913,7 @@ F 1 "D1.6" H 1000 4674 50  0000 C CNN
 F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 1000 4500 50  0001 C CNN
 F 3 "~" H 1000 4500 50  0001 C CNN
 	1    1000 4500
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
 L Switch:SW_Push SW12
