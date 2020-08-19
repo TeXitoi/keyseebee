@@ -293,9 +293,9 @@ fn transpose_right(e: Event) -> Event {
 }
 
 fn de(bytes: &[u8]) -> Result<Event, ()> {
-    match bytes {
-        &[b'P', x, y, b'\n'] => Ok(Event::Press(x as usize, y as usize)),
-        &[b'R', x, y, b'\n'] => Ok(Event::Release(x as usize, y as usize)),
+    match *bytes {
+        [b'P', x, y, b'\n'] => Ok(Event::Press(x as usize, y as usize)),
+        [b'R', x, y, b'\n'] => Ok(Event::Release(x as usize, y as usize)),
         _ => Err(()),
     }
 }
