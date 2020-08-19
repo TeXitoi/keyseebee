@@ -218,6 +218,7 @@ dependencies = [
  "embedded-hal",
  "generic-array 0.13.2",
  "keyberon",
+ "nb 1.0.0",
  "panic-halt",
  "stm32f0xx-hal",
  "usb-device",

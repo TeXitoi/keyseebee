@@ -7,6 +7,11 @@ use panic_halt as _;
 use core::convert::Infallible;
 use embedded_hal::digital::v2::{InputPin, OutputPin};
 use generic_array::typenum::{U4, U6};
+use hal::gpio::{gpioa, gpiob, Floating, Input, Output, PullUp, PushPull};
+use hal::prelude::*;
+use hal::serial;
+use hal::usb;
+use hal::{stm32, timers};
 use keyberon::action::{k, l, m, Action, Action::*};
 use keyberon::debounce::Debouncer;
 use keyberon::impl_heterogenous_array;
@@ -14,11 +19,9 @@ use keyberon::key_code::KbHidReport;
 use keyberon::key_code::KeyCode::*;
 use keyberon::layout::{Event, Layout};
 use keyberon::matrix::{Matrix, PressedKeys};
+use nb::block;
 use rtic::app;
-use stm32f0xx_hal::gpio::{gpioa, gpiob, Floating, Input, Output, PullUp, PushPull};
-use stm32f0xx_hal::prelude::*;
-use stm32f0xx_hal::usb;
-use stm32f0xx_hal::{stm32, timers};
+use stm32f0xx_hal as hal;
 use usb_device::bus::UsbBusAllocator;
 use usb_device::class::UsbClass as _;
 use usb_device::device::UsbDeviceState;
@@ -104,7 +107,7 @@ pub static LAYERS: keyberon::layout::Layers = &[
     ],
 ];
 
-#[app(device = stm32f0xx_hal::stm32, peripherals = true)]
+#[app(device = crate::hal::pac, peripherals = true)]
 const APP: () = {
     struct Resources {
         usb_dev: UsbDevice,
@@ -114,6 +117,8 @@ const APP: () = {
         layout: Layout,
         timer: timers::Timer<stm32::TIM3>,
         transpose: fn(Event) -> Event,
+        tx: serial::Tx<hal::pac::USART1>,
+        rx: serial::Rx<hal::pac::USART1>,
     }
 
     #[init]
@@ -155,6 +160,13 @@ const APP: () = {
             transpose_right
         };
 
+        let (pa9, pa10) = (gpioa.pa9, gpioa.pa10);
+        let (tx, rx) = cortex_m::interrupt::free(move |cs| {
+            (pa9.into_alternate_af1(cs), pa10.into_alternate_af1(cs))
+        });
+        let (tx, rx) =
+            serial::Serial::usart1(c.device.USART1, (tx, rx), 115_200.bps(), &mut rcc).split();
+
         let pa15 = gpioa.pa15;
         let matrix = cortex_m::interrupt::free(move |cs| {
             Matrix::new(
@@ -183,6 +195,8 @@ const APP: () = {
             matrix: matrix.unwrap(),
             layout: Layout::new(LAYERS),
             transpose,
+            tx,
+            rx,
         }
     }
 
@@ -210,12 +224,12 @@ const APP: () = {
 
     #[task(
         binds = TIM3,
-        priority = 1,
+        priority = 2,
         spawn = [handle_report],
-        resources = [matrix, debouncer, layout, timer, &transpose],
+        resources = [matrix, debouncer, layout, timer, &transpose, tx],
     )]
     fn tick(c: tick::Context) {
-        c.resources.timer.wait().ok();
+        c.resources.timer.wait().unwrap();
 
         for event in c
             .resources
@@ -223,6 +237,9 @@ const APP: () = {
             .events(c.resources.matrix.get().unwrap())
             .map(c.resources.transpose)
         {
+            for &b in &ser(event) {
+                block!(c.resources.tx.write(b)).unwrap();
+            }
             c.spawn
                 .handle_report(c.resources.layout.event(event).collect())
                 .unwrap();
@@ -230,6 +247,19 @@ const APP: () = {
         c.spawn
             .handle_report(c.resources.layout.tick().collect())
             .unwrap();
+    }
+
+    #[task(binds = USART1, priority = 1, spawn = [handle_report], resources = [layout, rx])]
+    fn rx(mut c: rx::Context) {
+        static mut BUF: [u8; 4] = [0; 4];
+        for b in &mut BUF[..] {
+            *b = nb::block!(c.resources.rx.read()).unwrap();
+        }
+        if let Ok(event) = de(&BUF[..]) {
+            c.spawn
+                .handle_report(c.resources.layout.lock(|l| l.event(event).collect()))
+                .unwrap();
+        }
     }
 
     extern "C" {
@@ -244,5 +274,19 @@ fn transpose_right(e: Event) -> Event {
     match e {
         Event::Press(x, y) => Event::Press(11 - x, y),
         Event::Release(x, y) => Event::Release(11 - x, y),
+    }
+}
+
+fn de(bytes: &[u8]) -> Result<Event, ()> {
+    match bytes {
+        &[b'P', x, y, b'\n'] => Ok(Event::Press(x as usize, y as usize)),
+        &[b'R', x, y, b'\n'] => Ok(Event::Release(x as usize, y as usize)),
+        _ => Err(()),
+    }
+}
+fn ser(e: Event) -> [u8; 4] {
+    match e {
+        Event::Press(x, y) => [b'P', x as u8, y as u8, b'\n'],
+        Event::Release(x, y) => [b'R', x as u8, y as u8, b'\n'],
     }
 }
