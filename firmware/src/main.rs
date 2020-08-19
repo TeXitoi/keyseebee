@@ -29,6 +29,18 @@ use usb_device::device::UsbDeviceState;
 type UsbClass = keyberon::Class<'static, usb::UsbBusType, ()>;
 type UsbDevice = keyberon::Device<'static, usb::UsbBusType>;
 
+trait ResultExt<T> {
+    fn get(self) -> T;
+}
+impl<T> ResultExt<T> for Result<T, Infallible> {
+    fn get(self) -> T {
+        match self {
+            Ok(v) => v,
+            Err(e) => match e {},
+        }
+    }
+}
+
 pub struct Cols(
     gpioa::PA15<Input<PullUp>>,
     gpiob::PB3<Input<PullUp>>,
@@ -153,7 +165,7 @@ const APP: () = {
         timer.listen(timers::Event::TimeOut);
 
         let pb12: &gpiob::PB12<Input<Floating>> = &gpiob.pb12;
-        let is_left = pb12.is_low().unwrap();
+        let is_left = pb12.is_low().get();
         let transpose = if is_left {
             transpose_left
         } else {
@@ -192,7 +204,7 @@ const APP: () = {
             usb_class,
             timer,
             debouncer: Debouncer::new(PressedKeys::default(), PressedKeys::default(), 5),
-            matrix: matrix.unwrap(),
+            matrix: matrix.get(),
             layout: Layout::new(LAYERS),
             transpose,
             tx,
@@ -229,16 +241,16 @@ const APP: () = {
         resources = [matrix, debouncer, layout, timer, &transpose, tx],
     )]
     fn tick(c: tick::Context) {
-        c.resources.timer.wait().unwrap();
+        c.resources.timer.wait().ok();
 
         for event in c
             .resources
             .debouncer
-            .events(c.resources.matrix.get().unwrap())
+            .events(c.resources.matrix.get().get())
             .map(c.resources.transpose)
         {
             for &b in &ser(event) {
-                block!(c.resources.tx.write(b)).unwrap();
+                block!(c.resources.tx.write(b)).get();
             }
             c.spawn
                 .handle_report(c.resources.layout.event(event).collect())
@@ -253,7 +265,10 @@ const APP: () = {
     fn rx(mut c: rx::Context) {
         static mut BUF: [u8; 4] = [0; 4];
         for b in &mut BUF[..] {
-            *b = nb::block!(c.resources.rx.read()).unwrap();
+            *b = match nb::block!(c.resources.rx.read()) {
+                Ok(o) => o,
+                Err(_) => 255,
+            };
         }
         if let Ok(event) = de(&BUF[..]) {
             c.spawn
