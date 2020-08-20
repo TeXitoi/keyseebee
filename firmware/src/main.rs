@@ -287,21 +287,21 @@ fn transpose_left(e: Event) -> Event {
 }
 fn transpose_right(e: Event) -> Event {
     match e {
-        Event::Press(x, y) => Event::Press(11 - x, y),
-        Event::Release(x, y) => Event::Release(11 - x, y),
+        Event::Press(i, j) => Event::Press(i, 11 - j),
+        Event::Release(i, j) => Event::Release(i, 11 - j),
     }
 }
 
 fn de(bytes: &[u8]) -> Result<Event, ()> {
     match *bytes {
-        [b'P', x, y, b'\n'] => Ok(Event::Press(x as usize, y as usize)),
-        [b'R', x, y, b'\n'] => Ok(Event::Release(x as usize, y as usize)),
+        [b'P', i, j, b'\n'] => Ok(Event::Press(i as usize, j as usize)),
+        [b'R', i, j, b'\n'] => Ok(Event::Release(i as usize, j as usize)),
         _ => Err(()),
     }
 }
 fn ser(e: Event) -> [u8; 4] {
     match e {
-        Event::Press(x, y) => [b'P', x as u8, y as u8, b'\n'],
-        Event::Release(x, y) => [b'R', x as u8, y as u8, b'\n'],
+        Event::Press(i, j) => [b'P', i as u8, j as u8, b'\n'],
+        Event::Release(i, j) => [b'R', i as u8, j as u8, b'\n'],
     }
 }
