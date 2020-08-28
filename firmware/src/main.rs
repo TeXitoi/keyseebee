@@ -73,12 +73,12 @@ const CUT: Action = m(&[LShift, Delete]);
 const COPY: Action = m(&[LCtrl, Insert]);
 const PASTE: Action = m(&[LShift, Insert]);
 const L2_ENTER: Action = HoldTap {
-    timeout: 200,
+    timeout: 160,
     hold: &l(2),
     tap: &k(Enter),
 };
 const L1_SP: Action = HoldTap {
-    timeout: 200,
+    timeout: 160,
     hold: &l(1),
     tap: &k(Space),
 };
@@ -173,11 +173,12 @@ const APP: () = {
         };
 
         let (pa9, pa10) = (gpioa.pa9, gpioa.pa10);
-        let (tx, rx) = cortex_m::interrupt::free(move |cs| {
+        let pins = cortex_m::interrupt::free(move |cs| {
             (pa9.into_alternate_af1(cs), pa10.into_alternate_af1(cs))
         });
-        let (tx, rx) =
-            serial::Serial::usart1(c.device.USART1, (tx, rx), 115_200.bps(), &mut rcc).split();
+        let mut serial = serial::Serial::usart1(c.device.USART1, pins, 115_200.bps(), &mut rcc);
+        serial.listen(serial::Event::Rxne);
+        let (tx, rx) = serial.split();
 
         let pa15 = gpioa.pa15;
         let matrix = cortex_m::interrupt::free(move |cs| {
@@ -264,11 +265,11 @@ const APP: () = {
     #[task(binds = USART1, priority = 1, spawn = [handle_report], resources = [layout, rx])]
     fn rx(mut c: rx::Context) {
         static mut BUF: [u8; 4] = [0; 4];
-        for b in &mut BUF[..] {
-            *b = match nb::block!(c.resources.rx.read()) {
-                Ok(o) => o,
-                Err(_) => 255,
-            };
+        while BUF[3] != b'\n' {
+            if let Ok(b) = nb::block!(c.resources.rx.read()) {
+                BUF.rotate_left(1);
+                BUF[3] = b;
+            }
         }
         if let Ok(event) = de(&BUF[..]) {
             c.spawn
