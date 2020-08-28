@@ -220,7 +220,7 @@ const APP: () = {
         }
     }
 
-    #[task(priority = 3, resources = [usb_dev, usb_class])]
+    #[task(priority = 3, capacity = 3, resources = [usb_dev, usb_class])]
     fn handle_report(mut c: handle_report::Context, report: KbHidReport) {
         if !c
             .resources
@@ -241,7 +241,7 @@ const APP: () = {
         spawn = [handle_report],
         resources = [matrix, debouncer, layout, timer, &transpose, tx],
     )]
-    fn tick(c: tick::Context) {
+    fn tick(mut c: tick::Context) {
         c.resources.timer.wait().ok();
 
         for event in c
@@ -254,27 +254,29 @@ const APP: () = {
                 block!(c.resources.tx.write(b)).get();
             }
             c.spawn
-                .handle_report(c.resources.layout.event(event).collect())
+                .handle_report(c.resources.layout.lock(|l| l.event(event).collect()))
                 .unwrap();
         }
         c.spawn
-            .handle_report(c.resources.layout.tick().collect())
+            .handle_report(c.resources.layout.lock(|l| l.tick().collect()))
             .unwrap();
     }
 
-    #[task(binds = USART1, priority = 1, spawn = [handle_report], resources = [layout, rx])]
-    fn rx(mut c: rx::Context) {
+    #[task(binds = USART1, priority = 5, spawn = [handle_report], resources = [layout, rx])]
+    fn rx(c: rx::Context) {
         static mut BUF: [u8; 4] = [0; 4];
-        while BUF[3] != b'\n' {
-            if let Ok(b) = nb::block!(c.resources.rx.read()) {
-                BUF.rotate_left(1);
-                BUF[3] = b;
-            }
+
+        if let Ok(b) = c.resources.rx.read() {
+            BUF.rotate_left(1);
+            BUF[3] = b;
         }
-        if let Ok(event) = de(&BUF[..]) {
-            c.spawn
-                .handle_report(c.resources.layout.lock(|l| l.event(event).collect()))
-                .unwrap();
+
+        if BUF[3] == b'\n' {
+            if let Ok(event) = de(&BUF[..]) {
+                c.spawn
+                    .handle_report(c.resources.layout.event(event).collect())
+                    .unwrap();
+            }
         }
     }
 
