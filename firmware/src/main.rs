@@ -176,7 +176,7 @@ const APP: () = {
         let pins = cortex_m::interrupt::free(move |cs| {
             (pa9.into_alternate_af1(cs), pa10.into_alternate_af1(cs))
         });
-        let mut serial = serial::Serial::usart1(c.device.USART1, pins, 115_200.bps(), &mut rcc);
+        let mut serial = serial::Serial::usart1(c.device.USART1, pins, 38_400.bps(), &mut rcc);
         serial.listen(serial::Event::Rxne);
         let (tx, rx) = serial.split();
 
