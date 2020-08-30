@@ -2,6 +2,8 @@
 
 ## v0.2 (Unreleased)
 
+Same as v0.1 with the bugs fixed.
+
 Modifications:
  * Fix LDO.
  * Fix Diodes.
@@ -12,7 +14,8 @@ Not ordered nor tested.
 
 ## v0.1 (2020-08-02)
 
-First version. Ordered at JLCPCB, only left tested yet.
+First version. Ordered at JLCPCB. Tested and functional with the
+workaround.
 
 This version has the placeholder `JLCJLCJLCJLC` for use with the
 option "Remove Order Number -> Specify a location" at JLCPCB.
