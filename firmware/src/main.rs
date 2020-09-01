@@ -213,6 +213,22 @@ const APP: () = {
         }
     }
 
+    #[task(binds = USART1, priority = 5, spawn = [handle_event], resources = [rx])]
+    fn rx(c: rx::Context) {
+        static mut BUF: [u8; 4] = [0; 4];
+
+        if let Ok(b) = c.resources.rx.read() {
+            BUF.rotate_left(1);
+            BUF[3] = b;
+
+            if BUF[3] == b'\n' {
+                if let Ok(event) = de(&BUF[..]) {
+                    c.spawn.handle_event(Some(event)).unwrap();
+                }
+            }
+        }
+    }
+
     #[task(binds = USB, priority = 4, resources = [usb_dev, usb_class])]
     fn usb_rx(c: usb_rx::Context) {
         if c.resources.usb_dev.poll(&mut [c.resources.usb_class]) {
@@ -220,8 +236,12 @@ const APP: () = {
         }
     }
 
-    #[task(priority = 3, capacity = 3, resources = [usb_dev, usb_class])]
-    fn handle_report(mut c: handle_report::Context, report: KbHidReport) {
+    #[task(priority = 3, capacity = 8, resources = [usb_dev, usb_class, layout])]
+    fn handle_event(mut c: handle_event::Context, event: Option<Event>) {
+        let report: KbHidReport = match event {
+            None => c.resources.layout.tick().collect(),
+            Some(e) => c.resources.layout.event(e).collect(),
+        };
         if !c
             .resources
             .usb_class
@@ -238,10 +258,10 @@ const APP: () = {
     #[task(
         binds = TIM3,
         priority = 2,
-        spawn = [handle_report],
-        resources = [matrix, debouncer, layout, timer, &transpose, tx],
+        spawn = [handle_event],
+        resources = [matrix, debouncer, timer, &transpose, tx],
     )]
-    fn tick(mut c: tick::Context) {
+    fn tick(c: tick::Context) {
         c.resources.timer.wait().ok();
 
         for event in c
@@ -253,31 +273,9 @@ const APP: () = {
             for &b in &ser(event) {
                 block!(c.resources.tx.write(b)).get();
             }
-            c.spawn
-                .handle_report(c.resources.layout.lock(|l| l.event(event).collect()))
-                .unwrap();
+            c.spawn.handle_event(Some(event)).unwrap();
         }
-        c.spawn
-            .handle_report(c.resources.layout.lock(|l| l.tick().collect()))
-            .unwrap();
-    }
-
-    #[task(binds = USART1, priority = 5, spawn = [handle_report], resources = [layout, rx])]
-    fn rx(c: rx::Context) {
-        static mut BUF: [u8; 4] = [0; 4];
-
-        if let Ok(b) = c.resources.rx.read() {
-            BUF.rotate_left(1);
-            BUF[3] = b;
-        }
-
-        if BUF[3] == b'\n' {
-            if let Ok(event) = de(&BUF[..]) {
-                c.spawn
-                    .handle_report(c.resources.layout.event(event).collect())
-                    .unwrap();
-            }
-        }
+        c.spawn.handle_event(None).unwrap();
     }
 
     extern "C" {
