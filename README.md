@@ -57,7 +57,8 @@ BOOT, pressing and releasing RESET and releasing BOOT. Then:
 dfu-util -d 0483:df11 -a 0 -s 0x08000000:leave -D keyseebee.bin
 ```
 
-The fist time, if the write fail, your flash must protected. To unprotect:
+The fist time, if the write fail, your flash might be protected. To
+unprotect:
 
 ```shell
 dfu-util -d 0483:df11 -a 0 -s 0x08000000:force:unprotect -D keyseebee.bin
