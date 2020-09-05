@@ -128,7 +128,7 @@ const APP: () = {
         debouncer: Debouncer<PressedKeys<U4, U6>>,
         layout: Layout,
         timer: timers::Timer<stm32::TIM3>,
-        transpose: fn(Event) -> Event,
+        transform: fn(Event) -> Event,
         tx: serial::Tx<hal::pac::USART1>,
         rx: serial::Rx<hal::pac::USART1>,
     }
@@ -166,10 +166,10 @@ const APP: () = {
 
         let pb12: &gpiob::PB12<Input<Floating>> = &gpiob.pb12;
         let is_left = pb12.is_low().get();
-        let transpose = if is_left {
-            transpose_left
+        let transform: fn(Event) -> Event = if is_left {
+            |e| e
         } else {
-            transpose_right
+            |e| e.transform(|i, j| (i, 11 - j))
         };
 
         let (pa9, pa10) = (gpioa.pa9, gpioa.pa10);
@@ -207,7 +207,7 @@ const APP: () = {
             debouncer: Debouncer::new(PressedKeys::default(), PressedKeys::default(), 5),
             matrix: matrix.get(),
             layout: Layout::new(LAYERS),
-            transpose,
+            transform,
             tx,
             rx,
         }
@@ -259,7 +259,7 @@ const APP: () = {
         binds = TIM3,
         priority = 2,
         spawn = [handle_event],
-        resources = [matrix, debouncer, timer, &transpose, tx],
+        resources = [matrix, debouncer, timer, &transform, tx],
     )]
     fn tick(c: tick::Context) {
         c.resources.timer.wait().ok();
@@ -268,7 +268,7 @@ const APP: () = {
             .resources
             .debouncer
             .events(c.resources.matrix.get().get())
-            .map(c.resources.transpose)
+            .map(c.resources.transform)
         {
             for &b in &ser(event) {
                 block!(c.resources.tx.write(b)).get();
@@ -283,26 +283,16 @@ const APP: () = {
     }
 };
 
-fn transpose_left(e: Event) -> Event {
-    e
-}
-fn transpose_right(e: Event) -> Event {
-    match e {
-        Event::Press(i, j) => Event::Press(i, 11 - j),
-        Event::Release(i, j) => Event::Release(i, 11 - j),
-    }
-}
-
 fn de(bytes: &[u8]) -> Result<Event, ()> {
     match *bytes {
-        [b'P', i, j, b'\n'] => Ok(Event::Press(i as usize, j as usize)),
-        [b'R', i, j, b'\n'] => Ok(Event::Release(i as usize, j as usize)),
+        [b'P', i, j, b'\n'] => Ok(Event::Press(i, j)),
+        [b'R', i, j, b'\n'] => Ok(Event::Release(i, j)),
         _ => Err(()),
     }
 }
 fn ser(e: Event) -> [u8; 4] {
     match e {
-        Event::Press(i, j) => [b'P', i as u8, j as u8, b'\n'],
-        Event::Release(i, j) => [b'R', i as u8, j as u8, b'\n'],
+        Event::Press(i, j) => [b'P', i, j, b'\n'],
+        Event::Release(i, j) => [b'R', i, j, b'\n'],
     }
 }
