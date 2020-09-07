@@ -27,7 +27,7 @@ use usb_device::class::UsbClass as _;
 use usb_device::device::UsbDeviceState;
 
 type UsbClass = keyberon::Class<'static, usb::UsbBusType, ()>;
-type UsbDevice = keyberon::Device<'static, usb::UsbBusType>;
+type UsbDevice = usb_device::device::UsbDevice<'static, usb::UsbBusType>;
 
 trait ResultExt<T> {
     fn get(self) -> T;
@@ -73,7 +73,7 @@ const CUT: Action = m(&[LShift, Delete]);
 const COPY: Action = m(&[LCtrl, Insert]);
 const PASTE: Action = m(&[LShift, Insert]);
 const L2_ENTER: Action = HoldTap {
-    timeout: 160,
+    timeout: 200,
     hold: &l(2),
     tap: &k(Enter),
 };
