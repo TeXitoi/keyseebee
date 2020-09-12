@@ -33,15 +33,27 @@ pure rust firmware.
 
 ## Bill Of Materials
 
-Price is for 5 keyboards including shipping. (WiP)
+Price is for 5 keyboards including shipping.
 
-| Item                                                                | Package  | Count | Remarks                             | Price  |
-|---------------------------------------------------------------------|----------|--:|-----------------------------------------|-------:|
-| [Left PCB](pcb/gerbers/)                                            |          | 1 | Ordered at [JLCPCB](https://jlcpcb.com) | 33.14€ |
-| [Right PCB](pcb/gerbers/)                                           |          | 1 | Ordered at [JLCPCB](https://jlcpcb.com) | 33.14€ |
-| [USB-C connector](https://www.aliexpress.com/item/33056042016.html) | 16 pins  | 2 |                                         |  1.44€ |
-| [1N4148WS](https://www.aliexpress.com/item/32774043752.html)        | SOD-323  | 44| Price is for 1000                       |  2.82€ |
-| [PJ320A TRRS connector](https://www.aliexpress.com/item/4000661212458.html) |  | 2 |                                         |  1.01€ |
+| Item                                                                    | Package  | Count | Remarks                             | Price  |
+|-------------------------------------------------------------------------|----------|--:|-----------------------------------------|-------:|
+| [Left PCB](pcb/gerbers/)                                                |          | 1 | Ordered at [JLCPCB](https://jlcpcb.com) |        |
+| [Right PCB](pcb/gerbers/)                                               |          | 1 | Ordered at [JLCPCB](https://jlcpcb.com) | 33.14€ |
+| [USB-C connector](https://www.aliexpress.com/item/33056042016.html)     | 16 pins  | 2 |                                         |  1.44€ |
+| [1N4148WS](https://www.aliexpress.com/item/32774043752.html)            | SOD-323  | 44| Price is for 1000                       |  2.82€ |
+| [PJ320A TRRS connector](https://www.aliexpress.com/item/4000661212458.html)|       | 2 |                                         |  1.01€ |
+| [STM32F072CBT6 MCU](https://www.aliexpress.com/item/33050373366.html)   | QFP-48   | 2 | STM32F072C8T6 would also work           |  9.65€ |
+| [XC6206P332MR regulator](https://www.aliexpress.com/item/33015891307.html)| SOT-23 | 2 | Price is for 50                         |  1.93€ |
+| [5.1kΩ resistor](https://www.aliexpress.com/item/32865947306.html)      | 0805     | 6 | Price is for 100                        |        |
+| [1µF capacitor](https://www.aliexpress.com/item/32964553793.html)       | 0805     | 4 | Price is for 100                        |        |
+| [100nF capacitor](https://www.aliexpress.com/item/32964553793.html)     | 0805     | 8 | Price is for 100                        |  3.46€ |
+| [Bumpers](https://www.aliexpress.com/item/32289191938.html)             | 5mmx2mm  | 10| Price is for 100                        |  1.75€ |
+| Cherry MX or Kaihl Choc switch                                          |          | 44|                                         |        |
+| 1U keycaps compatible with the switches                                 |          | 44|                                         |        |
+| [TRRS cable](https://www.aliexpress.com/item/32906081873.html)          | Jack 3.5mm |1|                                         |        |
+| [USB-C cable](https://www.aliexpress.com/item/32678087225.html)         |          | 1 | USB-2 is enough                         |        |
+
+About 60€ without switches, keycaps and cables for 5 keyboards.
 
 ## Compiling and flashing
 
