@@ -49,7 +49,7 @@ Price is for 5 keyboards including shipping.
 |[1µF capacitor](https://www.aliexpress.com/item/32964553793.html)         | 0805  |  4|Price is for 100                       |      |
 |[100nF capacitor](https://www.aliexpress.com/item/32964553793.html)       | 0805  | 10|Price is for 100                       | 3.46€|
 |[Bumpers](https://www.aliexpress.com/item/32289191938.html)               | 5×2mm | 10|Price is for 100                       | 1.75€|
-|Cherry MX or Kaihl Choc switch                                            |       | 44|                                       |      |
+|[Cherry MX compatible](https://www.aliexpress.com/item/32797603005.html) or [Kailh Choc](https://www.aliexpress.com/item/4000907409650.html) switch|5 pins (PCB mount)|44| | |
 |1U keycap compatible with the chosen switches                             |       | 44|                                       |      |
 |[TRRS cable](https://www.aliexpress.com/item/32906081873.html)         |Jack 3.5mm|  1|                                       |      |
 |[USB-C cable](https://www.aliexpress.com/item/32678087225.html)           |       |  1|USB-2 is enough                        |      |
