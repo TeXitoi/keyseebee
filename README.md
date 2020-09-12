@@ -31,6 +31,18 @@ pure rust firmware.
 
 ![Side view](images/side-view.jpg)
 
+## Bill Of Materials
+
+Price is for 5 keyboards including shipping. (WiP)
+
+| Item                                                                | Package  | Count | Remarks                             | Price  |
+|---------------------------------------------------------------------|----------|--:|-----------------------------------------|-------:|
+| [Left PCB](pcb/gerbers/)                                            |          | 1 | Ordered at [JLCPCB](https://jlcpcb.com) | 33.14€ |
+| [Right PCB](pcb/gerbers/)                                           |          | 1 | Ordered at [JLCPCB](https://jlcpcb.com) | 33.14€ |
+| [USB-C connector](https://www.aliexpress.com/item/33056042016.html) | 16 pins  | 2 |                                         |  1.44€ |
+| [1N4148WS](https://www.aliexpress.com/item/32774043752.html)        | SOD-323  | 44| Price is for 1000                       |  2.82€ |
+| [PJ320A TRRS connector](https://www.aliexpress.com/item/4000661212458.html) |  | 2 |                                         |  1.01€ |
+
 ## Compiling and flashing
 
 Install the complete toolchain and utils:
