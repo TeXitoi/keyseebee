@@ -73,12 +73,12 @@ const CUT: Action = m(&[LShift, Delete]);
 const COPY: Action = m(&[LCtrl, Insert]);
 const PASTE: Action = m(&[LShift, Insert]);
 const L2_ENTER: Action = HoldTap {
-    timeout: 200,
+    timeout: 140,
     hold: &l(2),
     tap: &k(Enter),
 };
 const L1_SP: Action = HoldTap {
-    timeout: 160,
+    timeout: 200,
     hold: &l(1),
     tap: &k(Space),
 };

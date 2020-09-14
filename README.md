@@ -54,7 +54,8 @@ Price is for 5 keyboards including shipping.
 |[TRRS cable](https://www.aliexpress.com/item/32906081873.html)         |Jack 3.5mm|  1|4 contacts needed                      |      |
 |[USB-C cable](https://www.aliexpress.com/item/32678087225.html)           |       |  1|USB-2 is enough                        |      |
 
-About 60€ without switches, keycaps and cables for 5 keyboards.
+About 60€ without switches, keycaps and cables for 5 keyboards
+(12€/keyboard).
 
 ## Compiling and flashing
 
