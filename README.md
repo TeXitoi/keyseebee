@@ -42,7 +42,7 @@ Price is for 5 keyboards including shipping.
 |[USB-C connector](https://www.aliexpress.com/item/33056042016.html)       |16 pins|  2|                                       | 1.44€|
 |[1N4148WS](https://www.aliexpress.com/item/32774043752.html)              |SOD-323| 44|Price is for 1000                      | 2.82€|
 |[PJ320A TRRS connector](https://www.aliexpress.com/item/4000661212458.html)|      |  2|                                       | 1.01€|
-|[STM32F072CBT6 MCU](https://www.aliexpress.com/item/33050373366.html)     |QFP-48 |  2|STM32F072C8T6 would also work          | 9.65€|
+|[STM32F072CBT6 MCU](https://www.aliexpress.com/item/33050373366.html)     |LQFP-48|  2|STM32F072C8T6 would also work          | 9.65€|
 |[XC6206P332MR regulator](https://www.aliexpress.com/item/33015891307.html)|SOT-23 |  2|Price is for 50                        | 1.93€|
 |[SMD switch](https://www.aliexpress.com/item/32914876022.html)            | 3×6mm |  4|Price is for 100                       | 1.35€|
 |[5.1kΩ resistor](https://www.aliexpress.com/item/32865947306.html)        | 0805  |  6|Price is for 100                       |      |
