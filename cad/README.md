@@ -1,6 +1,6 @@
 # Plate files
 
-In version v1 and v2, the right thumb cluster is not at the exact same place as the left one. It should be corrected in v3.
+In version v0.1 and v0.2, the right thumb cluster is not at the exact same place as the left one. It should be corrected in v0.3.
 
 You can find here some plates for the keyboard:
  * svg are seen from the top
