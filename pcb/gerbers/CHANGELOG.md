@@ -2,7 +2,7 @@
 
 ## v0.2 (2020-09-05)
 
-Same as v0.1 with the bugs fixed.
+Same as v0.1 with some bugs fixed.
 
 Modifications:
  * Fix LDO.
@@ -13,6 +13,9 @@ Modifications:
 Not ordered nor tested. If you plan to produce them, that's the actual
 recommended version, as it is only a bugfix release. If you build them,
 thanks to share if everything is working as expected.
+
+Bugs:
+ * The right thumb cluster is a bit offset comparing to the left one.
 
 ## v0.1 (2020-08-02)
 
@@ -27,3 +30,4 @@ Bugs:
    clockwise.
  * Diodes are in the wrong direction. Workaround: solder them in
    reverse (line on the diode up).
+ * The right thumb cluster is a bit offset comparing to the left one.
