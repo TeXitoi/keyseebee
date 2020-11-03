@@ -10,6 +10,7 @@ module key_placement_without_extreme() {
 }
 
 module extreme_key_placement() {
+     translate([-31.496, -45.720]) rotate(26.5) children();
 }
 
 module key_placement() {
@@ -18,7 +19,14 @@ module key_placement() {
 }
 
 module outline() {
-     hull() key_placement_without_extreme() square([inter_switch, inter_switch], center=true);
+     union() {
+          hull() key_placement_without_extreme() square(inter_switch, center=true);
+          translate([-inter_switch, -2*inter_switch+delta[0]]) square(inter_switch, center=true);
+          hull() {
+               extreme_key_placement() square(inter_switch, center=true);
+               translate([-0.5*inter_switch, -2*inter_switch+delta[0]]) square(inter_switch, center=true);
+          }
+     }
 }
 
 module plate() {
