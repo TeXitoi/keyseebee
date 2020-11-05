@@ -1,0 +1,7 @@
+(fp_lib_table
+  (lib (name keebio)(type KiCad)(uri ${KIPRJMOD}/../Keebio-Parts.pretty)(options "")(descr ""))
+  (lib (name kicad-usb)(type KiCad)(uri ${KIPRJMOD}/../kicad-footprints/Connector_USB.pretty)(options "")(descr ""))
+  (lib (name kicad-harwin)(type KiCad)(uri ${KIPRJMOD}/../kicad-footprints/Connector_Harwin.pretty)(options "")(descr ""))
+  (lib (name foostan-kbd)(type KiCad)(uri ${KIPRJMOD}/../kbd/kbd.pretty)(options "")(descr ""))
+  (lib (name custom)(type KiCad)(uri ${KIPRJMOD}/../custom.pretty)(options "")(descr ""))
+)

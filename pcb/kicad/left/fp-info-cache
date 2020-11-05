@@ -1,0 +1,7239 @@
+1624522672751773
+Button_Switch_SMD
+Nidec_Copal_SH-7010A
+4-bit rotary coded switch, J-hook, https://www.nidec-copal-electronics.com/e/catalog/switch/sh-7000.pdf
+rotary switch bcd
+0
+6
+5
+Button_Switch_SMD
+Nidec_Copal_SH-7010B
+4-bit rotary coded switch, gull wing, https://www.nidec-copal-electronics.com/e/catalog/switch/sh-7000.pdf
+rotary switch bcd
+0
+6
+5
+Button_Switch_SMD
+Nidec_Copal_SH-7040B
+4-bit rotary coded switch, gull wing, Gray code, https://www.nidec-copal-electronics.com/e/catalog/switch/sh-7000.pdf
+rotary switch bcd
+0
+5
+5
+Button_Switch_SMD
+Panasonic_EVQPUJ_EVQPUA
+http://industrial.panasonic.com/cdbs/www-data/pdf/ATV0000/ATV0000CE5.pdf
+SMD SMT SPST EVQPUJ EVQPUA
+0
+4
+2
+Button_Switch_SMD
+Panasonic_EVQPUK_EVQPUB
+http://industrial.panasonic.com/cdbs/www-data/pdf/ATV0000/ATV0000CE5.pdf
+SMD SMT SPST EVQPUK EVQPUB
+0
+4
+2
+Button_Switch_SMD
+Panasonic_EVQPUL_EVQPUC
+http://industrial.panasonic.com/cdbs/www-data/pdf/ATV0000/ATV0000CE5.pdf
+SMD SMT SPST EVQPUL EVQPUC
+0
+4
+2
+Button_Switch_SMD
+Panasonic_EVQPUM_EVQPUD
+http://industrial.panasonic.com/cdbs/www-data/pdf/ATV0000/ATV0000CE5.pdf
+SMD SMT SPST EVQPUM EVQPUD
+0
+4
+2
+Button_Switch_SMD
+SW_DIP_SPSTx01_Slide_6.7x4.1mm_W6.73mm_P2.54mm_LowProfile_JPin
+SMD 1x-dip-switch SPST , Slide, row spacing 6.73 mm (264 mils), body size 6.7x4.1mm (see e.g. https://www.ctscorp.com/wp-content/uploads/219.pdf), SMD, LowProfile, JPin
+SMD DIP Switch SPST Slide 6.73mm 264mil SMD LowProfile JPin
+0
+2
+2
+Button_Switch_SMD
+SW_DIP_SPSTx01_Slide_6.7x4.1mm_W8.61mm_P2.54mm_LowProfile
+SMD 1x-dip-switch SPST , Slide, row spacing 8.61 mm (338 mils), body size 6.7x4.1mm (see e.g. https://www.ctscorp.com/wp-content/uploads/219.pdf), SMD, LowProfile
+SMD DIP Switch SPST Slide 8.61mm 338mil SMD LowProfile
+0
+2
+2
+Button_Switch_SMD
+SW_DIP_SPSTx01_Slide_9.78x4.72mm_W8.61mm_P2.54mm
+SMD 1x-dip-switch SPST , Slide, row spacing 8.61 mm (338 mils), body size 9.78x4.72mm (see e.g. https://www.ctscorp.com/wp-content/uploads/204.pdf), SMD
+SMD DIP Switch SPST Slide 8.61mm 338mil SMD
+0
+2
+2
+Button_Switch_SMD
+SW_DIP_SPSTx01_Slide_Copal_CHS-01A_W5.08mm_P1.27mm_JPin
+SMD 1x-dip-switch SPST Copal_CHS-01A, Slide, row spacing 5.08 mm (200 mils), body size  (see http://www.nidec-copal-electronics.com/e/catalog/switch/chs.pdf), SMD, JPin
+SMD DIP Switch SPST Slide 5.08mm 200mil SMD JPin
+0
+2
+2
+Button_Switch_SMD
+SW_DIP_SPSTx01_Slide_Copal_CHS-01B_W7.62mm_P1.27mm
+SMD 1x-dip-switch SPST Copal_CHS-01B, Slide, row spacing 7.62 mm (300 mils), body size  (see http://www.nidec-copal-electronics.com/e/catalog/switch/chs.pdf), SMD
+SMD DIP Switch SPST Slide 7.62mm 300mil SMD
+0
+2
+2
+Button_Switch_SMD
+SW_DIP_SPSTx01_Slide_Copal_CVS-01xB_W5.9mm_P1mm
+SMD 1x-dip-switch SPST Copal_CVS-01xB, Slide, row spacing 5.9 mm (232 mils), body size  (see http://www.nidec-copal-electronics.com/e/catalog/switch/cvs.pdf)
+SMD DIP Switch SPST Slide 5.9mm 232mil
+0
+6
+3
+Button_Switch_SMD
+SW_DIP_SPSTx01_Slide_Omron_A6S-110x_W8.9mm_P2.54mm
+SMD 1x-dip-switch SPST Omron_A6S-110x, Slide, row spacing 8.9 mm (350 mils), body size  (see http://omronfs.omron.com/en_US/ecb/products/pdf/en-a6s.pdf)
+SMD DIP Switch SPST Slide 8.9mm 350mil
+0
+2
+2
+Button_Switch_SMD
+SW_DIP_SPSTx02_Slide_6.7x6.64mm_W6.73mm_P2.54mm_LowProfile_JPin
+SMD 2x-dip-switch SPST , Slide, row spacing 6.73 mm (264 mils), body size 6.7x6.64mm (see e.g. https://www.ctscorp.com/wp-content/uploads/219.pdf), SMD, LowProfile, JPin
+SMD DIP Switch SPST Slide 6.73mm 264mil SMD LowProfile JPin
+0
+4
+4
+Button_Switch_SMD
+SW_DIP_SPSTx02_Slide_6.7x6.64mm_W8.61mm_P2.54mm_LowProfile
+SMD 2x-dip-switch SPST , Slide, row spacing 8.61 mm (338 mils), body size 6.7x6.64mm (see e.g. https://www.ctscorp.com/wp-content/uploads/219.pdf), SMD, LowProfile
+SMD DIP Switch SPST Slide 8.61mm 338mil SMD LowProfile
+0
+4
+4
+Button_Switch_SMD
+SW_DIP_SPSTx02_Slide_9.78x7.26mm_W8.61mm_P2.54mm
+SMD 2x-dip-switch SPST , Slide, row spacing 8.61 mm (338 mils), body size 9.78x7.26mm (see e.g. https://www.ctscorp.com/wp-content/uploads/204.pdf), SMD
+SMD DIP Switch SPST Slide 8.61mm 338mil SMD
+0
+4
+4
+Button_Switch_SMD
+SW_DIP_SPSTx02_Slide_Copal_CHS-02A_W5.08mm_P1.27mm_JPin
+SMD 2x-dip-switch SPST Copal_CHS-02A, Slide, row spacing 5.08 mm (200 mils), body size  (see http://www.nidec-copal-electronics.com/e/catalog/switch/chs.pdf), SMD, JPin
+SMD DIP Switch SPST Slide 5.08mm 200mil SMD JPin
+0
+4
+4
+Button_Switch_SMD
+SW_DIP_SPSTx02_Slide_Copal_CHS-02B_W7.62mm_P1.27mm
+SMD 2x-dip-switch SPST Copal_CHS-02B, Slide, row spacing 7.62 mm (300 mils), body size  (see http://www.nidec-copal-electronics.com/e/catalog/switch/chs.pdf), SMD
+SMD DIP Switch SPST Slide 7.62mm 300mil SMD
+0
+4
+4
+Button_Switch_SMD
+SW_DIP_SPSTx02_Slide_Copal_CVS-02xB_W5.9mm_P1mm
+SMD 2x-dip-switch SPST Copal_CVS-02xB, Slide, row spacing 5.9 mm (232 mils), body size  (see http://www.nidec-copal-electronics.com/e/catalog/switch/cvs.pdf)
+SMD DIP Switch SPST Slide 5.9mm 232mil
+0
+8
+5
+Button_Switch_SMD
+SW_DIP_SPSTx02_Slide_KingTek_DSHP02TJ_W5.25mm_P1.27mm_JPin
+SMD 2x-dip-switch SPST KingTek_DSHP02TJ, Slide, row spacing 5.25 mm (206 mils), body size  (see http://www.kingtek.net.cn/pic/201601201446313350.pdf), JPin
+SMD DIP Switch SPST Slide 5.25mm 206mil JPin
+0
+4
+4
+Button_Switch_SMD
+SW_DIP_SPSTx02_Slide_KingTek_DSHP02TS_W7.62mm_P1.27mm
+SMD 2x-dip-switch SPST KingTek_DSHP02TS, Slide, row spacing 7.62 mm (300 mils), body size  (see http://www.kingtek.net.cn/pic/201601201417455112.pdf)
+SMD DIP Switch SPST Slide 7.62mm 300mil
+0
+4
+4
+Button_Switch_SMD
+SW_DIP_SPSTx02_Slide_Omron_A6H-2101_W6.15mm_P1.27mm
+SMD 2x-dip-switch SPST Omron_A6H-2101, Slide, row spacing 6.15 mm (242 mils), body size  (see https://www.omron.com/ecb/products/pdf/en-a6h.pdf)
+SMD DIP Switch SPST Slide 6.15mm 242mil
+0
+4
+4
+Button_Switch_SMD
+SW_DIP_SPSTx02_Slide_Omron_A6S-210x_W8.9mm_P2.54mm
+SMD 2x-dip-switch SPST Omron_A6S-210x, Slide, row spacing 8.9 mm (350 mils), body size  (see http://omronfs.omron.com/en_US/ecb/products/pdf/en-a6s.pdf)
+SMD DIP Switch SPST Slide 8.9mm 350mil
+0
+4
+4
+Button_Switch_SMD
+SW_DIP_SPSTx03_Slide_6.7x9.18mm_W6.73mm_P2.54mm_LowProfile_JPin
+SMD 3x-dip-switch SPST , Slide, row spacing 6.73 mm (264 mils), body size 6.7x9.18mm (see e.g. https://www.ctscorp.com/wp-content/uploads/219.pdf), SMD, LowProfile, JPin
+SMD DIP Switch SPST Slide 6.73mm 264mil SMD LowProfile JPin
+0
+6
+6
+Button_Switch_SMD
+SW_DIP_SPSTx03_Slide_6.7x9.18mm_W8.61mm_P2.54mm_LowProfile
+SMD 3x-dip-switch SPST , Slide, row spacing 8.61 mm (338 mils), body size 6.7x9.18mm (see e.g. https://www.ctscorp.com/wp-content/uploads/219.pdf), SMD, LowProfile
+SMD DIP Switch SPST Slide 8.61mm 338mil SMD LowProfile
+0
+6
+6
+Button_Switch_SMD
+SW_DIP_SPSTx03_Slide_9.78x9.8mm_W8.61mm_P2.54mm
+SMD 3x-dip-switch SPST , Slide, row spacing 8.61 mm (338 mils), body size 9.78x9.8mm (see e.g. https://www.ctscorp.com/wp-content/uploads/204.pdf), SMD
+SMD DIP Switch SPST Slide 8.61mm 338mil SMD
+0
+6
+6
+Button_Switch_SMD
+SW_DIP_SPSTx03_Slide_Copal_CVS-03xB_W5.9mm_P1mm
+SMD 3x-dip-switch SPST Copal_CVS-03xB, Slide, row spacing 5.9 mm (232 mils), body size  (see http://www.nidec-copal-electronics.com/e/catalog/switch/cvs.pdf)
+SMD DIP Switch SPST Slide 5.9mm 232mil
+0
+10
+7
+Button_Switch_SMD
+SW_DIP_SPSTx03_Slide_KingTek_DSHP03TJ_W5.25mm_P1.27mm_JPin
+SMD 3x-dip-switch SPST KingTek_DSHP03TJ, Slide, row spacing 5.25 mm (206 mils), body size  (see http://www.kingtek.net.cn/pic/201601201446313350.pdf), JPin
+SMD DIP Switch SPST Slide 5.25mm 206mil JPin
+0
+6
+6
+Button_Switch_SMD
+SW_DIP_SPSTx03_Slide_KingTek_DSHP03TS_W7.62mm_P1.27mm
+SMD 3x-dip-switch SPST KingTek_DSHP03TS, Slide, row spacing 7.62 mm (300 mils), body size  (see http://www.kingtek.net.cn/pic/201601201417455112.pdf)
+SMD DIP Switch SPST Slide 7.62mm 300mil
+0
+6
+6
+Button_Switch_SMD
+SW_DIP_SPSTx03_Slide_Omron_A6S-310x_W8.9mm_P2.54mm
+SMD 3x-dip-switch SPST Omron_A6S-310x, Slide, row spacing 8.9 mm (350 mils), body size  (see http://omronfs.omron.com/en_US/ecb/products/pdf/en-a6s.pdf)
+SMD DIP Switch SPST Slide 8.9mm 350mil
+0
+6
+6
+Button_Switch_SMD
+SW_DIP_SPSTx04_Slide_6.7x11.72mm_W6.73mm_P2.54mm_LowProfile_JPin
+SMD 4x-dip-switch SPST , Slide, row spacing 6.73 mm (264 mils), body size 6.7x11.72mm (see e.g. https://www.ctscorp.com/wp-content/uploads/219.pdf), SMD, LowProfile, JPin
+SMD DIP Switch SPST Slide 6.73mm 264mil SMD LowProfile JPin
+0
+8
+8
+Button_Switch_SMD
+SW_DIP_SPSTx04_Slide_6.7x11.72mm_W8.61mm_P2.54mm_LowProfile
+SMD 4x-dip-switch SPST , Slide, row spacing 8.61 mm (338 mils), body size 6.7x11.72mm (see e.g. https://www.ctscorp.com/wp-content/uploads/219.pdf), SMD, LowProfile
+SMD DIP Switch SPST Slide 8.61mm 338mil SMD LowProfile
+0
+8
+8
+Button_Switch_SMD
+SW_DIP_SPSTx04_Slide_9.78x12.34mm_W8.61mm_P2.54mm
+SMD 4x-dip-switch SPST , Slide, row spacing 8.61 mm (338 mils), body size 9.78x12.34mm (see e.g. https://www.ctscorp.com/wp-content/uploads/204.pdf), SMD
+SMD DIP Switch SPST Slide 8.61mm 338mil SMD
+0
+8
+8
+Button_Switch_SMD
+SW_DIP_SPSTx04_Slide_Copal_CHS-04A_W5.08mm_P1.27mm_JPin
+SMD 4x-dip-switch SPST Copal_CHS-04A, Slide, row spacing 5.08 mm (200 mils), body size  (see http://www.nidec-copal-electronics.com/e/catalog/switch/chs.pdf), SMD, JPin
+SMD DIP Switch SPST Slide 5.08mm 200mil SMD JPin
+0
+8
+8
+Button_Switch_SMD
+SW_DIP_SPSTx04_Slide_Copal_CHS-04B_W7.62mm_P1.27mm
+SMD 4x-dip-switch SPST Copal_CHS-04B, Slide, row spacing 7.62 mm (300 mils), body size  (see http://www.nidec-copal-electronics.com/e/catalog/switch/chs.pdf), SMD
+SMD DIP Switch SPST Slide 7.62mm 300mil SMD
+0
+8
+8
+Button_Switch_SMD
+SW_DIP_SPSTx04_Slide_Copal_CVS-04xB_W5.9mm_P1mm
+SMD 4x-dip-switch SPST Copal_CVS-04xB, Slide, row spacing 5.9 mm (232 mils), body size  (see http://www.nidec-copal-electronics.com/e/catalog/switch/cvs.pdf)
+SMD DIP Switch SPST Slide 5.9mm 232mil
+0
+12
+9
+Button_Switch_SMD
+SW_DIP_SPSTx04_Slide_KingTek_DSHP04TJ_W5.25mm_P1.27mm_JPin
+SMD 4x-dip-switch SPST KingTek_DSHP04TJ, Slide, row spacing 5.25 mm (206 mils), body size  (see http://www.kingtek.net.cn/pic/201601201446313350.pdf), JPin
+SMD DIP Switch SPST Slide 5.25mm 206mil JPin
+0
+8
+8
+Button_Switch_SMD
+SW_DIP_SPSTx04_Slide_KingTek_DSHP04TS_W7.62mm_P1.27mm
+SMD 4x-dip-switch SPST KingTek_DSHP04TS, Slide, row spacing 7.62 mm (300 mils), body size  (see http://www.kingtek.net.cn/pic/201601201417455112.pdf)
+SMD DIP Switch SPST Slide 7.62mm 300mil
+0
+8
+8
+Button_Switch_SMD
+SW_DIP_SPSTx04_Slide_Omron_A6H-4101_W6.15mm_P1.27mm
+SMD 4x-dip-switch SPST Omron_A6H-4101, Slide, row spacing 6.15 mm (242 mils), body size  (see https://www.omron.com/ecb/products/pdf/en-a6h.pdf)
+SMD DIP Switch SPST Slide 6.15mm 242mil
+0
+8
+8
+Button_Switch_SMD
+SW_DIP_SPSTx04_Slide_Omron_A6S-410x_W8.9mm_P2.54mm
+SMD 4x-dip-switch SPST Omron_A6S-410x, Slide, row spacing 8.9 mm (350 mils), body size  (see http://omronfs.omron.com/en_US/ecb/products/pdf/en-a6s.pdf)
+SMD DIP Switch SPST Slide 8.9mm 350mil
+0
+8
+8
+Button_Switch_SMD
+SW_DIP_SPSTx05_Slide_6.7x14.26mm_W6.73mm_P2.54mm_LowProfile_JPin
+SMD 5x-dip-switch SPST , Slide, row spacing 6.73 mm (264 mils), body size 6.7x14.26mm (see e.g. https://www.ctscorp.com/wp-content/uploads/219.pdf), SMD, LowProfile, JPin
+SMD DIP Switch SPST Slide 6.73mm 264mil SMD LowProfile JPin
+0
+10
+10
+Button_Switch_SMD
+SW_DIP_SPSTx05_Slide_6.7x14.26mm_W8.61mm_P2.54mm_LowProfile
+SMD 5x-dip-switch SPST , Slide, row spacing 8.61 mm (338 mils), body size 6.7x14.26mm (see e.g. https://www.ctscorp.com/wp-content/uploads/219.pdf), SMD, LowProfile
+SMD DIP Switch SPST Slide 8.61mm 338mil SMD LowProfile
+0
+10
+10
+Button_Switch_SMD
+SW_DIP_SPSTx05_Slide_9.78x14.88mm_W8.61mm_P2.54mm
+SMD 5x-dip-switch SPST , Slide, row spacing 8.61 mm (338 mils), body size 9.78x14.88mm (see e.g. https://www.ctscorp.com/wp-content/uploads/204.pdf), SMD
+SMD DIP Switch SPST Slide 8.61mm 338mil SMD
+0
+10
+10
+Button_Switch_SMD
+SW_DIP_SPSTx05_Slide_KingTek_DSHP05TJ_W5.25mm_P1.27mm_JPin
+SMD 5x-dip-switch SPST KingTek_DSHP05TJ, Slide, row spacing 5.25 mm (206 mils), body size  (see http://www.kingtek.net.cn/pic/201601201446313350.pdf), JPin
+SMD DIP Switch SPST Slide 5.25mm 206mil JPin
+0
+10
+10
+Button_Switch_SMD
+SW_DIP_SPSTx05_Slide_KingTek_DSHP05TS_W7.62mm_P1.27mm
+SMD 5x-dip-switch SPST KingTek_DSHP05TS, Slide, row spacing 7.62 mm (300 mils), body size  (see http://www.kingtek.net.cn/pic/201601201417455112.pdf)
+SMD DIP Switch SPST Slide 7.62mm 300mil
+0
+10
+10
+Button_Switch_SMD
+SW_DIP_SPSTx05_Slide_Omron_A6S-510x_W8.9mm_P2.54mm
+SMD 5x-dip-switch SPST Omron_A6S-510x, Slide, row spacing 8.9 mm (350 mils), body size  (see http://omronfs.omron.com/en_US/ecb/products/pdf/en-a6s.pdf)
+SMD DIP Switch SPST Slide 8.9mm 350mil
+0
+10
+10
+Button_Switch_SMD
+SW_DIP_SPSTx06_Slide_6.7x16.8mm_W6.73mm_P2.54mm_LowProfile_JPin
+SMD 6x-dip-switch SPST , Slide, row spacing 6.73 mm (264 mils), body size 6.7x16.8mm (see e.g. https://www.ctscorp.com/wp-content/uploads/219.pdf), SMD, LowProfile, JPin
+SMD DIP Switch SPST Slide 6.73mm 264mil SMD LowProfile JPin
+0
+12
+12
+Button_Switch_SMD
+SW_DIP_SPSTx06_Slide_6.7x16.8mm_W8.61mm_P2.54mm_LowProfile
+SMD 6x-dip-switch SPST , Slide, row spacing 8.61 mm (338 mils), body size 6.7x16.8mm (see e.g. https://www.ctscorp.com/wp-content/uploads/219.pdf), SMD, LowProfile
+SMD DIP Switch SPST Slide 8.61mm 338mil SMD LowProfile
+0
+12
+12
+Button_Switch_SMD
+SW_DIP_SPSTx06_Slide_9.78x17.42mm_W8.61mm_P2.54mm
+SMD 6x-dip-switch SPST , Slide, row spacing 8.61 mm (338 mils), body size 9.78x17.42mm (see e.g. https://www.ctscorp.com/wp-content/uploads/204.pdf), SMD
+SMD DIP Switch SPST Slide 8.61mm 338mil SMD
+0
+12
+12
+Button_Switch_SMD
+SW_DIP_SPSTx06_Slide_Copal_CHS-06A_W5.08mm_P1.27mm_JPin
+SMD 6x-dip-switch SPST Copal_CHS-06A, Slide, row spacing 5.08 mm (200 mils), body size  (see http://www.nidec-copal-electronics.com/e/catalog/switch/chs.pdf), SMD, JPin
+SMD DIP Switch SPST Slide 5.08mm 200mil SMD JPin
+0
+12
+12
+Button_Switch_SMD
+SW_DIP_SPSTx06_Slide_Copal_CHS-06B_W7.62mm_P1.27mm
+SMD 6x-dip-switch SPST Copal_CHS-06B, Slide, row spacing 7.62 mm (300 mils), body size  (see http://www.nidec-copal-electronics.com/e/catalog/switch/chs.pdf), SMD
+SMD DIP Switch SPST Slide 7.62mm 300mil SMD
+0
+12
+12
+Button_Switch_SMD
+SW_DIP_SPSTx06_Slide_KingTek_DSHP06TJ_W5.25mm_P1.27mm_JPin
+SMD 6x-dip-switch SPST KingTek_DSHP06TJ, Slide, row spacing 5.25 mm (206 mils), body size  (see http://www.kingtek.net.cn/pic/201601201446313350.pdf), JPin
+SMD DIP Switch SPST Slide 5.25mm 206mil JPin
+0
+12
+12
+Button_Switch_SMD
+SW_DIP_SPSTx06_Slide_KingTek_DSHP06TS_W7.62mm_P1.27mm
+SMD 6x-dip-switch SPST KingTek_DSHP06TS, Slide, row spacing 7.62 mm (300 mils), body size  (see http://www.kingtek.net.cn/pic/201601201417455112.pdf)
+SMD DIP Switch SPST Slide 7.62mm 300mil
+0
+12
+12
+Button_Switch_SMD
+SW_DIP_SPSTx06_Slide_Omron_A6H-6101_W6.15mm_P1.27mm
+SMD 6x-dip-switch SPST Omron_A6H-6101, Slide, row spacing 6.15 mm (242 mils), body size  (see https://www.omron.com/ecb/products/pdf/en-a6h.pdf)
+SMD DIP Switch SPST Slide 6.15mm 242mil
+0
+12
+12
+Button_Switch_SMD
+SW_DIP_SPSTx06_Slide_Omron_A6S-610x_W8.9mm_P2.54mm
+SMD 6x-dip-switch SPST Omron_A6S-610x, Slide, row spacing 8.9 mm (350 mils), body size  (see http://omronfs.omron.com/en_US/ecb/products/pdf/en-a6s.pdf)
+SMD DIP Switch SPST Slide 8.9mm 350mil
+0
+12
+12
+Button_Switch_SMD
+SW_DIP_SPSTx07_Slide_6.7x19.34mm_W6.73mm_P2.54mm_LowProfile_JPin
+SMD 7x-dip-switch SPST , Slide, row spacing 6.73 mm (264 mils), body size 6.7x19.34mm (see e.g. https://www.ctscorp.com/wp-content/uploads/219.pdf), SMD, LowProfile, JPin
+SMD DIP Switch SPST Slide 6.73mm 264mil SMD LowProfile JPin
+0
+14
+14
+Button_Switch_SMD
+SW_DIP_SPSTx07_Slide_6.7x19.34mm_W8.61mm_P2.54mm_LowProfile
+SMD 7x-dip-switch SPST , Slide, row spacing 8.61 mm (338 mils), body size 6.7x19.34mm (see e.g. https://www.ctscorp.com/wp-content/uploads/219.pdf), SMD, LowProfile
+SMD DIP Switch SPST Slide 8.61mm 338mil SMD LowProfile
+0
+14
+14
+Button_Switch_SMD
+SW_DIP_SPSTx07_Slide_9.78x19.96mm_W8.61mm_P2.54mm
+SMD 7x-dip-switch SPST , Slide, row spacing 8.61 mm (338 mils), body size 9.78x19.96mm (see e.g. https://www.ctscorp.com/wp-content/uploads/204.pdf), SMD
+SMD DIP Switch SPST Slide 8.61mm 338mil SMD
+0
+14
+14
+Button_Switch_SMD
+SW_DIP_SPSTx07_Slide_KingTek_DSHP07TJ_W5.25mm_P1.27mm_JPin
+SMD 7x-dip-switch SPST KingTek_DSHP07TJ, Slide, row spacing 5.25 mm (206 mils), body size  (see http://www.kingtek.net.cn/pic/201601201446313350.pdf), JPin
+SMD DIP Switch SPST Slide 5.25mm 206mil JPin
+0
+14
+14
+Button_Switch_SMD
+SW_DIP_SPSTx07_Slide_KingTek_DSHP07TS_W7.62mm_P1.27mm
+SMD 7x-dip-switch SPST KingTek_DSHP07TS, Slide, row spacing 7.62 mm (300 mils), body size  (see http://www.kingtek.net.cn/pic/201601201417455112.pdf)
+SMD DIP Switch SPST Slide 7.62mm 300mil
+0
+14
+14
+Button_Switch_SMD
+SW_DIP_SPSTx07_Slide_Omron_A6S-710x_W8.9mm_P2.54mm
+SMD 7x-dip-switch SPST Omron_A6S-710x, Slide, row spacing 8.9 mm (350 mils), body size  (see http://omronfs.omron.com/en_US/ecb/products/pdf/en-a6s.pdf)
+SMD DIP Switch SPST Slide 8.9mm 350mil
+0
+14
+14
+Button_Switch_SMD
+SW_DIP_SPSTx08_Slide_6.7x21.88mm_W6.73mm_P2.54mm_LowProfile_JPin
+SMD 8x-dip-switch SPST , Slide, row spacing 6.73 mm (264 mils), body size 6.7x21.88mm (see e.g. https://www.ctscorp.com/wp-content/uploads/219.pdf), SMD, LowProfile, JPin
+SMD DIP Switch SPST Slide 6.73mm 264mil SMD LowProfile JPin
+0
+16
+16
+Button_Switch_SMD
+SW_DIP_SPSTx08_Slide_6.7x21.88mm_W8.61mm_P2.54mm_LowProfile
+SMD 8x-dip-switch SPST , Slide, row spacing 8.61 mm (338 mils), body size 6.7x21.88mm (see e.g. https://www.ctscorp.com/wp-content/uploads/219.pdf), SMD, LowProfile
+SMD DIP Switch SPST Slide 8.61mm 338mil SMD LowProfile
+0
+16
+16
+Button_Switch_SMD
+SW_DIP_SPSTx08_Slide_9.78x22.5mm_W8.61mm_P2.54mm
+SMD 8x-dip-switch SPST , Slide, row spacing 8.61 mm (338 mils), body size 9.78x22.5mm (see e.g. https://www.ctscorp.com/wp-content/uploads/204.pdf), SMD
+SMD DIP Switch SPST Slide 8.61mm 338mil SMD
+0
+16
+16
+Button_Switch_SMD
+SW_DIP_SPSTx08_Slide_Copal_CHS-08A_W5.08mm_P1.27mm_JPin
+SMD 8x-dip-switch SPST Copal_CHS-08A, Slide, row spacing 5.08 mm (200 mils), body size  (see http://www.nidec-copal-electronics.com/e/catalog/switch/chs.pdf), SMD, JPin
+SMD DIP Switch SPST Slide 5.08mm 200mil SMD JPin
+0
+16
+16
+Button_Switch_SMD
+SW_DIP_SPSTx08_Slide_Copal_CHS-08B_W7.62mm_P1.27mm
+SMD 8x-dip-switch SPST Copal_CHS-08B, Slide, row spacing 7.62 mm (300 mils), body size  (see http://www.nidec-copal-electronics.com/e/catalog/switch/chs.pdf), SMD
+SMD DIP Switch SPST Slide 7.62mm 300mil SMD
+0
+16
+16
+Button_Switch_SMD
+SW_DIP_SPSTx08_Slide_Copal_CVS-08xB_W5.9mm_P1mm
+SMD 8x-dip-switch SPST Copal_CVS-08xB, Slide, row spacing 5.9 mm (232 mils), body size  (see http://www.nidec-copal-electronics.com/e/catalog/switch/cvs.pdf)
+SMD DIP Switch SPST Slide 5.9mm 232mil
+0
+20
+17
+Button_Switch_SMD
+SW_DIP_SPSTx08_Slide_KingTek_DSHP08TJ_W5.25mm_P1.27mm_JPin
+SMD 8x-dip-switch SPST KingTek_DSHP08TJ, Slide, row spacing 5.25 mm (206 mils), body size  (see http://www.kingtek.net.cn/pic/201601201446313350.pdf), JPin
+SMD DIP Switch SPST Slide 5.25mm 206mil JPin
+0
+16
+16
+Button_Switch_SMD
+SW_DIP_SPSTx08_Slide_KingTek_DSHP08TS_W7.62mm_P1.27mm
+SMD 8x-dip-switch SPST KingTek_DSHP08TS, Slide, row spacing 7.62 mm (300 mils), body size  (see http://www.kingtek.net.cn/pic/201601201417455112.pdf)
+SMD DIP Switch SPST Slide 7.62mm 300mil
+0
+16
+16
+Button_Switch_SMD
+SW_DIP_SPSTx08_Slide_Omron_A6H-8101_W6.15mm_P1.27mm
+SMD 8x-dip-switch SPST Omron_A6H-8101, Slide, row spacing 6.15 mm (242 mils), body size  (see https://www.omron.com/ecb/products/pdf/en-a6h.pdf)
+SMD DIP Switch SPST Slide 6.15mm 242mil
+0
+16
+16
+Button_Switch_SMD
+SW_DIP_SPSTx08_Slide_Omron_A6S-810x_W8.9mm_P2.54mm
+SMD 8x-dip-switch SPST Omron_A6S-810x, Slide, row spacing 8.9 mm (350 mils), body size  (see http://omronfs.omron.com/en_US/ecb/products/pdf/en-a6s.pdf)
+SMD DIP Switch SPST Slide 8.9mm 350mil
+0
+16
+16
+Button_Switch_SMD
+SW_DIP_SPSTx09_Slide_6.7x24.42mm_W6.73mm_P2.54mm_LowProfile_JPin
+SMD 9x-dip-switch SPST , Slide, row spacing 6.73 mm (264 mils), body size 6.7x24.42mm (see e.g. https://www.ctscorp.com/wp-content/uploads/219.pdf), SMD, LowProfile, JPin
+SMD DIP Switch SPST Slide 6.73mm 264mil SMD LowProfile JPin
+0
+18
+18
+Button_Switch_SMD
+SW_DIP_SPSTx09_Slide_6.7x24.42mm_W8.61mm_P2.54mm_LowProfile
+SMD 9x-dip-switch SPST , Slide, row spacing 8.61 mm (338 mils), body size 6.7x24.42mm (see e.g. https://www.ctscorp.com/wp-content/uploads/219.pdf), SMD, LowProfile
+SMD DIP Switch SPST Slide 8.61mm 338mil SMD LowProfile
+0
+18
+18
+Button_Switch_SMD
+SW_DIP_SPSTx09_Slide_9.78x25.04mm_W8.61mm_P2.54mm
+SMD 9x-dip-switch SPST , Slide, row spacing 8.61 mm (338 mils), body size 9.78x25.04mm (see e.g. https://www.ctscorp.com/wp-content/uploads/204.pdf), SMD
+SMD DIP Switch SPST Slide 8.61mm 338mil SMD
+0
+18
+18
+Button_Switch_SMD
+SW_DIP_SPSTx09_Slide_KingTek_DSHP09TJ_W5.25mm_P1.27mm_JPin
+SMD 9x-dip-switch SPST KingTek_DSHP09TJ, Slide, row spacing 5.25 mm (206 mils), body size  (see http://www.kingtek.net.cn/pic/201601201446313350.pdf), JPin
+SMD DIP Switch SPST Slide 5.25mm 206mil JPin
+0
+18
+18
+Button_Switch_SMD
+SW_DIP_SPSTx09_Slide_KingTek_DSHP09TS_W7.62mm_P1.27mm
+SMD 9x-dip-switch SPST KingTek_DSHP09TS, Slide, row spacing 7.62 mm (300 mils), body size  (see http://www.kingtek.net.cn/pic/201601201417455112.pdf)
+SMD DIP Switch SPST Slide 7.62mm 300mil
+0
+18
+18
+Button_Switch_SMD
+SW_DIP_SPSTx09_Slide_Omron_A6S-910x_W8.9mm_P2.54mm
+SMD 9x-dip-switch SPST Omron_A6S-910x, Slide, row spacing 8.9 mm (350 mils), body size  (see http://omronfs.omron.com/en_US/ecb/products/pdf/en-a6s.pdf)
+SMD DIP Switch SPST Slide 8.9mm 350mil
+0
+18
+18
+Button_Switch_SMD
+SW_DIP_SPSTx10_Slide_6.7x26.96mm_W6.73mm_P2.54mm_LowProfile_JPin
+SMD 10x-dip-switch SPST , Slide, row spacing 6.73 mm (264 mils), body size 6.7x26.96mm (see e.g. https://www.ctscorp.com/wp-content/uploads/219.pdf), SMD, LowProfile, JPin
+SMD DIP Switch SPST Slide 6.73mm 264mil SMD LowProfile JPin
+0
+20
+20
+Button_Switch_SMD
+SW_DIP_SPSTx10_Slide_6.7x26.96mm_W8.61mm_P2.54mm_LowProfile
+SMD 10x-dip-switch SPST , Slide, row spacing 8.61 mm (338 mils), body size 6.7x26.96mm (see e.g. https://www.ctscorp.com/wp-content/uploads/219.pdf), SMD, LowProfile
+SMD DIP Switch SPST Slide 8.61mm 338mil SMD LowProfile
+0
+20
+20
+Button_Switch_SMD
+SW_DIP_SPSTx10_Slide_9.78x27.58mm_W8.61mm_P2.54mm
+SMD 10x-dip-switch SPST , Slide, row spacing 8.61 mm (338 mils), body size 9.78x27.58mm (see e.g. https://www.ctscorp.com/wp-content/uploads/204.pdf), SMD
+SMD DIP Switch SPST Slide 8.61mm 338mil SMD
+0
+20
+20
+Button_Switch_SMD
+SW_DIP_SPSTx10_Slide_Copal_CHS-10A_W5.08mm_P1.27mm_JPin
+SMD 10x-dip-switch SPST Copal_CHS-10A, Slide, row spacing 5.08 mm (200 mils), body size  (see http://www.nidec-copal-electronics.com/e/catalog/switch/chs.pdf), SMD, JPin
+SMD DIP Switch SPST Slide 5.08mm 200mil SMD JPin
+0
+20
+20
+Button_Switch_SMD
+SW_DIP_SPSTx10_Slide_Copal_CHS-10B_W7.62mm_P1.27mm
+SMD 10x-dip-switch SPST Copal_CHS-10B, Slide, row spacing 7.62 mm (300 mils), body size  (see http://www.nidec-copal-electronics.com/e/catalog/switch/chs.pdf), SMD
+SMD DIP Switch SPST Slide 7.62mm 300mil SMD
+0
+20
+20
+Button_Switch_SMD
+SW_DIP_SPSTx10_Slide_KingTek_DSHP10TJ_W5.25mm_P1.27mm_JPin
+SMD 10x-dip-switch SPST KingTek_DSHP10TJ, Slide, row spacing 5.25 mm (206 mils), body size  (see http://www.kingtek.net.cn/pic/201601201446313350.pdf), JPin
+SMD DIP Switch SPST Slide 5.25mm 206mil JPin
+0
+20
+20
+Button_Switch_SMD
+SW_DIP_SPSTx10_Slide_KingTek_DSHP10TS_W7.62mm_P1.27mm
+SMD 10x-dip-switch SPST KingTek_DSHP10TS, Slide, row spacing 7.62 mm (300 mils), body size  (see http://www.kingtek.net.cn/pic/201601201417455112.pdf)
+SMD DIP Switch SPST Slide 7.62mm 300mil
+0
+20
+20
+Button_Switch_SMD
+SW_DIP_SPSTx10_Slide_Omron_A6H-10101_W6.15mm_P1.27mm
+SMD 10x-dip-switch SPST Omron_A6H-10101, Slide, row spacing 6.15 mm (242 mils), body size  (see https://www.omron.com/ecb/products/pdf/en-a6h.pdf)
+SMD DIP Switch SPST Slide 6.15mm 242mil
+0
+20
+20
+Button_Switch_SMD
+SW_DIP_SPSTx10_Slide_Omron_A6S-1010x_W8.9mm_P2.54mm
+SMD 10x-dip-switch SPST Omron_A6S-1010x, Slide, row spacing 8.9 mm (350 mils), body size  (see http://omronfs.omron.com/en_US/ecb/products/pdf/en-a6s.pdf)
+SMD DIP Switch SPST Slide 8.9mm 350mil
+0
+20
+20
+Button_Switch_SMD
+SW_DIP_SPSTx11_Slide_6.7x29.5mm_W6.73mm_P2.54mm_LowProfile_JPin
+SMD 11x-dip-switch SPST , Slide, row spacing 6.73 mm (264 mils), body size 6.7x29.5mm (see e.g. https://www.ctscorp.com/wp-content/uploads/219.pdf), SMD, LowProfile, JPin
+SMD DIP Switch SPST Slide 6.73mm 264mil SMD LowProfile JPin
+0
+22
+22
+Button_Switch_SMD
+SW_DIP_SPSTx11_Slide_6.7x29.5mm_W8.61mm_P2.54mm_LowProfile
+SMD 11x-dip-switch SPST , Slide, row spacing 8.61 mm (338 mils), body size 6.7x29.5mm (see e.g. https://www.ctscorp.com/wp-content/uploads/219.pdf), SMD, LowProfile
+SMD DIP Switch SPST Slide 8.61mm 338mil SMD LowProfile
+0
+22
+22
+Button_Switch_SMD
+SW_DIP_SPSTx11_Slide_9.78x30.12mm_W8.61mm_P2.54mm
+SMD 11x-dip-switch SPST , Slide, row spacing 8.61 mm (338 mils), body size 9.78x30.12mm (see e.g. https://www.ctscorp.com/wp-content/uploads/204.pdf), SMD
+SMD DIP Switch SPST Slide 8.61mm 338mil SMD
+0
+22
+22
+Button_Switch_SMD
+SW_DIP_SPSTx12_Slide_6.7x32.04mm_W6.73mm_P2.54mm_LowProfile_JPin
+SMD 12x-dip-switch SPST , Slide, row spacing 6.73 mm (264 mils), body size 6.7x32.04mm (see e.g. https://www.ctscorp.com/wp-content/uploads/219.pdf), SMD, LowProfile, JPin
+SMD DIP Switch SPST Slide 6.73mm 264mil SMD LowProfile JPin
+0
+24
+24
+Button_Switch_SMD
+SW_DIP_SPSTx12_Slide_6.7x32.04mm_W8.61mm_P2.54mm_LowProfile
+SMD 12x-dip-switch SPST , Slide, row spacing 8.61 mm (338 mils), body size 6.7x32.04mm (see e.g. https://www.ctscorp.com/wp-content/uploads/219.pdf), SMD, LowProfile
+SMD DIP Switch SPST Slide 8.61mm 338mil SMD LowProfile
+0
+24
+24
+Button_Switch_SMD
+SW_DIP_SPSTx12_Slide_9.78x32.66mm_W8.61mm_P2.54mm
+SMD 12x-dip-switch SPST , Slide, row spacing 8.61 mm (338 mils), body size 9.78x32.66mm (see e.g. https://www.ctscorp.com/wp-content/uploads/204.pdf), SMD
+SMD DIP Switch SPST Slide 8.61mm 338mil SMD
+0
+24
+24
+Button_Switch_SMD
+SW_MEC_5GSH9
+MEC 5G single pole normally-open tactile switch
+switch normally-open pushbutton push-button
+0
+4
+4
+Button_Switch_SMD
+SW_Push_1P1T-SH_NO_CK_KMR2xxG
+CK components KMR2 tactile switch with ground pin http://www.ckswitches.com/media/1479/kmr2.pdf
+tactile switch kmr2
+0
+5
+3
+Button_Switch_SMD
+SW_Push_1P1T_NO_6x6mm_H9.5mm
+tactile push button, 6x6mm e.g. PTS645xx series, height=9.5mm
+tact sw push 6mm smd
+0
+4
+2
+Button_Switch_SMD
+SW_Push_1P1T_NO_CK_KMR2
+CK components KMR2 tactile switch http://www.ckswitches.com/media/1479/kmr2.pdf
+tactile switch kmr2
+0
+4
+2
+Button_Switch_SMD
+SW_Push_1P1T_NO_CK_KSC6xxJ
+CK components KSC6 tactile switch https://www.ckswitches.com/media/1972/ksc6.pdf
+tactile switch ksc6
+0
+4
+2
+Button_Switch_SMD
+SW_Push_1P1T_NO_CK_KSC7xxJ
+CK components KSC7 tactile switch https://www.ckswitches.com/media/1973/ksc7.pdf
+tactile switch ksc7
+0
+4
+2
+Button_Switch_SMD
+SW_Push_1P1T_NO_CK_PTS125Sx43PSMTR
+C&K Switches 1P1T SMD PTS125 Series 12mm Tact Switch with Pegs, https://www.ckswitches.com/media/1462/pts125.pdf
+Button Tactile Switch SPST 1P1T
+0
+4
+2
+Button_Switch_SMD
+SW_Push_1P1T_NO_Vertical_Wuerth_434133025816
+https://katalog.we-online.com/em/datasheet/434133025816.pdf
+tactile switch Wurth Wuerth
+0
+4
+2
+Button_Switch_SMD
+SW_Push_SPST_NO_Alps_SKRK
+http://www.alps.com/prod/info/E/HTML/Tact/SurfaceMount/SKRK/SKRKAHE020.html
+SMD SMT button
+0
+2
+2
+Button_Switch_SMD
+SW_SP3T_PCM13
+Ultraminiature Surface Mount Slide Switch, right-angle, https://www.ckswitches.com/media/1424/pcm.pdf
+
+0
+8
+4
+Button_Switch_SMD
+SW_SPDT_CK-JS102011SAQN
+Sub-miniature slide switch, right-angle, http://www.ckswitches.com/media/1422/js.pdf
+switch spdt
+0
+3
+3
+Button_Switch_SMD
+SW_SPDT_PCM12
+Ultraminiature Surface Mount Slide Switch, right-angle, https://www.ckswitches.com/media/1424/pcm.pdf
+
+0
+7
+3
+Button_Switch_SMD
+SW_SPST_B3S-1000
+Surface Mount Tactile Switch for High-Density Packaging
+Tactile Switch
+0
+4
+2
+Button_Switch_SMD
+SW_SPST_B3S-1100
+Surface Mount Tactile Switch for High-Density Packaging with Ground Terminal
+Tactile Switch
+0
+5
+3
+Button_Switch_SMD
+SW_SPST_B3SL-1002P
+Middle Stroke Tactile Switch, B3SL
+Middle Stroke Tactile Switch
+0
+4
+2
+Button_Switch_SMD
+SW_SPST_B3SL-1022P
+Middle Stroke Tactile Switch, B3SL
+Middle Stroke Tactile Switch
+0
+4
+2
+Button_Switch_SMD
+SW_SPST_B3U-1000P
+Ultra-small-sized Tactile Switch with High Contact Reliability, Top-actuated Model, without Ground Terminal, without Boss
+Tactile Switch
+0
+2
+2
+Button_Switch_SMD
+SW_SPST_B3U-1000P-B
+Ultra-small-sized Tactile Switch with High Contact Reliability, Top-actuated Model, without Ground Terminal, with Boss
+Tactile Switch
+0
+2
+2
+Button_Switch_SMD
+SW_SPST_B3U-1100P
+Ultra-small-sized Tactile Switch with High Contact Reliability, Top-actuated Model, with Ground Terminal, without Boss
+Tactile Switch
+0
+3
+3
+Button_Switch_SMD
+SW_SPST_B3U-1100P-B
+Ultra-small-sized Tactile Switch with High Contact Reliability, Top-actuated Model, with Ground Terminal, with Boss
+Tactile Switch
+0
+3
+3
+Button_Switch_SMD
+SW_SPST_B3U-3000P
+Ultra-small-sized Tactile Switch with High Contact Reliability, Side-actuated Model, without Ground Terminal, without Boss
+Tactile Switch
+0
+2
+2
+Button_Switch_SMD
+SW_SPST_B3U-3000P-B
+Ultra-small-sized Tactile Switch with High Contact Reliability, Side-actuated Model, without Ground Terminal, with Boss
+Tactile Switch
+0
+2
+2
+Button_Switch_SMD
+SW_SPST_B3U-3100P
+Ultra-small-sized Tactile Switch with High Contact Reliability, Side-actuated Model, with Ground Terminal, without Boss
+Tactile Switch
+0
+3
+3
+Button_Switch_SMD
+SW_SPST_B3U-3100P-B
+Ultra-small-sized Tactile Switch with High Contact Reliability, Side-actuated Model, with Ground Terminal, with Boss
+Tactile Switch
+0
+3
+3
+Button_Switch_SMD
+SW_SPST_CK_KXT3
+https://www.ckswitches.com/media/1465/kxt3.pdf
+Switch SPST KXT3
+0
+2
+2
+Button_Switch_SMD
+SW_SPST_CK_RS282G05A3
+https://www.mouser.com/ds/2/60/RS-282G05A-SM_RT-1159762.pdf
+SPST button tactile switch
+0
+2
+2
+Button_Switch_SMD
+SW_SPST_EVPBF
+Light Touch Switch
+
+0
+4
+2
+Button_Switch_SMD
+SW_SPST_EVQP0
+Light Touch Switch, https://industrial.panasonic.com/cdbs/www-data/pdf/ATK0000/ATK0000CE28.pdf
+
+0
+4
+2
+Button_Switch_SMD
+SW_SPST_EVQP2
+Light Touch Switch
+
+0
+4
+2
+Button_Switch_SMD
+SW_SPST_EVQP7A
+Light Touch Switch,https://industrial.panasonic.com/cdbs/www-data/pdf/ATK0000/ATK0000CE20.pdf
+
+0
+4
+2
+Button_Switch_SMD
+SW_SPST_EVQP7C
+Light Touch Switch
+
+0
+4
+2
+Button_Switch_SMD
+SW_SPST_EVQPE1
+Light Touch Switch, https://industrial.panasonic.com/cdbs/www-data/pdf/ATK0000/ATK0000CE7.pdf
+
+0
+2
+2
+Button_Switch_SMD
+SW_SPST_EVQQ2
+Light Touch Switch, https://industrial.panasonic.com/cdbs/www-data/pdf/ATK0000/ATK0000CE28.pdf
+
+0
+4
+2
+Button_Switch_SMD
+SW_SPST_FSMSM
+http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1437566-3&DocType=Customer+Drawing&DocLang=English
+SPST button tactile switch
+0
+2
+2
+Button_Switch_SMD
+SW_SPST_PTS645
+C&K Components SPST SMD PTS645 Series 6mm Tact Switch
+SPST Button Switch
+0
+4
+2
+Button_Switch_SMD
+SW_SPST_PTS810
+C&K Components, PTS 810 Series, Microminiature SMT Top Actuated, http://www.ckswitches.com/media/1476/pts810.pdf
+SPST Button Switch
+0
+4
+2
+Button_Switch_SMD
+SW_SPST_Panasonic_EVQPL_3PL_5PL_PT_A08
+Light Touch Switch, http://industrial.panasonic.com/cdbs/www-data/pdf/ATK0000/ATK0000CE3.pdf
+SMD SMT SPST EVQPL EVQPT
+0
+6
+3
+Button_Switch_SMD
+SW_SPST_Panasonic_EVQPL_3PL_5PL_PT_A15
+Light Touch Switch, http://industrial.panasonic.com/cdbs/www-data/pdf/ATK0000/ATK0000CE3.pdf
+SMD SMT SPST EVQPL EVQPT
+0
+6
+3
+Button_Switch_SMD
+SW_SPST_REED_CT05-XXXX-G1
+Coto Technologies SPST Reed Switch CT05-XXXX-G1
+Coto Reed SPST Switch
+0
+2
+2
+Button_Switch_SMD
+SW_SPST_REED_CT05-XXXX-J1
+Coto Technologies SPST Reed Switch CT05-XXXX-J1
+Coto Reed SPST Switch
+0
+2
+2
+Button_Switch_SMD
+SW_SPST_REED_CT10-XXXX-G1
+Coto Technologies SPST Reed Switch CT10-XXXX-G1
+Coto Reed SPST Switch
+0
+2
+2
+Button_Switch_SMD
+SW_SPST_REED_CT10-XXXX-G2
+Coto Technologies SPST Reed Switch CT10-XXXX-G2
+Coto Reed SPST Switch
+0
+2
+2
+Button_Switch_SMD
+SW_SPST_REED_CT10-XXXX-G4
+Coto Technologies SPST Reed Switch CT10-XXXX-G4
+Coto Reed SPST Switch
+0
+2
+2
+Button_Switch_SMD
+SW_SPST_SKQG_WithStem
+ALPS 5.2mm Square Low-profile Type (Surface Mount) SKQG Series, With stem, http://www.alps.com/prod/info/E/HTML/Tact/SurfaceMount/SKQG/SKQGAFE010.html
+SPST Button Switch
+0
+4
+2
+Button_Switch_SMD
+SW_SPST_SKQG_WithoutStem
+ALPS 5.2mm Square Low-profile Type (Surface Mount) SKQG Series, Without stem, http://www.alps.com/prod/info/E/HTML/Tact/SurfaceMount/SKQG/SKQGAEE010.html
+SPST Button Switch
+0
+4
+2
+Button_Switch_SMD
+SW_SPST_TL3305A
+https://www.e-switch.com/system/asset/product_line/data_sheet/213/TL3305.pdf
+TL3305 Series Tact Switch
+0
+4
+2
+Button_Switch_SMD
+SW_SPST_TL3305B
+https://www.e-switch.com/system/asset/product_line/data_sheet/213/TL3305.pdf
+TL3305 Series Tact Switch
+0
+4
+2
+Button_Switch_SMD
+SW_SPST_TL3305C
+https://www.e-switch.com/system/asset/product_line/data_sheet/213/TL3305.pdf
+TL3305 Series Tact Switch
+0
+4
+2
+Button_Switch_SMD
+SW_SPST_TL3342
+Low-profile SMD Tactile Switch, https://www.e-switch.com/system/asset/product_line/data_sheet/165/TL3342.pdf
+SPST Tactile Switch
+0
+4
+2
+Connectors
+1X01
+PLATED THROUGH HOLE
+PLATED THROUGH HOLE
+0
+1
+1
+Connectors
+1X01NS_KIT
+PLATED THROUGH HOLE - NO SILK OUTLINE KIT VERSION
+PLATED THROUGH HOLE - NO SILK OUTLINE KIT VERSION
+0
+1
+1
+Connectors
+1X01_2MM
+PLATED THROUGH HOLE - 2MM
+PLATED THROUGH HOLE - 2MM
+0
+1
+1
+Connectors
+1X01_LONGPAD
+PLATED THROUGH HOLE - LONG PAD
+PLATED THROUGH HOLE - LONG PAD
+0
+1
+1
+Connectors
+1X01_NO_SILK
+PLATED THROUGH HOLE - NO SILK OUTLINE
+PLATED THROUGH HOLE - NO SILK OUTLINE
+0
+1
+1
+Connectors
+1X01_OFFSET
+PLATED THROUGH HOLE - LONG PAD W/ OFFSET HOLE
+PLATED THROUGH HOLE - LONG PAD W/ OFFSET HOLE
+0
+1
+1
+Connectors
+1X01_POGOPIN_HOLE_0.58_DIA
+POGO PIN HOLE - 0.58"
+POGO PIN HOLE - 0.58"
+0
+1
+1
+Connectors
+1X01_POGOPIN_HOLE_0.061_DIA
+POGO PIN - 0.061"
+POGO PIN - 0.061"
+0
+1
+1
+Connectors
+1X02
+PLATED THROUGH HOLE
+PLATED THROUGH HOLE
+0
+2
+2
+Connectors
+1X02_2.54_SCREWTERM
+2 PIN SCREW TERMINAL - 2.54MM
+2 PIN SCREW TERMINAL - 2.54MM
+0
+2
+2
+Connectors
+1X02_BIG
+PLATED THROUGH HOLE
+PLATED THROUGH HOLE
+0
+2
+2
+Connectors
+1X02_LOCK
+PLATED THROUGH HOLE - LOCKING FOOTPRINT
+PLATED THROUGH HOLE - LOCKING FOOTPRINT
+0
+2
+2
+Connectors
+1X02_LOCK_LONGPADS
+PLATED THROUGH HOLE - LONG PADS WITH LOCKING FOOTPRINT
+PLATED THROUGH HOLE - LONG PADS WITH LOCKING FOOTPRINT
+0
+2
+2
+Connectors
+1X02_LONGPADS
+PLATED THROUGH HOLE - LONG PADS WITHOUT SILK OUTLINE
+PLATED THROUGH HOLE - LONG PADS WITHOUT SILK OUTLINE
+0
+2
+2
+Connectors
+1X02_NO_SILK
+PLATED THROUGH HOLE - NO SILK OUTLINE
+PLATED THROUGH HOLE - NO SILK OUTLINE
+0
+2
+2
+Connectors
+1X02_POKEHOME
+2 PIN POKE-HOME CONNECTOR
+2 PIN POKE-HOME CONNECTOR
+0
+4
+4
+Connectors
+1X02_PP_HOLES_ONLY
+POGO PINS CONNECTOR - NO SILK OUTLINE
+POGO PINS CONNECTOR - NO SILK OUTLINE
+0
+2
+2
+Connectors
+1X02_RA_PTH_FEMALE
+
+
+0
+2
+2
+Connectors
+1X02_XTRA_BIG
+PLATED THROUGH HOLE - 0.1" HOLES
+PLATED THROUGH HOLE - 0.1" HOLES
+0
+2
+2
+Connectors
+1X03
+PLATED THROUGH HOLE - 3 PIN
+PLATED THROUGH HOLE - 3 PIN
+0
+3
+3
+Connectors
+1X03-1MM-RA
+PLATED THROUGH HOLE - 3 PIN SMD
+PLATED THROUGH HOLE - 3 PIN SMD
+0
+5
+5
+Connectors
+1X03_LOCK
+PLATED THROUGH HOLE - 3 PIN LOCKING FOOTPRINT
+PLATED THROUGH HOLE - 3 PIN LOCKING FOOTPRINT
+0
+3
+3
+Connectors
+1X03_LOCK_LONGPADS
+PLATED THROUGH HOLE - 3 PIN LONG PAD W/ LOCKING FOOTPRINT
+PLATED THROUGH HOLE - 3 PIN LONG PAD W/ LOCKING FOOTPRINT
+0
+3
+3
+Connectors
+1X03_LOCK_NO_SILK
+PLATED THROUGH HOLE - 3 PIN LOCKING FOOTPRINT W/OUT SILK OUTLINE
+PLATED THROUGH HOLE - 3 PIN LOCKING FOOTPRINT W/OUT SILK OUTLINE
+0
+3
+3
+Connectors
+1X03_LONGPADS
+PLATED THROUGH HOLE - 3 PIN LONG PADS
+PLATED THROUGH HOLE - 3 PIN LONG PADS
+0
+3
+3
+Connectors
+1X03_NO_SILK
+PLATED THROUGH HOLE - 3 PIN NO SILK OUTLINE
+PLATED THROUGH HOLE - 3 PIN NO SILK OUTLINE
+0
+3
+3
+Connectors
+1X03_PP_HOLES_ONLY
+POGO PINS - 3 PIN
+POGO PINS - 3 PIN
+0
+3
+3
+Connectors
+1X03_SMD_RA_FEMALE
+SMD - 3 PIN RIGHT ANGLE FEMALE HEADER
+SMD - 3 PIN RIGHT ANGLE FEMALE HEADER
+0
+3
+3
+Connectors
+1X03_SMD_RA_MALE
+SMD- 3 PIN RIGHT ANGLE MALE HEADERS
+SMD- 3 PIN RIGHT ANGLE MALE HEADERS
+0
+3
+3
+Connectors
+1X03_SMD_RA_MALE_POST
+SMD - 3 PIN RIGHT ANGLE MALE HEADER W/ ALIGNMENT POSTS
+SMD - 3 PIN RIGHT ANGLE MALE HEADER W/ ALIGNMENT POSTS
+0
+3
+3
+Connectors
+1X03_SMD_RA_MALE_POST_SMALLER
+SMD - 3 PIN RIGHT ANGLE MALE HEADER W/ ALIGNMENT POSTS
+SMD - 3 PIN RIGHT ANGLE MALE HEADER W/ ALIGNMENT POSTS
+0
+3
+3
+Connectors
+1X03_SMD_RA_MALE_POST_SMALLEST
+
+
+0
+3
+3
+Connectors
+1X04
+PLATED THROUGH HOLE - 4 PIN
+PLATED THROUGH HOLE - 4 PIN
+0
+4
+4
+Connectors
+1X04_1.27MM
+PLATED THROUGH HOLE - 4 PIN
+PLATED THROUGH HOLE - 4 PIN
+0
+4
+4
+Connectors
+1X04_1MM_RA
+SMD- 4 PIN RIGHT ANGLE
+SMD- 4 PIN RIGHT ANGLE
+0
+6
+6
+Connectors
+1X04_1MM_RA_STRESSRELIEF
+QWIIC CONNECTOR WITH MILLED CUTOUT. SLIDING THE CABLE INTO THIS SLOT PREVENTS THE CABLE FROM COMING UNPLUGGED.
+QWIIC CONNECTOR WITH MILLED CUTOUT. SLIDING THE CABLE INTO THIS SLOT PREVENTS THE CABLE FROM COMING UNPLUGGED.
+0
+6
+6
+Connectors
+1X04_LOCK
+PLATED THROUGH HOLE - 4 PIN LOCKING FOOTPRINT
+PLATED THROUGH HOLE - 4 PIN LOCKING FOOTPRINT
+0
+4
+4
+Connectors
+1X04_LOCK_LONGPADS
+PLATED THROUGH HOLE - 4 PIN LONG PADS W/ LOCKING FOOTPRINT
+PLATED THROUGH HOLE - 4 PIN LONG PADS W/ LOCKING FOOTPRINT
+0
+4
+4
+Connectors
+1X04_LONGPADS
+PLATED THROUGH HOLE - 4 PIN LONG PADS
+PLATED THROUGH HOLE - 4 PIN LONG PADS
+0
+4
+4
+Connectors
+1X04_NO_SILK
+PLATED THROUGH HOLE - 4 PIN NO SILK OUTLINE
+PLATED THROUGH HOLE - 4 PIN NO SILK OUTLINE
+0
+4
+4
+Connectors
+1X04_SMD_LONG
+SMD - 4 PIN W/ LONG SOLDER PADS
+SMD - 4 PIN W/ LONG SOLDER PADS
+0
+4
+4
+Connectors
+1X04_SMD_RA_FEMALE
+SMD - 4 PIN RIGHT-ANGLE FEMALE HEADER
+SMD - 4 PIN RIGHT-ANGLE FEMALE HEADER
+0
+4
+4
+Connectors
+1X04_SMD_RA_MALE
+SMD - 4 PIN RIGHT ANGLE MALE HEADER
+SMD - 4 PIN RIGHT ANGLE MALE HEADER
+0
+4
+4
+Connectors
+1X04_SMD_VERTICAL_COMBO
+SMD - 4 PIN VERTICAL CONNECTOR
+SMD - 4 PIN VERTICAL CONNECTOR
+0
+8
+8
+Connectors
+1X05
+PLATED THROUGH HOLE - 5 PIN
+PLATED THROUGH HOLE - 5 PIN
+0
+5
+5
+Connectors
+1X05_1.27MM
+PLATED THROUGH HOLE - 5 PIN
+PLATED THROUGH HOLE - 5 PIN
+0
+5
+5
+Connectors
+1X05_1MM
+SMD - 5 PIN
+SMD - 5 PIN
+0
+7
+7
+Connectors
+1X05_1MM_RA
+SMD - 5 PIN RIGHT ANGLE
+SMD - 5 PIN RIGHT ANGLE
+0
+7
+7
+Connectors
+1X05_LOCK
+PLATED THROUGH HOLE - 5 PIN WITH LOCKING FOOTPRINT
+PLATED THROUGH HOLE - 5 PIN WITH LOCKING FOOTPRINT
+0
+5
+5
+Connectors
+1X05_LOCK_LONGPADS
+PLATED THROUGH HOLE - 5 PIN LONG PAD WITH LOCKING FOOTPRINT
+PLATED THROUGH HOLE - 5 PIN LONG PAD WITH LOCKING FOOTPRINT
+0
+5
+5
+Connectors
+1X05_LONGPADS
+PLATED THROUGH HOLE - 5 PIN LONG PADS
+PLATED THROUGH HOLE - 5 PIN LONG PADS
+0
+5
+5
+Connectors
+1X05_NO_SILK
+PLATED THROUGH HOLE - 5 PIN NO SILK OUTLINE
+PLATED THROUGH HOLE - 5 PIN NO SILK OUTLINE
+0
+5
+5
+Connectors
+1X06
+PLATED THROUGH HOLE - 6 PIN
+PLATED THROUGH HOLE - 6 PIN
+0
+6
+6
+Connectors
+1X06-1MM
+JST SH VERTICAL  6-PIN CONNECTOR -SMD
+JST SH VERTICAL  6-PIN CONNECTOR -SMD
+0
+8
+8
+Connectors
+1X06-KIT
+PLATED THROUGH HOLE - 6 PIN KIT
+PLATED THROUGH HOLE - 6 PIN KIT
+0
+6
+6
+Connectors
+1X06-SMD-FEMALE
+HEADER - 6 PIN FEMALE SMD
+HEADER - 6 PIN FEMALE SMD
+0
+6
+6
+Connectors
+1X06-SMD_RA_MALE
+SMD - 6 PIN RIGHT ANGLE MALE HEADER
+SMD - 6 PIN RIGHT ANGLE MALE HEADER
+0
+6
+6
+Connectors
+1X06_1.27MM
+PLATED THROUGH HOLE - 6 PIN
+PLATED THROUGH HOLE - 6 PIN
+0
+6
+6
+Connectors
+1X06_FEMALE_LOCK.010
+PLATED THROUGH HOLE - 6 PIN LOCKING HEADER
+PLATED THROUGH HOLE - 6 PIN LOCKING HEADER
+0
+6
+6
+Connectors
+1X06_HOLES_ONLY
+6 PIN HOLES
+6 PIN HOLES
+0
+6
+6
+Connectors
+1X06_LOCK
+PLATED THROUGH HOLE - 6 PIN WITH LOCKING FOOTPRINT
+PLATED THROUGH HOLE - 6 PIN WITH LOCKING FOOTPRINT
+0
+6
+6
+Connectors
+1X06_LOCK_LONGPADS
+PLATED THROUGH HOLE - 6 PIN WITH LOCKING FOOTPRINT WITH LONG PADS
+PLATED THROUGH HOLE - 6 PIN WITH LOCKING FOOTPRINT WITH LONG PADS
+0
+6
+6
+Connectors
+1X06_LONGPADS
+PLATED THROUGH HOLE - 6 PIN WITH LONG PADS
+PLATED THROUGH HOLE - 6 PIN WITH LONG PADS
+0
+6
+6
+Connectors
+1X06_NO_SILK
+PLATED THROUGH HOLE - 6 PIN NO SILK OUTLINE
+PLATED THROUGH HOLE - 6 PIN NO SILK OUTLINE
+0
+6
+6
+Connectors
+1X06_SMD_MALE
+6 PIN SMD MALE HEADER
+6 PIN SMD MALE HEADER
+0
+6
+6
+Connectors
+1X06_SMD_STRAIGHT
+6 PIN SMD FEMALE HEADER
+6 PIN SMD FEMALE HEADER
+0
+6
+6
+Connectors
+1X06_SMD_STRAIGHT_ALT
+6 PIN SMD FEMALE HEADER
+6 PIN SMD FEMALE HEADER
+0
+6
+6
+Connectors
+1X06_SMD_STRAIGHT_COMBO
+6 PIN SMD FEMALE HEADER - COMBINED FOOTPRINT
+6 PIN SMD FEMALE HEADER - COMBINED FOOTPRINT
+0
+12
+12
+Connectors
+1X07
+PLATED THROUGH HOLE -7 PIN
+PLATED THROUGH HOLE -7 PIN
+0
+7
+7
+Connectors
+1X07_HOLES_ONLY
+7 PIN HOLES
+7 PIN HOLES
+0
+7
+7
+Connectors
+1X07_LOCK
+PLATED THROUGH HOLE -7 PIN LOCKING FOOTPRINT
+PLATED THROUGH HOLE -7 PIN LOCKING FOOTPRINT
+0
+7
+7
+Connectors
+1X07_LOCK_LONGPADS
+PLATED THROUGH HOLE -7 PIN LOCKING FOOTPRINT W/ LONG PADS
+PLATED THROUGH HOLE -7 PIN LOCKING FOOTPRINT W/ LONG PADS
+0
+7
+7
+Connectors
+1X07_LONGPADS
+PLATED THROUGH HOLE -7 PIN  LONG PADS
+PLATED THROUGH HOLE -7 PIN  LONG PADS
+0
+7
+7
+Connectors
+1X07_NO_SILK
+PLATED THROUGH HOLE -7 PIN  NO SILK
+PLATED THROUGH HOLE -7 PIN  NO SILK
+0
+7
+7
+Connectors
+1X08
+PLATED THROUGH HOLE -8 PIN
+PLATED THROUGH HOLE -8 PIN
+0
+8
+8
+Connectors
+1X08_FEMALE_LOCK
+PLATED THROUGH HOLE -8 PIN LOCKING FEMALE HEADERS
+PLATED THROUGH HOLE -8 PIN LOCKING FEMALE HEADERS
+0
+8
+8
+Connectors
+1X08_LOCK
+PLATED THROUGH HOLE -8 PIN LOCKING FOOTPRINT
+PLATED THROUGH HOLE -8 PIN LOCKING FOOTPRINT
+0
+8
+8
+Connectors
+1X08_LOCK_LONGPADS
+PLATED THROUGH HOLE -8 PIN LOCKING FOOTPRINT WITH LONG PADS
+PLATED THROUGH HOLE -8 PIN LOCKING FOOTPRINT WITH LONG PADS
+0
+8
+8
+Connectors
+1X08_LOCK_NO_SILK
+PLATED THROUGH HOLE -8 PIN LOCKING FOOTPRINT NO SILK
+PLATED THROUGH HOLE -8 PIN LOCKING FOOTPRINT NO SILK
+0
+8
+8
+Connectors
+1X08_LONGPADS
+PLATED THROUGH HOLE -8 PIN LONG PADS
+PLATED THROUGH HOLE -8 PIN LONG PADS
+0
+8
+8
+Connectors
+1X08_NO_SILK
+PLATED THROUGH HOLE -8 PIN NO SILK
+PLATED THROUGH HOLE -8 PIN NO SILK
+0
+8
+8
+Connectors
+1X08_SMD
+SMD -8 PIN VERTICAL FEMALE
+SMD -8 PIN VERTICAL FEMALE
+0
+8
+8
+Connectors
+1X08_SMD_ALT
+SMD -8 PIN VERTICAL FEMALE
+SMD -8 PIN VERTICAL FEMALE
+0
+8
+8
+Connectors
+1X08_SMD_COMBINED
+SMD -8 PIN VERTICAL FEMALE
+SMD -8 PIN VERTICAL FEMALE
+0
+16
+16
+Connectors
+1X08_SMD_MALE
+SMD -8 PIN VERTICAL MALE
+SMD -8 PIN VERTICAL MALE
+0
+8
+8
+Connectors
+1X09
+PLATED THROUGH HOLE -9 PIN
+PLATED THROUGH HOLE -9 PIN
+0
+9
+9
+Connectors
+1X09_LOCK
+PLATED THROUGH HOLE -9 PIN LOCKING FOOTPRINT
+PLATED THROUGH HOLE -9 PIN LOCKING FOOTPRINT
+0
+9
+9
+Connectors
+1X09_LOCK_LONGPADS
+PLATED THROUGH HOLE -9 PIN LOCKING FOOTPRINT W/ LONG PADS
+PLATED THROUGH HOLE -9 PIN LOCKING FOOTPRINT W/ LONG PADS
+0
+9
+9
+Connectors
+1X09_LONGPADS
+PLATED THROUGH HOLE -9 PIN LONG PADS
+PLATED THROUGH HOLE -9 PIN LONG PADS
+0
+9
+9
+Connectors
+1X09_NO_SILK
+PLATED THROUGH HOLE -9 PIN NO SILK
+PLATED THROUGH HOLE -9 PIN NO SILK
+0
+9
+9
+Connectors
+1X10
+PLATED THROUGH HOLE -10 PIN
+PLATED THROUGH HOLE -10 PIN
+0
+10
+10
+Connectors
+1X10-2MM
+PLATED THROUGH HOLE -10 PIN 2MM
+PLATED THROUGH HOLE -10 PIN 2MM
+0
+10
+10
+Connectors
+1X10-2MM-SMD
+PLATED THROUGH HOLE -10 PIN 2MM SMD
+PLATED THROUGH HOLE -10 PIN 2MM SMD
+0
+10
+10
+Connectors
+1X10_LOCK
+PLATED THROUGH HOLE -10 PIN LOCKING FOOTPRINT
+PLATED THROUGH HOLE -10 PIN LOCKING FOOTPRINT
+0
+10
+10
+Connectors
+1X10_LOCK_LONGPADS
+PLATED THROUGH HOLE -10 PIN LOCKING FOOTPRINT WITH LONG PADS
+PLATED THROUGH HOLE -10 PIN LOCKING FOOTPRINT WITH LONG PADS
+0
+10
+10
+Connectors
+1X10_LOCK_NS
+PLATED THROUGH HOLE -10 PIN LOCKING FOOTPRINT - NO SILK
+PLATED THROUGH HOLE -10 PIN LOCKING FOOTPRINT - NO SILK
+0
+10
+10
+Connectors
+1X10_NO_SILK
+PLATED THROUGH HOLE -10 PIN NO SILK
+PLATED THROUGH HOLE -10 PIN NO SILK
+0
+10
+10
+Connectors
+1X10_SMD_COMBINED
+SMD -10 PIN
+SMD -10 PIN
+0
+20
+20
+Connectors
+1X10_SMD_MALE
+SMD -10 PIN
+SMD -10 PIN
+0
+10
+10
+Connectors
+1X11
+PLATED THROUGH HOLE -11 PIN
+PLATED THROUGH HOLE -11 PIN
+0
+11
+11
+Connectors
+1X11-1.27MM
+PLATED THROUGH HOLE -11 PIN 1.27MM
+PLATED THROUGH HOLE -11 PIN 1.27MM
+0
+11
+11
+Connectors
+1X11_HOLES_ONLY
+11 PIN HOLES
+11 PIN HOLES
+0
+11
+11
+Connectors
+1X11_LOCK
+PLATED THROUGH HOLE -11 PIN LOCKING FOOTPRINT
+PLATED THROUGH HOLE -11 PIN LOCKING FOOTPRINT
+0
+11
+11
+Connectors
+1X11_LOCK_LONGPADS
+PLATED THROUGH HOLE -11 PIN LOCKING FOOTPRINT W/ LONG PADS
+PLATED THROUGH HOLE -11 PIN LOCKING FOOTPRINT W/ LONG PADS
+0
+11
+11
+Connectors
+1X11_LONGPADS
+PLATED THROUGH HOLE -11 PIN W/ LONG PADS
+PLATED THROUGH HOLE -11 PIN W/ LONG PADS
+0
+11
+11
+Connectors
+1X11_NO_SILK
+PLATED THROUGH HOLE -11 PIN NO SILK
+PLATED THROUGH HOLE -11 PIN NO SILK
+0
+11
+11
+Connectors
+1X11_NO_SILK_KIT
+PLATED THROUGH HOLE -11 PIN NO SILK  KIT
+PLATED THROUGH HOLE -11 PIN NO SILK  KIT
+0
+11
+11
+Connectors
+1X12
+PLATED THROUGH HOLE -12 PIN
+PLATED THROUGH HOLE -12 PIN
+0
+12
+12
+Connectors
+1X12_HOLES_ONLY
+HOLES -12 PIN
+HOLES -12 PIN
+0
+12
+12
+Connectors
+1X12_LOCK
+PLATED THROUGH HOLE -12 PIN LOCKING FOOTPRINT
+PLATED THROUGH HOLE -12 PIN LOCKING FOOTPRINT
+0
+12
+12
+Connectors
+1X12_LOCK_LONGPADS
+PLATED THROUGH HOLE -12 PIN LOCKING FOOTPRINT WITH LONG PADS
+PLATED THROUGH HOLE -12 PIN LOCKING FOOTPRINT WITH LONG PADS
+0
+12
+12
+Connectors
+1X12_LOCK_NO_SILK
+PLATED THROUGH HOLE -12 PIN LOCKING FOOTPRINT NO SILK
+PLATED THROUGH HOLE -12 PIN LOCKING FOOTPRINT NO SILK
+0
+12
+12
+Connectors
+1X12_LONGPADS
+PLATED THROUGH HOLE -12 PIN LONG PADS
+PLATED THROUGH HOLE -12 PIN LONG PADS
+0
+12
+12
+Connectors
+1X12_MACHINE-PIN-HEADER_LOCK.004
+PLATED THROUGH HOLE -12 PIN MACHINE PIN HEADERS
+PLATED THROUGH HOLE -12 PIN MACHINE PIN HEADERS
+0
+12
+12
+Connectors
+1X12_NO_SILK
+PLATED THROUGH HOLE -12 PIN NO SILK
+PLATED THROUGH HOLE -12 PIN NO SILK
+0
+12
+12
+Connectors
+1X12_NO_SILK_KIT
+PLATED THROUGH HOLE -12 PIN NO SILK KIT
+PLATED THROUGH HOLE -12 PIN NO SILK KIT
+0
+12
+12
+Connectors
+1X13
+PLATED THROUGH HOLE -13 PIN
+PLATED THROUGH HOLE -13 PIN
+0
+13
+13
+Connectors
+1X13-LONGPADS
+PLATED THROUGH HOLE -13 PIN LONG PADS
+PLATED THROUGH HOLE -13 PIN LONG PADS
+0
+13
+13
+Connectors
+1X13_LOCK
+PLATED THROUGH HOLE -13 PIN LOCKING FOOTPRINT
+PLATED THROUGH HOLE -13 PIN LOCKING FOOTPRINT
+0
+13
+13
+Connectors
+1X13_LOCK_NO_SILK
+PLATED THROUGH HOLE -13 PIN LOCKING FOOTPRINT NO SILK OUTLINE
+PLATED THROUGH HOLE -13 PIN LOCKING FOOTPRINT NO SILK OUTLINE
+0
+13
+13
+Connectors
+1X14
+PLATED THROUGH HOLE -14 PIN
+PLATED THROUGH HOLE -14 PIN
+0
+14
+14
+Connectors
+1X14-LONGPADS
+PLATED THROUGH HOLE -14 PIN LONG PADS
+PLATED THROUGH HOLE -14 PIN LONG PADS
+0
+14
+14
+Connectors
+1X14_LOCK
+PLATED THROUGH HOLE -14 PIN LOCKING FOOTPRINT
+PLATED THROUGH HOLE -14 PIN LOCKING FOOTPRINT
+0
+14
+14
+Connectors
+1X14_LOCK_LONGPADS
+PLATED THROUGH HOLE -14 PIN LOCKING FOOTPRINT W/ LONG PADS
+PLATED THROUGH HOLE -14 PIN LOCKING FOOTPRINT W/ LONG PADS
+0
+14
+14
+Connectors
+1X14_NO_SILK
+PLATED THROUGH HOLE -14 PIN NO SILK OUTLINE
+PLATED THROUGH HOLE -14 PIN NO SILK OUTLINE
+0
+14
+14
+Connectors
+1X15
+PLATED THROUGH HOLE -15 PIN
+PLATED THROUGH HOLE -15 PIN
+0
+15
+15
+Connectors
+1X15_LOCK
+PLATED THROUGH HOLE -15 PIN LOCKING FOOTPRINT
+PLATED THROUGH HOLE -15 PIN LOCKING FOOTPRINT
+0
+15
+15
+Connectors
+1X15_LOCK_LONGPADS
+PLATED THROUGH HOLE -15 PIN LOCKING FOOTPRINT WITH LONG PADS
+PLATED THROUGH HOLE -15 PIN LOCKING FOOTPRINT WITH LONG PADS
+0
+15
+15
+Connectors
+1X15_LOCK_NO_SILK
+PLATED THROUGH HOLE -15 PIN LOCKING FOOTPRINT NO SILK OUTLINE
+PLATED THROUGH HOLE -15 PIN LOCKING FOOTPRINT NO SILK OUTLINE
+0
+15
+15
+Connectors
+1X16
+PLATED THROUGH HOLE -16 PIN
+PLATED THROUGH HOLE -16 PIN
+0
+16
+16
+Connectors
+1X16_LOCK
+PLATED THROUGH HOLE -16 PIN LOCKING FOOTPRINT
+PLATED THROUGH HOLE -16 PIN LOCKING FOOTPRINT
+0
+16
+16
+Connectors
+1X16_LOCK_LONGPADS
+PLATED THROUGH HOLE -16 PIN LOCKING FOOTPRINT W/ LONG PADS
+PLATED THROUGH HOLE -16 PIN LOCKING FOOTPRINT W/ LONG PADS
+0
+16
+16
+Connectors
+1X16_LONGPADS
+PLATED THROUGH HOLE -16 PIN LONG PADS
+PLATED THROUGH HOLE -16 PIN LONG PADS
+0
+16
+16
+Connectors
+1X16_MACHINE-PIN-HEADER_LOCK.004
+PLATED THROUGH HOLE -16 PIN MACHINE PIN HEADER LOCKING FOOTPRINT
+PLATED THROUGH HOLE -16 PIN MACHINE PIN HEADER LOCKING FOOTPRINT
+0
+16
+16
+Connectors
+1X16_NO_SILK
+PLATED THROUGH HOLE -16 PIN NO SILK
+PLATED THROUGH HOLE -16 PIN NO SILK
+0
+16
+16
+Connectors
+1X17
+PLATED THROUGH HOLE -17 PIN
+PLATED THROUGH HOLE -17 PIN
+0
+17
+17
+Connectors
+1X17_NO_SILK
+PLATED THROUGH HOLE -17 PIN NO SILK
+PLATED THROUGH HOLE -17 PIN NO SILK
+0
+17
+17
+Connectors
+1X17_NO_SILK_KIT
+PLATED THROUGH HOLE -17 PIN NO SILK KIT
+PLATED THROUGH HOLE -17 PIN NO SILK KIT
+0
+17
+17
+Connectors
+1X18
+PLATED THROUGH HOLE -18 PIN
+PLATED THROUGH HOLE -18 PIN
+0
+18
+18
+Connectors
+1X19
+PLATED THROUGH HOLE -19 PIN
+PLATED THROUGH HOLE -19 PIN
+0
+19
+19
+Connectors
+1X19_NO_SILK
+PLATED THROUGH HOLE -19 PIN NO SILK
+PLATED THROUGH HOLE -19 PIN NO SILK
+0
+19
+19
+Connectors
+1X20
+PLATED THROUGH HOLE -20 PIN
+PLATED THROUGH HOLE -20 PIN
+0
+20
+20
+Connectors
+1X20_LOCK
+PLATED THROUGH HOLE -20 PIN LOCKING FOOTPRINT
+PLATED THROUGH HOLE -20 PIN LOCKING FOOTPRINT
+0
+20
+20
+Connectors
+1X20_LOCK_LONGPADS
+PLATED THROUGH HOLE -20 PIN LOCKING FOOTPRINT LONG PADS
+PLATED THROUGH HOLE -20 PIN LOCKING FOOTPRINT LONG PADS
+0
+20
+20
+Connectors
+1X20_LOCK_NOSILK
+PLATED THROUGH HOLE -20 PIN LOCKING FOOTPRINT NO SILK
+PLATED THROUGH HOLE -20 PIN LOCKING FOOTPRINT NO SILK
+0
+20
+20
+Connectors
+1X20_LOCK_SPECIAL
+PLATED THROUGH HOLE -20 PIN LOCKING FOOTPRINT
+PLATED THROUGH HOLE -20 PIN LOCKING FOOTPRINT
+0
+20
+20
+Connectors
+1X20_NOSILK
+PLATED THROUGH HOLE -20 PIN NO SILK
+PLATED THROUGH HOLE -20 PIN NO SILK
+0
+20
+20
+Connectors
+1X20_NO_SILK_KIT
+PLATED THROUGH HOLE -20 PIN NO SILK KIT
+PLATED THROUGH HOLE -20 PIN NO SILK KIT
+0
+20
+20
+Connectors
+1X23
+PLATED THROUGH HOLE -23 PIN
+PLATED THROUGH HOLE -23 PIN
+0
+23
+23
+Connectors
+1X23_LOCK
+PLATED THROUGH HOLE -23 PIN LOCKING FOOTPRINT
+PLATED THROUGH HOLE -23 PIN LOCKING FOOTPRINT
+0
+23
+23
+Connectors
+1X23_LONGPADS
+PLATED THROUGH HOLE -23 PIN LONG PADS
+PLATED THROUGH HOLE -23 PIN LONG PADS
+0
+24
+24
+Connectors
+1X24
+PLATED THROUGH HOLE -24 PIN
+PLATED THROUGH HOLE -24 PIN
+0
+24
+24
+Connectors
+1X24_LOCK
+PLATED THROUGH HOLE -24 PIN LOCKING FOOTPRINT
+PLATED THROUGH HOLE -24 PIN LOCKING FOOTPRINT
+0
+24
+24
+Connectors
+1X24_LONGPADS
+PLATED THROUGH HOLE -24 PIN LONG PADS
+PLATED THROUGH HOLE -24 PIN LONG PADS
+0
+24
+24
+Connectors
+1X25
+PLATED THROUGH HOLE -25
+PLATED THROUGH HOLE -25
+0
+25
+25
+Connectors
+1X25_LOCK
+PLATED THROUGH HOLE -25 PIN LOCKING FOOTPRINT
+PLATED THROUGH HOLE -25 PIN LOCKING FOOTPRINT
+0
+25
+25
+Connectors
+1X25_LOCK_LONGPADS
+PLATED THROUGH HOLE -25 PIN LOCKING FOOTPRINT W/ LONG PADS
+PLATED THROUGH HOLE -25 PIN LOCKING FOOTPRINT W/ LONG PADS
+0
+25
+25
+Connectors
+1X25_LONGPAD
+PLATED THROUGH HOLE -25 PIN LONG PADS
+PLATED THROUGH HOLE -25 PIN LONG PADS
+0
+25
+25
+Connectors
+1X27
+PLATED THROUGH HOLE -27 PINS
+PLATED THROUGH HOLE -27 PINS
+0
+27
+27
+Connectors
+1X29
+PLATED THROUGH HOLE -29 PINS
+PLATED THROUGH HOLE -29 PINS
+0
+29
+29
+Connectors
+1X29_NO_SILK
+PLATED THROUGH HOLE -29 PINS NO SILK OUTLINE
+PLATED THROUGH HOLE -29 PINS NO SILK OUTLINE
+0
+29
+29
+Connectors
+1X30
+PLATED THROUGH HOLE -30 PINS
+PLATED THROUGH HOLE -30 PINS
+0
+30
+30
+Connectors
+1X30_NO_SILK
+PLATED THROUGH HOLE -30 PINS NO SILK OUTLINE
+PLATED THROUGH HOLE -30 PINS NO SILK OUTLINE
+0
+30
+30
+Connectors
+1X40
+PLATED THROUGH HOLE -40 PINS
+PLATED THROUGH HOLE -40 PINS
+0
+40
+40
+Connectors
+1X40_OFFSET
+PLATED THROUGH HOLE -40 PINS OFFSET
+PLATED THROUGH HOLE -40 PINS OFFSET
+0
+40
+40
+Connectors
+2X3
+PLATED THROUGH HOLE - 2X3
+PLATED THROUGH HOLE - 2X3
+0
+6
+6
+Connectors
+2X3-NS
+PLATED THROUGH HOLE - 2X3 NO SILK OUTLINE
+PLATED THROUGH HOLE - 2X3 NO SILK OUTLINE
+0
+6
+6
+Connectors
+2X3-SHROUDED
+PLATED THROUGH HOLE - 2X3 SHROUDED HEADER
+PLATED THROUGH HOLE - 2X3 SHROUDED HEADER
+0
+6
+6
+Connectors
+2X3_LOCK
+PLATED THROUGH HOLE - 2X3 LOCKING FOOTPRINT
+PLATED THROUGH HOLE - 2X3 LOCKING FOOTPRINT
+0
+6
+6
+Connectors
+2X3_OFFSET
+PLATED THROUGH HOLE - 2X3 LONG PADS W/ OFFSET HOLES
+PLATED THROUGH HOLE - 2X3 LONG PADS W/ OFFSET HOLES
+0
+6
+6
+Connectors
+2X3_POGO
+PLATED THROUGH HOLE - 2X3 POGO PINS
+PLATED THROUGH HOLE - 2X3 POGO PINS
+0
+6
+6
+Connectors
+2X3_SMD
+SURFACE MOUNT - 2X3
+SURFACE MOUNT - 2X3
+0
+6
+6
+Connectors
+2X3_SMT_POSTS
+SURFACE MOUNT - 2X3 MALE HEADER WITH KEYING POSTS
+SURFACE MOUNT - 2X3 MALE HEADER WITH KEYING POSTS
+0
+6
+6
+Connectors
+2X3_TEST_POINTS
+PLATED THROUGH HOLE - 2X3 TEST POINT HEADER
+PLATED THROUGH HOLE - 2X3 TEST POINT HEADER
+0
+6
+6
+Connectors
+2X4
+PLATED THROUGH HOLE - 2X4
+PLATED THROUGH HOLE - 2X4
+0
+8
+8
+Connectors
+2X5
+PLATED THROUGH HOLE - 2X5
+PLATED THROUGH HOLE - 2X5
+0
+10
+10
+Connectors
+2X5-PTH-1.27MM
+PLATED THROUGH HOLE - 2X5 ARM CORTEX DEBUG CONNECTOR (10-PIN)
+PLATED THROUGH HOLE - 2X5 ARM CORTEX DEBUG CONNECTOR (10-PIN)
+0
+10
+10
+Connectors
+2X5-RA
+PLATED THROUGH HOLE - 2X5 RIGHT ANGLE MALE HEADERS
+PLATED THROUGH HOLE - 2X5 RIGHT ANGLE MALE HEADERS
+0
+10
+10
+Connectors
+2X5-RAF
+PLATED THROUGH HOLE - 2X5 RIGHT ANGLE FEMALE HEADER
+PLATED THROUGH HOLE - 2X5 RIGHT ANGLE FEMALE HEADER
+0
+10
+10
+Connectors
+2X5-SHROUDED
+PLATED THROUGH HOLE - 2X5 SHROUDED HEADER
+PLATED THROUGH HOLE - 2X5 SHROUDED HEADER
+0
+10
+10
+Connectors
+2X5-SHROUDED-NS
+PLATED THROUGH HOLE - 2X5 SHROUDED HEADER NO SILK
+PLATED THROUGH HOLE - 2X5 SHROUDED HEADER NO SILK
+0
+10
+10
+Connectors
+2X5-SHROUDED_LOCK
+PLATED THROUGH HOLE - 2X5 SHROUDED HEADER LOCKING FOOTPRINT
+PLATED THROUGH HOLE - 2X5 SHROUDED HEADER LOCKING FOOTPRINT
+0
+10
+10
+Connectors
+2X5-SHROUDED_SMD
+SURFACE MOUNT - 2X5 SHROUDED HEADER
+SURFACE MOUNT - 2X5 SHROUDED HEADER
+0
+10
+10
+Connectors
+2X5_NOSILK
+PLATED THROUGH HOLE - 2X5 NO SILK OUTLINE
+PLATED THROUGH HOLE - 2X5 NO SILK OUTLINE
+0
+10
+10
+Connectors
+2X5_PTH_SILK_.05
+PLATED THROUGH HOLE - 2X5
+PLATED THROUGH HOLE - 2X5
+0
+10
+10
+Connectors
+2X6
+PLATED THROUGH HOLE - 2X6
+PLATED THROUGH HOLE - 2X6
+0
+12
+12
+Connectors
+2X6_SMD
+SURFACE MOUNT - 2X6
+SURFACE MOUNT - 2X6
+0
+12
+12
+Connectors
+2X8
+PLATED THROUGH HOLE - 2X8
+PLATED THROUGH HOLE - 2X8
+0
+16
+16
+Connectors
+2X10
+PLATED THROUGH HOLE - 2X10
+PLATED THROUGH HOLE - 2X10
+0
+20
+20
+Connectors
+2X10_LOCK
+PLATED THROUGH HOLE - 2X10 LOCKING FOOTPRINT
+PLATED THROUGH HOLE - 2X10 LOCKING FOOTPRINT
+0
+20
+20
+Connectors
+2X10_LOCK_SPECIAL
+PLATED THROUGH HOLE - 2X10 LOCKING FOOTPRINT SPECIAL
+PLATED THROUGH HOLE - 2X10 LOCKING FOOTPRINT SPECIAL
+0
+20
+20
+Connectors
+2X10_NOSILK
+PLATED THROUGH HOLE - 2X10 NO SILK OUTLINE
+PLATED THROUGH HOLE - 2X10 NO SILK OUTLINE
+0
+20
+20
+Connectors
+2X12
+PLATED THROUGH HOLE - 2X12
+PLATED THROUGH HOLE - 2X12
+0
+24
+24
+Connectors
+2X13
+PLATED THROUGH HOLE - 2X13
+PLATED THROUGH HOLE - 2X13
+0
+26
+26
+Connectors
+2X20
+PLATED THROUGH HOLE - 2X20
+PLATED THROUGH HOLE - 2X20
+0
+40
+40
+Connectors
+2X20_NOSILK
+PLATED THROUGH HOLE - 2X20 NO SILK OUTLINE
+PLATED THROUGH HOLE - 2X20 NO SILK OUTLINE
+0
+40
+40
+Connectors
+2X20_SHROUDED
+PLATED THROUGH HOLE - 2X20 SHROUDED HEADER
+PLATED THROUGH HOLE - 2X20 SHROUDED HEADER
+0
+40
+40
+Connectors
+2X20_SHROUDED_SMT
+SURFACE MOUNT - 2X20 SHROUDED HEADER
+SURFACE MOUNT - 2X20 SHROUDED HEADER
+0
+40
+40
+Connectors
+2X26
+PLATED THROUGH HOLE - 2X26
+PLATED THROUGH HOLE - 2X26
+0
+52
+52
+Connectors
+3.81MM_TERMINAL_BLOCK_FEMALE_LOCKING
+MYDAQ FEMALE RIGHT ANGLE TERMINAL BLOCK W/ LOCKING FOOTPRINT
+MYDAQ FEMALE RIGHT ANGLE TERMINAL BLOCK W/ LOCKING FOOTPRINT
+0
+40
+40
+Connectors
+6_PIN_SERIAL_TARGET_SIDE_RA_SMT
+6 PIN SERIAL TARGET - RIGHT ANGLE  SMT
+6 PIN SERIAL TARGET - RIGHT ANGLE  SMT
+0
+6
+6
+Connectors
+6_PIN_SERIAL_TARGET_SIDE_W_SILK
+6 PIN SERIAL TARGET - RIGHT ANGLE  SMT WITH SILK
+6 PIN SERIAL TARGET - RIGHT ANGLE  SMT WITH SILK
+0
+6
+6
+Connectors
+ATX24_RIGHT_ANGLE
+MOLEX MINI-FIT JR. - 24 PIN, RIGHT ANGLE
+MOLEX MINI-FIT JR. - 24 PIN, RIGHT ANGLE
+0
+24
+24
+Connectors
+AUDIO-JACK
+3.5MM STEREO AUDIO JACK
+3.5MM STEREO AUDIO JACK
+0
+5
+5
+Connectors
+AUDIO-JACK-3.5MM-SMD
+3.5MM STEREO AUDIO JACK - SURFACE MOUNT
+3.5MM STEREO AUDIO JACK - SURFACE MOUNT
+0
+5
+5
+Connectors
+AUDIO-JACK-KIT
+3.5MM STEREO AUDIO JACK -KIT VERSION
+3.5MM STEREO AUDIO JACK -KIT VERSION
+0
+5
+5
+Connectors
+AUDIO_JACK_0.25%5c%22_TRS_PTH_RA
+RIGHT ANGLE -1/4" STEREO JACK
+RIGHT ANGLE -1/4" STEREO JACK
+0
+6
+4
+Connectors
+AUDIO_JACK_0.25_TRS_PTH_RA
+RIGHT ANGLE -1/4" STEREO JACK
+RIGHT ANGLE -1/4" STEREO JACK
+0
+6
+4
+Connectors
+AUDIO_JACK_3.5MM_TRRS_SMD_RA
+TRRS 3.5MM RIGHT ANGLE STEREO JACK - SMT
+TRRS 3.5MM RIGHT ANGLE STEREO JACK - SMT
+0
+4
+3
+Connectors
+BANANA_CONN
+BANANA PLUG PTH
+BANANA PLUG PTH
+0
+1
+1
+Connectors
+BC9VPC
+9V BATTERY HOLDER (OPEN) - PTH
+9V BATTERY HOLDER (OPEN) - PTH
+0
+2
+2
+Connectors
+BC9VPC_KIT
+9V BATTERY HOLDER (OPEN) - PTH KIT
+9V BATTERY HOLDER (OPEN) - PTH KIT
+0
+2
+2
+Connectors
+BINDING_POST
+INSULATED BINDING POST
+INSULATED BINDING POST
+0
+1
+1
+Connectors
+BM08B-SRSS-TB
+JST VERTICAL CRIMP CONNECT
+JST VERTICAL CRIMP CONNECT
+0
+10
+10
+Connectors
+BNC
+BNC JACK - MOUSER PART#5227161
+BNC JACK - MOUSER PART#5227161
+0
+4
+4
+Connectors
+BTA
+BRITISH TELECOM CONNECTOR - ANALOG RIGHT ANGLE
+BRITISH TELECOM CONNECTOR - ANALOG RIGHT ANGLE
+0
+6
+6
+Connectors
+BTD
+BRITISH TELECOM CONNECTOR - RIGHT ANGLE FEMALE DIGITAL
+BRITISH TELECOM CONNECTOR - RIGHT ANGLE FEMALE DIGITAL
+0
+6
+6
+Connectors
+DB9
+9 PIN SERIAL CONNECTOR - FEMALE PCB MOUNT RIGHT ANGLE
+9 PIN SERIAL CONNECTOR - FEMALE PCB MOUNT RIGHT ANGLE
+0
+11
+11
+Connectors
+DB9_MALE
+9 PIN SERIAL CONNECTOR - MALE PCB MOUNT RIGHT ANGLE
+9 PIN SERIAL CONNECTOR - MALE PCB MOUNT RIGHT ANGLE
+0
+11
+11
+Connectors
+DEANS
+DEANS CONNECTOR
+DEANS CONNECTOR
+0
+2
+2
+Connectors
+DF40-XC-(X.X)-70DS-0.4V(51)
+HIROSE DF40C-70DP-0.4V(51) PLUG
+HIROSE DF40C-70DP-0.4V(51) PLUG
+0
+70
+70
+Connectors
+DF40C-70DP-0.4(51)
+HIROSE DF30C-70DP-0.4V(51) RECEIVER
+HIROSE DF30C-70DP-0.4V(51) RECEIVER
+0
+74
+74
+Connectors
+DIL28-3-ZIF_SOCKET
+ZIF SOCKET 28-PIN 0.3"
+ZIF SOCKET 28-PIN 0.3"
+0
+28
+28
+Connectors
+DIN5-RA-PTH
+DIN5/180 CONNECTOR - RIGHT ANGLE FEMALE
+DIN5/180 CONNECTOR - RIGHT ANGLE FEMALE
+0
+7
+7
+Connectors
+DIN7
+MINIDIN RIGHT ANGLE
+MINIDIN RIGHT ANGLE
+0
+10
+10
+Connectors
+DS_TOUCH_CONNECTOR
+4-PIN DS TOUCH SCREEN CONNECTOR
+4-PIN DS TOUCH SCREEN CONNECTOR
+0
+6
+6
+Connectors
+EB-85A
+EB-85A CONNECTOR
+EB-85A CONNECTOR
+0
+10
+10
+Connectors
+EDISON_DAUGHTER
+HIROSE DF30C-70DP-0.4V(51) RECEIVER FOOTPRINT W/ EDISON OUTLINE
+HIROSE DF30C-70DP-0.4V(51) RECEIVER FOOTPRINT W/ EDISON OUTLINE
+0
+70
+70
+Connectors
+FTDI_BASIC
+FTDI BASIC
+FTDI BASIC
+0
+6
+6
+Connectors
+JST-2-PTH
+JST 2 PIN RIGHT ANGLE PLATED THROUGH  HOLE
+JST 2 PIN RIGHT ANGLE PLATED THROUGH  HOLE
+0
+2
+2
+Connectors
+JST-2-PTH-KIT
+JST 2 PIN RIGHT ANGLE PLATED THROUGH  HOLE - KIT
+JST 2 PIN RIGHT ANGLE PLATED THROUGH  HOLE - KIT
+0
+2
+2
+Connectors
+JST-2-PTH-NS
+JST 2 PIN RIGHT ANGLE PLATED THROUGH  HOLE- NO SILK
+JST 2 PIN RIGHT ANGLE PLATED THROUGH  HOLE- NO SILK
+0
+2
+2
+Connectors
+JST-2-SMD
+JST-RIGHT ANGLE MALE HEADER SMT
+JST-RIGHT ANGLE MALE HEADER SMT
+0
+4
+4
+Connectors
+JST-2-SMD-VERT
+JST-VERTICAL MALE HEADER SMT
+JST-VERTICAL MALE HEADER SMT
+0
+4
+4
+Connectors
+JST-3-PTH
+JST 3 PIN RIGHT ANGLE PLATED THROUGH HOLE
+JST 3 PIN RIGHT ANGLE PLATED THROUGH HOLE
+0
+3
+3
+Connectors
+JST-3-PTH-NS
+JST 3 PIN RIGHT ANGLE PLATED THROUGH HOLE &NDASH; NO SILK
+JST 3 PIN RIGHT ANGLE PLATED THROUGH HOLE &NDASH; NO SILK
+0
+3
+3
+Connectors
+JST-3-PTH-VERT
+JST 3 PIN VERTICAL PLATED THROUGH HOLE
+JST 3 PIN VERTICAL PLATED THROUGH HOLE
+0
+3
+3
+Connectors
+JST-3-SMD
+JST 3 PIN RIGHT ANGLE SMT
+JST 3 PIN RIGHT ANGLE SMT
+0
+5
+5
+Connectors
+JST-4-PTH
+JST RIGHT ANGLE 4 PIN PLATED THROUGH HOLE
+JST RIGHT ANGLE 4 PIN PLATED THROUGH HOLE
+0
+4
+4
+Connectors
+JST-4-PTH-VERT
+JST VERTICAL 4 PIN PLATED THROUGH HOLE
+JST VERTICAL 4 PIN PLATED THROUGH HOLE
+0
+4
+4
+Connectors
+JST-5-PTH
+JST 5 PIN RIGHT ANGLE PLATED THROUGH HOLE
+JST 5 PIN RIGHT ANGLE PLATED THROUGH HOLE
+0
+5
+5
+Connectors
+JST-5-PTH-VERT
+JST 5 PIN VERTICAL PLATED THROUGH HOLE
+JST 5 PIN VERTICAL PLATED THROUGH HOLE
+0
+5
+5
+Connectors
+JST-6-SMD-VERT-1.0MM
+JST SH VERTICAL 6-PIN SMT
+JST SH VERTICAL 6-PIN SMT
+0
+8
+8
+Connectors
+MAGJACK
+RJ45 ETHERNET MAGJACK-COMPATIBLE
+RJ45 ETHERNET MAGJACK-COMPATIBLE
+0
+14
+14
+Connectors
+MAGJACK-POE
+RJ45 POE MAGJACK
+RJ45 POE MAGJACK
+0
+16
+16
+Connectors
+MICRO-SD-SOCKET
+MICROSD SOCKET SMD
+MICROSD SOCKET SMD
+0
+12
+12
+Connectors
+MICRO-SD-SOCKET-SDIO
+
+
+0
+12
+12
+Connectors
+MOLEX-1X2
+MOLEX 2-PIN PLATED THROUGH-HOLE
+MOLEX 2-PIN PLATED THROUGH-HOLE
+0
+2
+2
+Connectors
+MOLEX-1X2_LOCK
+MOLEX 2-PIN PLATED THROUGH-HOLE LOCKING FOOTPRINT
+MOLEX 2-PIN PLATED THROUGH-HOLE LOCKING FOOTPRINT
+0
+2
+2
+Connectors
+MOLEX-1X3
+PTH - 3 PIN VERTICAL MOLEX POLARIZED HEADER
+PTH - 3 PIN VERTICAL MOLEX POLARIZED HEADER
+0
+3
+3
+Connectors
+MOLEX-1X3_LOCK
+PTH - 3 PIN VERTICAL MOLEX POLARIZED HEADER
+PTH - 3 PIN VERTICAL MOLEX POLARIZED HEADER
+0
+3
+3
+Connectors
+MOLEX-1X4
+MOLEX 4-PIN PLATED THROUGH-HOLE
+MOLEX 4-PIN PLATED THROUGH-HOLE
+0
+4
+4
+Connectors
+MOLEX-1X4_LOCK
+MOLEX 4-PIN PLATED THROUGH-HOLE LOCKING
+MOLEX 4-PIN PLATED THROUGH-HOLE LOCKING
+0
+4
+4
+Connectors
+MOLEX-1X6
+MOLEX 6-PIN PLATED THROUGH-HOLE
+MOLEX 6-PIN PLATED THROUGH-HOLE
+0
+6
+6
+Connectors
+MOLEX-1X6-RA
+MOLEX 6-PIN PLATED THROUGH-HOLE RIGHT ANGLE
+MOLEX 6-PIN PLATED THROUGH-HOLE RIGHT ANGLE
+0
+6
+6
+Connectors
+MOLEX-1X6_LOCK
+MOLEX 6-PIN PLATED THROUGH-HOLE LOCKING FOOTPRINT
+MOLEX 6-PIN PLATED THROUGH-HOLE LOCKING FOOTPRINT
+0
+6
+6
+Connectors
+MOLEX_1X6_RA_LOCK
+MOLEX 6-PIN PLATED THROUGH-HOLE RIGHT ANGLE LOCKING FOOTPRINT
+MOLEX 6-PIN PLATED THROUGH-HOLE RIGHT ANGLE LOCKING FOOTPRINT
+0
+6
+6
+Connectors
+OBDII
+OBD-II AUTOMOTIVE CONNECTOR
+OBD-II AUTOMOTIVE CONNECTOR
+0
+16
+16
+Connectors
+PAD.02X.02
+ELECTRICALLY CONDUCTIVE PAD 0.02" SQUARE
+ELECTRICALLY CONDUCTIVE PAD 0.02" SQUARE
+0
+1
+1
+Connectors
+PAD.03X.03
+ELECTRICALLY CONDUCTIVE PAD 0.03" CIRCLE
+ELECTRICALLY CONDUCTIVE PAD 0.03" CIRCLE
+0
+1
+1
+Connectors
+PAD.03X.04
+ELECTRICALLY CONDUCTIVE PAD 0.04" CIRCLE
+ELECTRICALLY CONDUCTIVE PAD 0.04" CIRCLE
+0
+1
+1
+Connectors
+PAD.03X.05
+ELECTRICALLY CONDUCTIVE PAD 0.05" CIRCLE
+ELECTRICALLY CONDUCTIVE PAD 0.05" CIRCLE
+0
+1
+1
+Connectors
+PIC_ICSP_MINI_5_PIN
+MINI ICSP CONNECTOR - 5 PIN
+MINI ICSP CONNECTOR - 5 PIN
+0
+5
+5
+Connectors
+POWER_JACK_COMBO
+
+
+0
+7
+3
+Connectors
+POWER_JACK_PTH
+DC BARREL POWER JACK/CONNECTOR PTH
+DC BARREL POWER JACK/CONNECTOR PTH
+0
+3
+3
+Connectors
+POWER_JACK_PTH_BREAD
+DC BARREL POWER JACK/CONNECTOR BREADBOARD COMPATIBLE
+DC BARREL POWER JACK/CONNECTOR BREADBOARD COMPATIBLE
+0
+3
+3
+Connectors
+POWER_JACK_PTH_LOCK
+DC BARREL POWER JACK/CONNECTOR PTH LOCKING FOOTPRINT
+DC BARREL POWER JACK/CONNECTOR PTH LOCKING FOOTPRINT
+0
+3
+3
+Connectors
+POWER_JACK_SLOT
+DC BARREL POWER JACK/CONNECTOR PTH SLOT PADS
+DC BARREL POWER JACK/CONNECTOR PTH SLOT PADS
+0
+3
+2
+Connectors
+POWER_JACK_SMD
+DC BARREL POWER JACK/CONNECTOR -SMD
+DC BARREL POWER JACK/CONNECTOR -SMD
+0
+4
+4
+Connectors
+POWER_JACK_SMD_GND
+DC BARREL POWER JACK/CONNECTOR -SMD
+DC BARREL POWER JACK/CONNECTOR -SMD
+0
+4
+3
+Connectors
+POWER_JACK_SMD_OVERPASTE_TOE
+DC BARREL POWER JACK/CONNECTOR -SMD OVERPASTE
+DC BARREL POWER JACK/CONNECTOR -SMD OVERPASTE
+0
+4
+4
+Connectors
+PSP_CONNECTOR
+ZIF PSP CONNECTOR
+ZIF PSP CONNECTOR
+0
+43
+40
+Connectors
+PSP_TOUCH_CONNECTOR
+SMD PSP TOUCH SCREEN CONNECTOR
+SMD PSP TOUCH SCREEN CONNECTOR
+0
+4
+4
+Connectors
+RCA
+RCA JACK - PLATED THROUGH-HOLE
+RCA JACK - PLATED THROUGH-HOLE
+0
+3
+3
+Connectors
+RCA_LOCK
+RCA JACK - PLATED THROUGH-HOLE LOCKING
+RCA JACK - PLATED THROUGH-HOLE LOCKING
+0
+3
+3
+Connectors
+RJ11-6
+RJ11 6-PIN SOCKET WITH PCB MOUNTING POST
+RJ11 6-PIN SOCKET WITH PCB MOUNTING POST
+0
+6
+6
+Connectors
+RJ45-8
+RJ45 SOCKET WITH PCB MOUNTING POSTS
+RJ45 SOCKET WITH PCB MOUNTING POSTS
+0
+8
+8
+Connectors
+SAMTECH_FTSH-105-01
+ARM CORTEX DEBUG CONNECTOR (10-PIN)
+ARM CORTEX DEBUG CONNECTOR (10-PIN)
+0
+10
+10
+Connectors
+SCREENKEY_MATING_CONNECTOR
+FPC/FFC LOCKING CONNECTOR - SMD
+FPC/FFC LOCKING CONNECTOR - SMD
+0
+16
+16
+Connectors
+SCREWTERMINAL-3.5MM-2
+SCREW TERMINAL  3.5MM PITCH - 2 PIN PTH
+SCREW TERMINAL  3.5MM PITCH - 2 PIN PTH
+0
+2
+2
+Connectors
+SCREWTERMINAL-3.5MM-2-NS
+SCREW TERMINAL  3.5MM PITCH - 2 PIN PTH NO SILK OUTLINE
+SCREW TERMINAL  3.5MM PITCH - 2 PIN PTH NO SILK OUTLINE
+0
+2
+2
+Connectors
+SCREWTERMINAL-3.5MM-2_LOCK
+SCREW TERMINAL  3.5MM PITCH - 2 PIN PTH LOCKING
+SCREW TERMINAL  3.5MM PITCH - 2 PIN PTH LOCKING
+0
+2
+2
+Connectors
+SCREWTERMINAL-3.5MM-3
+SCREW TERMINAL  3.5MM PITCH -3 PIN PTH
+SCREW TERMINAL  3.5MM PITCH -3 PIN PTH
+0
+3
+3
+Connectors
+SCREWTERMINAL-3.5MM-3-NS
+SCREW TERMINAL  3.5MM PITCH -3 PIN PTH &NDASH; NO SILK
+SCREW TERMINAL  3.5MM PITCH -3 PIN PTH &NDASH; NO SILK
+0
+3
+3
+Connectors
+SCREWTERMINAL-3.5MM-3_LOCK.007S
+SCREW TERMINAL  3.5MM PITCH -3 PIN PTH LOCKING
+SCREW TERMINAL  3.5MM PITCH -3 PIN PTH LOCKING
+0
+3
+3
+Connectors
+SCREWTERMINAL-3.5MM-4
+SCREW TERMINAL  3.5MM PITCH -4 PIN PTH
+SCREW TERMINAL  3.5MM PITCH -4 PIN PTH
+0
+4
+4
+Connectors
+SCREWTERMINAL-3.5MM-4_LOCK
+SCREW TERMINAL  3.5MM PITCH -4 PIN PTH LOCKING
+SCREW TERMINAL  3.5MM PITCH -4 PIN PTH LOCKING
+0
+4
+4
+Connectors
+SCREWTERMINAL-3.5MM-5
+SCREW TERMINAL  3.5MM PITCH -5 PIN PTH
+SCREW TERMINAL  3.5MM PITCH -5 PIN PTH
+0
+5
+5
+Connectors
+SCREWTERMINAL-3.5MM-6
+SCREW TERMINAL  3.5MM PITCH -6 PIN PTH
+SCREW TERMINAL  3.5MM PITCH -6 PIN PTH
+0
+6
+6
+Connectors
+SCREWTERMINAL-3.5MM-8
+SCREW TERMINAL  3.5MM PITCH -8 PIN PTH
+SCREW TERMINAL  3.5MM PITCH -8 PIN PTH
+0
+8
+8
+Connectors
+SCREWTERMINAL-5MM-2
+SCREW TERMINAL  5MM PITCH -2 PIN PTH
+SCREW TERMINAL  5MM PITCH -2 PIN PTH
+0
+2
+2
+Connectors
+SCREWTERMINAL-5MM-3
+SCREW TERMINAL  5MM PITCH -3 PIN PTH
+SCREW TERMINAL  5MM PITCH -3 PIN PTH
+0
+3
+3
+Connectors
+SD
+SD/MMC SOCKET
+SD/MMC SOCKET
+0
+13
+13
+Connectors
+SIMHOLDER
+SIM CARD SOCKET SMT
+SIM CARD SOCKET SMT
+0
+6
+6
+Connectors
+SMTSO-256-ET-0.165DIA
+SMTSO-256-ET FLUSH MOUNT NUT
+SMTSO-256-ET FLUSH MOUNT NUT
+0
+1
+1
+Connectors
+SNAP-FEMALE
+SEW-ON FABRIC SNAP - FEMALE
+SEW-ON FABRIC SNAP - FEMALE
+0
+1
+1
+Connectors
+SNAP-MALE
+SEW-ON FABRIC SNAP - MALE
+SEW-ON FABRIC SNAP - MALE
+0
+1
+1
+Connectors
+SPRING-CONNECTOR
+SPRING CONNECTOR
+SPRING CONNECTOR
+0
+1
+1
+Connectors
+SPRINGTERMINAL-2.54MM-2
+SPRING TERMINAL- PCB MOUNT 2 PIN PTH
+SPRING TERMINAL- PCB MOUNT 2 PIN PTH
+0
+4
+4
+Connectors
+STEREOJACK2.5MM
+2.5MM STEREO AUDIO JACK - SMT
+2.5MM STEREO AUDIO JACK - SMT
+0
+5
+5
+Connectors
+STEREOJACK2.5MM_SPECIAL_HOLES-ONLY
+2.5MM STEREO AUDIO JACK - PTH HOLES ONLY
+2.5MM STEREO AUDIO JACK - PTH HOLES ONLY
+0
+4
+3
+Connectors
+STEREOJACK2.5MM_SPECIAL_POGOPINS
+2.5MM STEREO AUDIO JACK - PTH POGO PIN COMPATIBLE
+2.5MM STEREO AUDIO JACK - PTH POGO PIN COMPATIBLE
+0
+4
+3
+Connectors
+STEREOJACK2.5MM_STEREOJACK2.5MM
+2.5MM STEREO AUDIO JACK - PTH
+2.5MM STEREO AUDIO JACK - PTH
+0
+4
+3
+Connectors
+TP_15TH
+ELECTRICALLY CONDUCTIVE VIA 0.015" DRILL
+ELECTRICALLY CONDUCTIVE VIA 0.015" DRILL
+0
+1
+1
+Connectors
+U.FL
+U.FL SMD ANTENNA CONNECTOR
+U.FL SMD ANTENNA CONNECTOR
+0
+4
+4
+Connectors
+USB-A-H
+USB TYPE 'A' MALE CONNECTOR - PTH
+USB TYPE 'A' MALE CONNECTOR - PTH
+0
+6
+5
+Connectors
+USB-A-S-NOSILK-FEMALE
+USB TYPE 'A' FEMALE CONNECTOR - SMT NO SILK
+USB TYPE 'A' FEMALE CONNECTOR - SMT NO SILK
+0
+6
+5
+Connectors
+USB-A-S-SILK-FEMALE
+USB TYPE 'A' FEMALE CONNECTOR - SMT SILK OUTLINE
+USB TYPE 'A' FEMALE CONNECTOR - SMT SILK OUTLINE
+0
+6
+5
+Connectors
+USB-A-SMT-MALE
+USB TYPE 'A' MALE CONNECTOR - SMT
+USB TYPE 'A' MALE CONNECTOR - SMT
+0
+6
+5
+Connectors
+USB-AB-MICRO-SMD
+USB TYPE AB - SMT
+USB TYPE AB - SMT
+0
+8
+6
+Connectors
+USB-B-MICRO-SMD
+USB - MICROB SMD
+USB - MICROB SMD
+0
+8
+6
+Connectors
+USB-B-MICRO-SMD_RED_PASTE
+USB - MICROB SMD REDUCED PASTE
+USB - MICROB SMD REDUCED PASTE
+0
+8
+6
+Connectors
+USB-B-PTH
+USB TYPE B FEMALE PTH MOUNTED
+USB TYPE B FEMALE PTH MOUNTED
+0
+6
+5
+Connectors
+USB-MICROB
+USB TYPE MICROUSB CONNECTOR-NO BOSSED PINS
+USB TYPE MICROUSB CONNECTOR-NO BOSSED PINS
+0
+9
+9
+Connectors
+USB-MICROB-PTH
+
+
+0
+17
+15
+Connectors
+USB-MINIB
+USB TYPE MINI-B SURFACE MOUNTED
+USB TYPE MINI-B SURFACE MOUNTED
+0
+9
+9
+Connectors
+USB_MICROB_VERTICAL
+USB MICRO-B PLUG CONNECTOR
+USB MICRO-B PLUG CONNECTOR
+0
+9
+6
+Footprints
+LCD-8X2
+8X2 CHARACTER LCD W/ BACKLIGHT
+8X2 CHARACTER LCD W/ BACKLIGHT
+0
+16
+16
+Footprints
+LCD-8X2-KIT
+LCD-8X2 FOR KITS
+LCD-8X2 FOR KITS
+0
+16
+16
+Footprints
+LCD-16X2
+LCD-16X2
+LCD-16X2
+0
+16
+16
+Footprints
+LCD-16X2_NOHOLESNOSILK
+LCD-16X2 NO SILK OR MOUNTING HOLES
+LCD-16X2 NO SILK OR MOUNTING HOLES
+0
+16
+16
+Footprints
+LCD-16X2_NOSILK
+LCD-16X2
+LCD-16X2
+0
+16
+16
+Footprints
+LCD-16X2_NOSILK-KIT
+LCD-16X2 FOR KITS
+LCD-16X2 FOR KITS
+0
+18
+18
+Footprints
+LCD-16X2_NOSILK-KIT-4BIT
+LCD-16X2, 4 BIT FOR KITS
+LCD-16X2, 4 BIT FOR KITS
+0
+14
+14
+Footprints
+LCD-G12864
+G12864
+G12864
+0
+20
+20
+Footprints
+LCD_BACKLIGHT_PADS
+PADS FOR FLYING BACKLIGHT LEADS
+PADS FOR FLYING BACKLIGHT LEADS
+0
+2
+2
+Footprints
+NOKIA6100_LCD
+NOKIA 6100 LED SHAPE AND CONNECTOR
+NOKIA 6100 LED SHAPE AND CONNECTOR
+0
+10
+10
+Footprints
+OLED-0.66-64X48
+OLDE DISPLAY, 0.66 INCH
+OLDE DISPLAY, 0.66 INCH
+0
+28
+28
+Footprints
+OLED-UG-2832HLBEG04
+OLDE DISPLAY
+OLDE DISPLAY
+0
+30
+30
+Footprints
+OLED-UG-2832TSWGG01
+OLDE DISPLAY
+OLDE DISPLAY
+0
+15
+15
+Footprints
+OLED-UG-2832TSWGG01-REAR
+OLDE DISPLAY
+OLDE DISPLAY
+0
+15
+15
+Kailh_Choc
+KailhChoc-1.5U
+
+
+0
+4
+4
+Kailh_Choc
+KailhChoc-1.25U
+
+
+0
+4
+4
+Kailh_Choc
+KailhChoc-1.75U
+
+
+0
+4
+4
+Kailh_Choc
+KailhChoc-1U
+
+
+0
+4
+4
+Kailh_Choc
+KailhChoc-1U-18x17
+
+
+0
+2
+2
+Keebio-Parts
+3_Pin_Jumper
+
+
+0
+9
+3
+Keebio-Parts
+4pin35mmAudio
+
+
+0
+6
+6
+Keebio-Parts
+AST1109MLTRQ
+Murata Buzzer http://www.murata.com/en-us/api/pdfdownloadapi?cate=&partno=PKMCS0909E4000-R1
+Murata Buzzer Beeper
+0
+2
+2
+Keebio-Parts
+AT90USB1286_TQFP_14mm
+64-Lead Plastic Thin Quad Flatpack (PF) - 14x14x1 mm Body, 2.00 mm [TQFP] (see Microchip Packaging Specification 00000049BS.pdf)
+QFP 0.8
+0
+64
+64
+Keebio-Parts
+ATMEGA32U4-AU
+
+
+0
+44
+44
+Keebio-Parts
+ArduinoProMicro
+
+
+0
+24
+24
+Keebio-Parts
+ArduinoProMicro-BackSide
+
+
+0
+24
+24
+Keebio-Parts
+ArduinoProMicro-Mini-USB
+
+
+0
+24
+24
+Keebio-Parts
+ArduinoProMicro-Mini-USB-No-Text
+
+
+0
+24
+24
+Keebio-Parts
+ArduinoProMicro-Mini-USB-ZigZag
+
+
+0
+24
+24
+Keebio-Parts
+ArduinoProMicro-TopSide
+
+
+0
+24
+24
+Keebio-Parts
+ArduinoProMicro-ZigZag
+
+
+0
+24
+24
+Keebio-Parts
+CUI_SJ-43614-SMT
+
+
+0
+4
+4
+Keebio-Parts
+C_0402
+Capacitor SMD 0402, reflow soldering, AVX (see smccp.pdf)
+capacitor 0402
+0
+2
+2
+Keebio-Parts
+C_0603
+SMT, 1608, 0603
+SMT, 1608, 0603
+0
+2
+2
+Keebio-Parts
+Cherry-MX-Low-Profile
+
+
+0
+2
+2
+Keebio-Parts
+Chi_Keyboard
+
+
+0
+0
+0
+Keebio-Parts
+Cowboy_Bebop_Keyboard
+
+
+0
+0
+0
+Keebio-Parts
+Crystal_SMD_2520-4pin_2.5x2.0mm
+SMD Crystal SERIES SMD2520/4 http://www.newxtal.com/UploadFiles/Images/2012-11-12-09-29-09-776.pdf, 2.5x2.0mm^2 package
+SMD SMT crystal
+0
+4
+4
+Keebio-Parts
+Crystal_SMD_3225-4pin_3.2x2.5mm
+SMD Crystal SERIES SMD3225/4 http://www.txccrystal.com/images/pdf/7m-accuracy.pdf, 3.2x2.5mm^2 package
+SMD SMT crystal
+0
+4
+4
+Keebio-Parts
+D_0805
+
+
+0
+2
+2
+Keebio-Parts
+D_SOD-323
+SOD-323
+SOD-323
+0
+2
+2
+Keebio-Parts
+D_SOD123
+
+
+0
+2
+2
+Keebio-Parts
+D_SOD123F
+
+
+0
+2
+2
+Keebio-Parts
+Diode
+
+
+0
+2
+2
+Keebio-Parts
+Diode-Hybrid-Back
+
+
+0
+6
+2
+Keebio-Parts
+Diode-dual
+
+
+0
+10
+2
+Keebio-Parts
+Diode-flipped
+
+
+0
+2
+2
+Keebio-Parts
+Diode-hybrid-3pad
+
+
+0
+6
+2
+Keebio-Parts
+Diode_Long
+
+
+0
+2
+2
+Keebio-Parts
+Elite-C
+
+
+0
+29
+29
+Keebio-Parts
+Elite-C-ZigZag
+
+
+0
+29
+29
+Keebio-Parts
+Epson_TSX-3225
+
+
+0
+4
+4
+Keebio-Parts
+Fuse_0805
+SMT, 2012, 0805
+SMT, 2012, 0805
+0
+2
+2
+Keebio-Parts
+HRO-TYPE-C-31-M-12-Assembly
+
+
+0
+16
+13
+Keebio-Parts
+Header-6-Pin-ZigZag
+Through hole straight socket strip, 1x06, 2.54mm pitch, single row
+Through hole socket strip THT 1x06 2.54mm single row
+0
+6
+6
+Keebio-Parts
+Header-12-Pin-ZigZag
+Through hole straight socket strip, 1x06, 2.54mm pitch, single row
+Through hole socket strip THT 1x06 2.54mm single row
+0
+12
+12
+Keebio-Parts
+Header-12-Pin-ZigZag-Square
+Through hole straight socket strip, 1x06, 2.54mm pitch, single row
+Through hole socket strip THT 1x06 2.54mm single row
+0
+12
+12
+Keebio-Parts
+Hybrid_PCB_100H
+
+
+0
+2
+2
+Keebio-Parts
+Hybrid_PCB_100H_Dual_hole
+
+
+0
+16
+2
+Keebio-Parts
+Hybrid_PCB_100H_Dual_hole-LED
+
+
+0
+14
+4
+Keebio-Parts
+Hybrid_PCB_100H_Dual_hole-LEDflip
+
+
+0
+18
+4
+Keebio-Parts
+Hybrid_PCB_100H_Dual_hole-flip
+
+
+0
+16
+2
+Keebio-Parts
+Hybrid_PCB_100H_Dual_hole-nosilk
+
+
+0
+12
+2
+Keebio-Parts
+Hybrid_PCB_100H_Dual_hole-nosilk-flip
+
+
+0
+12
+2
+Keebio-Parts
+Hybrid_PCB_100H_dual_hole_simpler
+
+
+0
+4
+2
+Keebio-Parts
+Hybrid_PCB_100H_hole
+
+
+0
+6
+2
+Keebio-Parts
+Hybrid_PCB_100H_no-silk
+
+
+0
+6
+2
+Keebio-Parts
+Hybrid_PCB_125H
+
+
+0
+2
+2
+Keebio-Parts
+Hybrid_PCB_125H_Dual_hole-nosilk
+
+
+0
+12
+2
+Keebio-Parts
+Hybrid_PCB_150H
+
+
+0
+2
+2
+Keebio-Parts
+Hybrid_PCB_150H-dual
+
+
+0
+4
+2
+Keebio-Parts
+Hybrid_PCB_175H
+
+
+0
+2
+2
+Keebio-Parts
+Hybrid_PCB_200H
+
+
+0
+2
+2
+Keebio-Parts
+Hybrid_PCB_200H-dual
+
+
+0
+4
+2
+Keebio-Parts
+Hybrid_PCB_200H-dual-LED
+
+
+0
+14
+4
+Keebio-Parts
+Hybrid_PCB_200H-dual-nosilk
+
+
+0
+12
+2
+Keebio-Parts
+Hybrid_PCB_200V
+
+
+0
+2
+2
+Keebio-Parts
+Hybrid_PCB_225H
+
+
+0
+2
+2
+Keebio-Parts
+Hybrid_PCB_275H
+
+
+0
+2
+2
+Keebio-Parts
+Hybrid_PCB_625H
+
+
+0
+2
+2
+Keebio-Parts
+Hybrid_Plate_100H
+
+
+0
+2
+2
+Keebio-Parts
+Hybrid_Plate_125H
+
+
+0
+2
+2
+Keebio-Parts
+Hybrid_Plate_150H
+
+
+0
+2
+2
+Keebio-Parts
+Hybrid_Plate_175H
+
+
+0
+2
+2
+Keebio-Parts
+Hybrid_Plate_200H
+
+
+0
+2
+2
+Keebio-Parts
+Hybrid_Plate_200H-dual
+
+
+0
+4
+2
+Keebio-Parts
+Hybrid_Plate_200H-dual-nosilk
+
+
+0
+12
+2
+Keebio-Parts
+Hybrid_Plate_200V
+
+
+0
+2
+2
+Keebio-Parts
+Hybrid_Plate_225H
+
+
+0
+2
+2
+Keebio-Parts
+Hybrid_Plate_275H
+
+
+0
+2
+2
+Keebio-Parts
+Hybrid_Plate_625H
+
+
+0
+2
+2
+Keebio-Parts
+ICSP-Header
+Through hole straight socket strip, 1x06, 2.54mm pitch, single row
+Through hole socket strip THT 1x06 2.54mm single row
+0
+6
+6
+Keebio-Parts
+ICSP-Header-ZigZag
+Through hole straight socket strip, 1x06, 2.54mm pitch, single row
+Through hole socket strip THT 1x06 2.54mm single row
+0
+6
+6
+Keebio-Parts
+JUMPER_SMD_2DUB
+
+
+0
+12
+2
+Keebio-Parts
+KLJ-1102
+
+
+0
+2
+2
+Keebio-Parts
+Kailh-PG1350-1.5u
+
+
+0
+4
+4
+Keebio-Parts
+Kailh-PG1350-1.25u
+
+
+0
+4
+4
+Keebio-Parts
+Kailh-PG1350-1.25u-LED-flip
+
+
+0
+4
+4
+Keebio-Parts
+Kailh-PG1350-1u
+
+
+0
+4
+4
+Keebio-Parts
+Kailh-PG1350-1u-No-Clickhole
+
+
+0
+4
+4
+Keebio-Parts
+Kailh-PG1350-1u-reversible
+
+
+0
+5
+4
+Keebio-Parts
+Kailh-PG1350-1u-reversible-No-Clickhole
+
+
+0
+5
+4
+Keebio-Parts
+Kailh-PG1350-1u-reversible-flip
+
+
+0
+5
+4
+Keebio-Parts
+Kailh-PG1350-2.5u
+
+
+0
+4
+4
+Keebio-Parts
+Kailh-PG1350-2u
+
+
+0
+4
+4
+Keebio-Parts
+Keebio
+
+
+0
+0
+0
+Keebio-Parts
+KeebioSite
+
+
+0
+0
+0
+Keebio-Parts
+KeebioWebsite
+
+
+0
+0
+0
+Keebio-Parts
+LED_3mm
+
+
+0
+2
+2
+Keebio-Parts
+LQFP-48_7x7mm_Pitch0.5mm
+48 LEAD LQFP 7x7mm (see MICREL LQFP7x7-48LD-PL-1.pdf)
+QFP 0.5
+0
+48
+48
+Keebio-Parts
+LongOvalCut
+
+
+0
+0
+0
+Keebio-Parts
+Low-Profile-Choc-MX
+
+
+0
+5
+4
+Keebio-Parts
+MD_Diode
+
+
+0
+2
+2
+Keebio-Parts
+MX-Alps-Choc-1U
+
+
+0
+8
+4
+Keebio-Parts
+MX-Alps-Choc-1U-No-Clickhole
+
+
+0
+8
+4
+Keebio-Parts
+MX-Alps-Choc-1U-NoLED
+
+
+0
+6
+2
+Keebio-Parts
+MX-Alps-Choc-1U-NoLED-Alt
+
+
+0
+6
+2
+Keebio-Parts
+MX-Alps-Choc-2U
+
+
+0
+8
+4
+Keebio-Parts
+MX-Alps-Choc-2U-StabFlip
+
+
+0
+8
+4
+Keebio-Parts
+MX-Alps_DMask
+
+
+0
+2
+1
+Keebio-Parts
+MX-Alps_FMask
+
+
+0
+2
+1
+Keebio-Parts
+MX-Alps_FMask-2u
+
+
+0
+2
+1
+Keebio-Parts
+MX-Alps_Switch_Cutout
+
+
+0
+2
+1
+Keebio-Parts
+MX-Alps_Switch_Cutout-1u_1.25u
+
+
+0
+0
+0
+Keebio-Parts
+MX-Alps_Switch_Cutout-1u_1.25u-3u-wide
+
+
+0
+0
+0
+Keebio-Parts
+MX-Alps_Switch_Cutout-1u_2u
+
+
+0
+2
+1
+Keebio-Parts
+MX-Alps_Switch_Cutout-3u-wide
+
+
+0
+0
+0
+Keebio-Parts
+MX-Quad
+MX/Alps footprint
+
+0
+8
+2
+Keebio-Parts
+MX_FMask
+
+
+0
+2
+1
+Keebio-Parts
+MX_FMask-2u
+
+
+0
+3
+1
+Keebio-Parts
+MX_FMask-2u-with-cutout
+
+
+0
+2
+1
+Keebio-Parts
+MX_FMask-with-cutout
+
+
+0
+2
+1
+Keebio-Parts
+MX_LED
+
+
+0
+2
+2
+Keebio-Parts
+MX_PCB_100H
+
+
+0
+2
+2
+Keebio-Parts
+MX_PCB_125H
+
+
+0
+2
+2
+Keebio-Parts
+MX_PCB_150H
+
+
+0
+2
+2
+Keebio-Parts
+MX_PCB_175H
+
+
+0
+2
+2
+Keebio-Parts
+MX_PCB_200H
+
+
+0
+2
+2
+Keebio-Parts
+MX_PCB_200V
+
+
+0
+2
+2
+Keebio-Parts
+MX_PCB_225H
+
+
+0
+2
+2
+Keebio-Parts
+MX_PCB_275H
+
+
+0
+2
+2
+Keebio-Parts
+MX_PCB_625H
+
+
+0
+2
+2
+Keebio-Parts
+MX_PCB_700H
+
+
+0
+2
+2
+Keebio-Parts
+MX_Plate_100H
+
+
+0
+2
+2
+Keebio-Parts
+MX_Plate_125H
+
+
+0
+2
+2
+Keebio-Parts
+MX_Plate_150H
+
+
+0
+2
+2
+Keebio-Parts
+MX_Plate_175H
+
+
+0
+2
+2
+Keebio-Parts
+MX_Plate_200H
+
+
+0
+2
+2
+Keebio-Parts
+MX_Plate_200V
+
+
+0
+2
+2
+Keebio-Parts
+MX_Plate_225H
+
+
+0
+2
+2
+Keebio-Parts
+MX_Plate_275H
+
+
+0
+2
+2
+Keebio-Parts
+MX_Plate_625H
+
+
+0
+2
+2
+Keebio-Parts
+MX_Plate_700H
+
+
+0
+2
+2
+Keebio-Parts
+MX_Stabilizer_Cutout
+
+
+0
+0
+0
+Keebio-Parts
+MX_Stabilizer_Cutout-2u
+
+
+0
+0
+0
+Keebio-Parts
+MX_Switch_Cutout
+
+
+0
+0
+0
+Keebio-Parts
+MX_Switch_Mod_Cutout
+
+
+0
+0
+0
+Keebio-Parts
+Mini-USB
+
+
+0
+7
+6
+Keebio-Parts
+Mooninite-craft
+
+
+0
+0
+0
+Keebio-Parts
+Mooninites
+
+
+0
+0
+0
+Keebio-Parts
+MountingHole
+
+
+0
+1
+0
+Keebio-Parts
+Nyquist
+
+
+0
+0
+0
+Keebio-Parts
+NyquistPlot
+
+
+0
+0
+0
+Keebio-Parts
+QFN-44-1EP_7x7mm_Pitch0.5mm
+UK Package; 44-Lead Plastic QFN (7mm x 7mm); (see Linear Technology QFN_44_05-08-1763.pdf)
+QFN 0.5
+0
+60
+45
+Keebio-Parts
+RGBW_LED_5mm
+
+
+0
+4
+4
+Keebio-Parts
+R_0402
+Resistor SMD 0402, reflow soldering, Vishay (see dcrcw.pdf)
+resistor 0402
+0
+2
+2
+Keebio-Parts
+R_0603
+SMT, 1608, 0603
+SMT, 1608, 0603
+0
+2
+2
+Keebio-Parts
+R_0805
+SMT, 2012, 0805
+SMT, 2012, 0805
+0
+2
+2
+Keebio-Parts
+Resistor
+
+
+0
+2
+2
+Keebio-Parts
+Resistor-Compact
+
+
+0
+2
+2
+Keebio-Parts
+Resistor-Compact-1-side
+
+
+0
+2
+2
+Keebio-Parts
+Resistor-Hybrid
+
+
+0
+10
+2
+Keebio-Parts
+Resistor-Hybrid-Back
+
+
+0
+6
+2
+Keebio-Parts
+RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm
+Alps rotary encoder, EC12E... with switch, vertical shaft, http://www.alps.com/prod/info/E/HTML/Encoder/Incremental/EC11/EC11E15204A3.html
+rotary encoder
+0
+7
+6
+Keebio-Parts
+RotaryEncoder_EC11
+Alps rotary encoder, EC12E... with switch, vertical shaft, http://www.alps.com/prod/info/E/HTML/Encoder/Incremental/EC11/EC11E15204A3.html
+rotary encoder
+0
+5
+5
+Keebio-Parts
+RotaryEncoder_EC11-no-legs
+Alps rotary encoder, EC12E... with switch, vertical shaft, http://www.alps.com/prod/info/E/HTML/Encoder/Incremental/EC11/EC11E15204A3.html
+rotary encoder
+0
+5
+5
+Keebio-Parts
+SM0805D
+
+
+0
+2
+2
+Keebio-Parts
+SOIC-8_3.9x4.9mm_Pitch1.27mm
+8-Lead Plastic Small Outline (SN) - Narrow, 3.90 mm Body [SOIC] (see Microchip Packaging Specification 00000049BS.pdf)
+SOIC 1.27
+0
+8
+8
+Keebio-Parts
+SOT-23
+SOT-23, Standard
+SOT-23
+0
+3
+3
+Keebio-Parts
+SOT-23_Handsoldering
+SOT-23, Handsoldering
+SOT-23
+0
+3
+3
+Keebio-Parts
+SOT-143B
+SOT143B
+
+0
+4
+4
+Keebio-Parts
+SOT-363_SC-70-6
+SOT-363, SC-70-6
+SOT-363 SC-70-6
+0
+6
+6
+Keebio-Parts
+SS-Aliasing
+
+
+0
+0
+0
+Keebio-Parts
+SS-DigitalLPF
+
+
+0
+0
+0
+Keebio-Parts
+SW_SPST_3x3
+Low-profile SMD Tactile Switch, https://www.e-switch.com/system/asset/product_line/data_sheet/165/TL3342.pdf
+SPST Tactile Switch
+0
+4
+2
+Keebio-Parts
+SW_SPST_TL3342
+Low-profile SMD Tactile Switch, https://www.e-switch.com/system/asset/product_line/data_sheet/165/TL3342.pdf
+SPST Tactile Switch
+0
+4
+2
+Keebio-Parts
+SW_Tactile_SPST_Angled_MJTP1117
+tactile switch SPST right angle, PTS645VL39-2 LFS
+tactile switch SPST angled PTS645VL39-2 LFS C&K Button
+0
+4
+2
+Keebio-Parts
+SW_Tactile_SPST_Angled_MJTP1117-no-mount
+tactile switch SPST right angle, PTS645VL39-2 LFS
+tactile switch SPST angled PTS645VL39-2 LFS C&K Button
+0
+2
+2
+Keebio-Parts
+SinglePad
+
+
+0
+1
+1
+Keebio-Parts
+SolderJumper
+
+
+0
+4
+3
+Keebio-Parts
+SolderJumperLeft
+
+
+0
+3
+3
+Keebio-Parts
+SolderJumperPair
+
+
+0
+6
+3
+Keebio-Parts
+SolderJumperRight
+
+
+0
+3
+3
+Keebio-Parts
+SolderJumperSet
+
+
+0
+12
+6
+Keebio-Parts
+SolderJumperSets
+
+
+0
+6
+2
+Keebio-Parts
+SolidCopper
+Mounting Hole 2.2mm, M2
+mounting hole 2.2mm m2
+0
+2
+1
+Keebio-Parts
+SquirtleSquadLeader
+
+
+0
+0
+0
+Keebio-Parts
+TQFP-44_10x10mm_Pitch0.8mm
+44-Lead Plastic Thin Quad Flatpack (PT) - 10x10x1.0 mm Body [TQFP] (see Microchip Packaging Specification 00000049BS.pdf)
+QFP 0.8
+0
+44
+44
+Keebio-Parts
+TQFP-48_7x7mm_Pitch0.5mm
+48 LEAD TQFP 7x7mm (see MICREL TQFP7x7-48LD-PL-1.pdf)
+QFP 0.5
+0
+48
+48
+Keebio-Parts
+TRRS-PJ-320A
+
+
+0
+4
+4
+Keebio-Parts
+TRRS-PJ-320A-dual
+
+
+0
+5
+4
+Keebio-Parts
+TRRS-PJ-320A-no-Fmask
+
+
+0
+8
+4
+Keebio-Parts
+TRRS-PJ-320D
+
+
+0
+4
+4
+Keebio-Parts
+TRRS_Jack
+
+
+0
+6
+6
+Keebio-Parts
+TRRS_Jack-one-sided
+
+
+0
+4
+4
+Keebio-Parts
+TRRS_Jumper
+
+
+0
+6
+6
+Keebio-Parts
+Teensy_2.0
+
+
+0
+31
+31
+Keebio-Parts
+Triple-Dual-1u-LED
+
+
+0
+21
+4
+Keebio-Parts
+Triple-Dual-1u-LED-flip
+
+
+0
+21
+4
+Keebio-Parts
+Triple-Dual-2u-LED
+
+
+0
+21
+4
+Keebio-Parts
+Triple-Dual-2u-LED-stab-flip
+
+
+0
+21
+4
+Keebio-Parts
+USB-C-12-Pin-MidMount
+
+
+0
+16
+13
+Keebio-Parts
+USB-Mini-B_ LCSC-C46398
+
+
+0
+9
+6
+Keebio-Parts
+USB-Mini-B_2leg
+
+
+0
+7
+6
+Keebio-Parts
+USB_miniB_HandSolder
+http://www.hirose.co.jp/cataloge_hp/e24000019.pdf
+USB miniB hirose
+0
+9
+9
+Keebio-Parts
+Untitled
+
+
+0
+0
+0
+Keebio-Parts
+VIA-0.6mm
+
+
+0
+1
+1
+Keebio-Parts
+WS2812B
+
+
+0
+4
+4
+Keebio-Parts
+breakaway-hole
+
+
+0
+0
+0
+Keebio-Parts
+breakaway-hole-big
+
+
+0
+0
+0
+Keebio-Parts
+breakaway-mousebites
+
+
+0
+0
+0
+Keebio-Parts
+keebio-tag
+
+
+0
+0
+0
+Keebio-Parts
+solder_jumper
+
+
+0
+2
+2
+Keebio-Parts
+trs
+
+
+0
+7
+7
+MX_Alps_Hybrid
+MX-1.5U
+
+
+0
+6
+4
+MX_Alps_Hybrid
+MX-1.5U-FLIPPED
+
+
+0
+6
+4
+MX_Alps_Hybrid
+MX-1.5U-NoLED
+
+
+0
+4
+2
+MX_Alps_Hybrid
+MX-1.5U-Vertical
+
+
+0
+6
+4
+MX_Alps_Hybrid
+MX-1.25U
+
+
+0
+6
+4
+MX_Alps_Hybrid
+MX-1.25U-FLIPPED
+
+
+0
+6
+4
+MX_Alps_Hybrid
+MX-1.25U-NoLED
+
+
+0
+4
+2
+MX_Alps_Hybrid
+MX-1.75U
+
+
+0
+6
+4
+MX_Alps_Hybrid
+MX-1.75U-FLIPPED
+
+
+0
+6
+4
+MX_Alps_Hybrid
+MX-1.75U-NoLED
+
+
+0
+4
+2
+MX_Alps_Hybrid
+MX-1U
+
+
+0
+6
+4
+MX_Alps_Hybrid
+MX-1U-FLIPPED
+
+
+0
+6
+4
+MX_Alps_Hybrid
+MX-1U-NoLED
+
+
+0
+4
+2
+MX_Alps_Hybrid
+MX-2.5U
+
+
+0
+6
+4
+MX_Alps_Hybrid
+MX-2.5U-FLIPPED
+
+
+0
+6
+4
+MX_Alps_Hybrid
+MX-2.5U-FLIPPED-ReversedStabilizers
+
+
+0
+6
+4
+MX_Alps_Hybrid
+MX-2.5U-NoLED
+
+
+0
+4
+2
+MX_Alps_Hybrid
+MX-2.5U-ReversedStabilizers
+
+
+0
+6
+4
+MX_Alps_Hybrid
+MX-2.5U-ReversedStabilizers-NoLED
+
+
+0
+4
+2
+MX_Alps_Hybrid
+MX-2.25U
+
+
+0
+6
+4
+MX_Alps_Hybrid
+MX-2.25U-FLIPPED
+
+
+0
+6
+4
+MX_Alps_Hybrid
+MX-2.25U-FLIPPED-ReversedStabilizers
+
+
+0
+6
+4
+MX_Alps_Hybrid
+MX-2.25U-NoLED
+
+
+0
+4
+2
+MX_Alps_Hybrid
+MX-2.25U-ReversedStabilizers
+
+
+0
+6
+4
+MX_Alps_Hybrid
+MX-2.25U-ReversedStabilizers-NoLED
+
+
+0
+4
+2
+MX_Alps_Hybrid
+MX-2.75U
+
+
+0
+6
+4
+MX_Alps_Hybrid
+MX-2.75U-FLIPPED
+
+
+0
+6
+4
+MX_Alps_Hybrid
+MX-2.75U-FLIPPED-ReversedStabilizers
+
+
+0
+6
+4
+MX_Alps_Hybrid
+MX-2.75U-NoLED
+
+
+0
+4
+2
+MX_Alps_Hybrid
+MX-2.75U-ReversedStabilizers
+
+
+0
+6
+4
+MX_Alps_Hybrid
+MX-2.75U-ReversedStabilizers-NoLED
+
+
+0
+4
+2
+MX_Alps_Hybrid
+MX-2U
+
+
+0
+6
+4
+MX_Alps_Hybrid
+MX-2U-FLIPPED
+
+
+0
+6
+4
+MX_Alps_Hybrid
+MX-2U-FLIPPED-ReversedStabilizers
+
+
+0
+6
+4
+MX_Alps_Hybrid
+MX-2U-NoLED
+
+
+0
+4
+2
+MX_Alps_Hybrid
+MX-2U-ReversedStabilizers
+
+
+0
+6
+4
+MX_Alps_Hybrid
+MX-2U-ReversedStabilizers-NoLED
+
+
+0
+4
+2
+MX_Alps_Hybrid
+MX-3U
+
+
+0
+6
+4
+MX_Alps_Hybrid
+MX-3U-FLIPPED
+
+
+0
+6
+4
+MX_Alps_Hybrid
+MX-3U-FLIPPED-ReversedStabilizers
+
+
+0
+6
+4
+MX_Alps_Hybrid
+MX-3U-NoLED
+
+
+0
+4
+2
+MX_Alps_Hybrid
+MX-3U-ReversedStabilizers
+
+
+0
+6
+4
+MX_Alps_Hybrid
+MX-3U-ReversedStabilizers-NoLED
+
+
+0
+4
+2
+MX_Alps_Hybrid
+MX-6.5U
+
+
+0
+6
+4
+MX_Alps_Hybrid
+MX-6.5U-FLIPPED
+
+
+0
+6
+4
+MX_Alps_Hybrid
+MX-6.5U-FLIPPED-NoStabilizers
+
+
+0
+6
+4
+MX_Alps_Hybrid
+MX-6.5U-FLIPPED-ReversedStabilizers
+
+
+0
+6
+4
+MX_Alps_Hybrid
+MX-6.5U-NoLED
+
+
+0
+4
+2
+MX_Alps_Hybrid
+MX-6.5U-ReversedStabilizers
+
+
+0
+6
+4
+MX_Alps_Hybrid
+MX-6.5U-ReversedStabilizers-NoLED
+
+
+0
+4
+2
+MX_Alps_Hybrid
+MX-6.25U
+
+
+0
+6
+4
+MX_Alps_Hybrid
+MX-6.25U-FLIPPED
+
+
+0
+6
+4
+MX_Alps_Hybrid
+MX-6.25U-FLIPPED-ReversedStabilizers
+
+
+0
+6
+4
+MX_Alps_Hybrid
+MX-6.25U-NoLED
+
+
+0
+4
+2
+MX_Alps_Hybrid
+MX-6.25U-ReversedStabilizers
+
+
+0
+6
+4
+MX_Alps_Hybrid
+MX-6.25U-ReversedStabilizers-NoLED
+
+
+0
+4
+2
+MX_Alps_Hybrid
+MX-6U
+
+
+0
+6
+4
+MX_Alps_Hybrid
+MX-6U-7UOverlay
+
+
+0
+0
+0
+MX_Alps_Hybrid
+MX-6U-7UOverlay-ReversedStabilizers
+
+
+0
+0
+0
+MX_Alps_Hybrid
+MX-6U-Centered
+
+
+0
+6
+4
+MX_Alps_Hybrid
+MX-6U-Centered-FLIPPED
+
+
+0
+6
+4
+MX_Alps_Hybrid
+MX-6U-Centered-FLIPPED-ReversedStabilizers
+
+
+0
+6
+4
+MX_Alps_Hybrid
+MX-6U-Centered-NoLED
+
+
+0
+4
+2
+MX_Alps_Hybrid
+MX-6U-Centered-ReversedStabilizers
+
+
+0
+6
+4
+MX_Alps_Hybrid
+MX-6U-Centered-ReversedStabilizers-NoLED
+
+
+0
+4
+2
+MX_Alps_Hybrid
+MX-6U-FLIPPED
+
+
+0
+6
+4
+MX_Alps_Hybrid
+MX-6U-FLIPPED-ReversedStabilizers
+
+
+0
+6
+4
+MX_Alps_Hybrid
+MX-6U-NoLED
+
+
+0
+4
+2
+MX_Alps_Hybrid
+MX-6U-ReversedStabilizers
+
+
+0
+6
+4
+MX_Alps_Hybrid
+MX-6U-ReversedStabilizers-NoLED
+
+
+0
+4
+2
+MX_Alps_Hybrid
+MX-7U
+
+
+0
+6
+4
+MX_Alps_Hybrid
+MX-7U-FLIPPED
+
+
+0
+6
+4
+MX_Alps_Hybrid
+MX-7U-FLIPPED-ReversedStabilizers
+
+
+0
+6
+4
+MX_Alps_Hybrid
+MX-7U-NoLED
+
+
+0
+4
+2
+MX_Alps_Hybrid
+MX-7U-ReversedStabilizers
+
+
+0
+6
+4
+MX_Alps_Hybrid
+MX-7U-ReversedStabilizers-NoLED
+
+
+0
+4
+2
+MX_Alps_Hybrid
+MX-8U
+
+
+0
+6
+4
+MX_Alps_Hybrid
+MX-8U-FLIPPED
+
+
+0
+6
+4
+MX_Alps_Hybrid
+MX-8U-FLIPPED-ReversedStabilizers
+
+
+0
+6
+4
+MX_Alps_Hybrid
+MX-8U-NoLED
+
+
+0
+4
+2
+MX_Alps_Hybrid
+MX-8U-ReversedStabilizers
+
+
+0
+6
+4
+MX_Alps_Hybrid
+MX-8U-ReversedStabilizers-NoLED
+
+
+0
+4
+2
+MX_Alps_Hybrid
+MX-9U
+
+
+0
+6
+4
+MX_Alps_Hybrid
+MX-9U-FLIPPED
+
+
+0
+6
+4
+MX_Alps_Hybrid
+MX-9U-FLIPPED-ReversedStabilizers
+
+
+0
+6
+4
+MX_Alps_Hybrid
+MX-9U-NoLED
+
+
+0
+4
+2
+MX_Alps_Hybrid
+MX-9U-ReversedStabilizers
+
+
+0
+6
+4
+MX_Alps_Hybrid
+MX-9U-ReversedStabilizers-NoLED
+
+
+0
+4
+2
+MX_Alps_Hybrid
+MX-10U
+
+
+0
+6
+4
+MX_Alps_Hybrid
+MX-10U-FLIPPED
+
+
+0
+6
+4
+MX_Alps_Hybrid
+MX-10U-FLIPPED-ReversedStabilizers
+
+
+0
+6
+4
+MX_Alps_Hybrid
+MX-10U-NoLED
+
+
+0
+4
+2
+MX_Alps_Hybrid
+MX-10U-ReversedStabilizers
+
+
+0
+6
+4
+MX_Alps_Hybrid
+MX-10U-ReversedStabilizers-NoLED
+
+
+0
+4
+2
+MX_Alps_Hybrid
+MX-ISO
+
+
+0
+8
+4
+MX_Alps_Hybrid
+MX-ISO-FLIPPED
+
+
+0
+8
+4
+MX_Alps_Hybrid
+MX-ISO-FLIPPED-ReversedStabilizers
+
+
+0
+8
+4
+MX_Alps_Hybrid
+MX-ISO-ReversedStabilizers
+
+
+0
+8
+4
+MX_Alps_Hybrid
+MX-LEDONLY
+
+
+0
+2
+2
+MX_Alps_Hybrid
+MX-LEDONLY-FLIPPED
+
+
+0
+2
+2
+TheKeebrary
+AT90USB1286_TQFP_14mm
+64-Lead Plastic Thin Quad Flatpack (PF) - 14x14x1 mm Body, 2.00 mm [TQFP] (see Microchip Packaging Specification 00000049BS.pdf)
+QFP 0.8
+0
+64
+64
+TheKeebrary
+ATMEGA32U4-AU
+
+
+0
+44
+44
+TheKeebrary
+CandK_6x6mm_Tactile
+
+
+0
+4
+4
+TheKeebrary
+Diode
+
+
+0
+2
+2
+TheKeebrary
+Epson_TSX-3225
+
+
+0
+4
+4
+TheKeebrary
+Hybrid_PCB_100H
+
+
+0
+2
+2
+TheKeebrary
+Hybrid_PCB_125H
+
+
+0
+2
+2
+TheKeebrary
+Hybrid_PCB_150H
+
+
+0
+2
+2
+TheKeebrary
+Hybrid_PCB_175H
+
+
+0
+2
+2
+TheKeebrary
+Hybrid_PCB_200H
+
+
+0
+2
+2
+TheKeebrary
+Hybrid_PCB_200V
+
+
+0
+2
+2
+TheKeebrary
+Hybrid_PCB_225H
+
+
+0
+2
+2
+TheKeebrary
+Hybrid_PCB_275H
+
+
+0
+2
+2
+TheKeebrary
+Hybrid_PCB_625H
+
+
+0
+2
+2
+TheKeebrary
+Hybrid_Plate_100H
+
+
+0
+2
+2
+TheKeebrary
+Hybrid_Plate_125H
+
+
+0
+2
+2
+TheKeebrary
+Hybrid_Plate_150H
+
+
+0
+2
+2
+TheKeebrary
+Hybrid_Plate_175H
+
+
+0
+2
+2
+TheKeebrary
+Hybrid_Plate_200H
+
+
+0
+2
+2
+TheKeebrary
+Hybrid_Plate_200V
+
+
+0
+2
+2
+TheKeebrary
+Hybrid_Plate_225H
+
+
+0
+2
+2
+TheKeebrary
+Hybrid_Plate_275H
+
+
+0
+2
+2
+TheKeebrary
+Hybrid_Plate_625H
+
+
+0
+2
+2
+TheKeebrary
+LED_3mm
+
+
+0
+2
+2
+TheKeebrary
+MD_Diode
+
+
+0
+2
+2
+TheKeebrary
+MX_LED
+
+
+0
+2
+2
+TheKeebrary
+MX_PCB_100H
+
+
+0
+2
+2
+TheKeebrary
+MX_PCB_125H
+
+
+0
+2
+2
+TheKeebrary
+MX_PCB_150H
+
+
+0
+2
+2
+TheKeebrary
+MX_PCB_175H
+
+
+0
+2
+2
+TheKeebrary
+MX_PCB_200H
+
+
+0
+2
+2
+TheKeebrary
+MX_PCB_200V
+
+
+0
+2
+2
+TheKeebrary
+MX_PCB_225H
+
+
+0
+2
+2
+TheKeebrary
+MX_PCB_275H
+
+
+0
+2
+2
+TheKeebrary
+MX_PCB_625H
+
+
+0
+2
+2
+TheKeebrary
+MX_PCB_700H
+
+
+0
+2
+2
+TheKeebrary
+MX_Plate_100H
+
+
+0
+2
+2
+TheKeebrary
+MX_Plate_125H
+
+
+0
+2
+2
+TheKeebrary
+MX_Plate_150H
+
+
+0
+2
+2
+TheKeebrary
+MX_Plate_175H
+
+
+0
+2
+2
+TheKeebrary
+MX_Plate_200H
+
+
+0
+2
+2
+TheKeebrary
+MX_Plate_200V
+
+
+0
+2
+2
+TheKeebrary
+MX_Plate_225H
+
+
+0
+2
+2
+TheKeebrary
+MX_Plate_275H
+
+
+0
+2
+2
+TheKeebrary
+MX_Plate_625H
+
+
+0
+2
+2
+TheKeebrary
+MX_Plate_700H
+
+
+0
+2
+2
+TheKeebrary
+RGBW_LED_5mm
+
+
+0
+4
+4
+TheKeebrary
+Resistor
+
+
+0
+2
+2
+TheKeebrary
+Teensy_2.0
+
+
+0
+31
+31
+TheKeebrary
+Test_Point_9Pads
+Connecteurs 2 pins
+CONN DEV
+0
+9
+9
+footprints
+DS112805S8B8P
+DS1128-05-S8B8P-2
+Connector
+0
+8
+8
+footprints
+RJ12_Amphenol_54601
+RJ12 connector  https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/c-bmj-0082.pdf
+RJ12 connector
+0
+6
+6
+footprints
+RJ25_Wayconn_MJEA-660X1_Horizontal
+RJ25 6P6C Socket 90 degrees, https://wayconn.com/wp-content/themes/way/datasheet/MJEA-660X1XXX_RJ25_6P6C_PCB_RA.pdf
+RJ12 RJ18 RJ25 jack connector 6P6C
+0
+6
+6
+footprints
+RJ45_Abracon_ARJP11A-MA_Horizontal
+Shielded RJ45 ethernet connector with transformer and POE (https://abracon.com/Magnetics/lan/ARJP11A.PDF)
+ethernet 8p8c transformer poe rj45
+0
+15
+14
+footprints
+RJ45_Amphenol_54602-x08_Horizontal
+8 Pol Shallow Latch Connector, Modjack, RJ45 (https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/c-bmj-0102.pdf)
+RJ45
+0
+8
+8
+footprints
+RJ45_Amphenol_RJHSE538X
+Shielded, 2 LED, https://www.amphenolcanada.com/ProductSearch/drawings/AC/RJHSE538X.pdf
+RJ45 8p8c ethernet cat5
+0
+14
+13
+footprints
+RJ45_Amphenol_RJHSE538X-02
+Shielded, 2 LED, 2 Ports, http://www.amphenolinfocom.eu/NavData/Drawings/RJHSE-538X-02-REVC.pdf
+RJ45 8p8c dual ethernet cat5
+0
+26
+25
+footprints
+RJ45_Amphenol_RJHSE5380
+Shielded, https://www.amphenolcanada.com/ProductSearch/drawings/AC/RJHSE538X.pdf
+RJ45 8p8c ethernet cat5
+0
+10
+9
+footprints
+RJ45_Amphenol_RJHSE5380-08
+Shielded, https://www.amphenolcanada.com/ProductSearch/drawings/AC/RJHSE538X08.pdf
+RJ45 8p8c ethernet cat5
+0
+68
+65
+footprints
+RJ45_Amphenol_RJMG1BD3B8K1ANR
+1 Port RJ45 Magjack Connector Through Hole 10/100 Base-T, AutoMDIX, https://www.amphenolcanada.com/ProductSearch/Drawings/AC/RJMG1BD3B8K1ANR.PDF
+RJ45 Magjack
+0
+14
+13
+footprints
+RJ45_BEL_SS74301-00x_Vertical
+https://belfuse.com/resources/drawings/stewartconnector/dr-stw-ss-74301-001-ss-74301-002-ss-74301-005.pdf
+RJ45 Vertical Shield LED Green Yellow
+0
+14
+13
+footprints
+RJ45_Cetus_J1B1211CCD_Horizontal
+1 Port RJ45 Magjack Connector Through Hole 10/100 Base-T, Cetus, used and distributed by WIZnet (https://wizwiki.net/wiki/lib/exe/fetch.php?media=products:wiz550web:wiz550webds_kr:j1b1211ccd.pdf)
+RJ45 Magjack
+0
+14
+13
+footprints
+RJ45_Hanrun_HR911105A
+http://www.kosmodrom.com.ua/pdf/HR911105A.pdf
+RJ45 Magjack
+0
+14
+13
+footprints
+RJ45_OST_PJ012-8P8CX_Vertical
+RJ45 vertical connector http://www.on-shore.com/wp-content/uploads/2015/09/PJ012-8P8CX.pdf
+RJ45 PJ012
+0
+8
+8
+footprints
+RJ45_Plug_Metz_AJP92A8813
+plug, ethernet, 8P8C, RJ45 Plug
+AJP92A8813 8P8C RJ45 ethernet plug
+0
+8
+8
+footprints
+RJ45_Pulse_JK0654219NL_Horizontal
+10/100/1000 Base-T RJ45 single port with LEDs https://media.digikey.com/pdf/Data%20Sheets/Pulse%20PDFs/JK%20Series.pdf#page=2
+RJ45 8p8c ethernet
+0
+18
+17
+footprints
+RJ45_Pulse_JXD6-0001NL_Horizontal
+RJ45 ethernet transformer with magnetics (https://productfinder.pulseeng.com/doc_type/WEB301/doc_num/JXD6-0001NL/doc_part/JXD6-0001NL.pdf)
+ethernet 8p8c transformer magjack
+0
+12
+11
+footprints
+RJ45_Wuerth_7499010121A_Horizontal
+10/100Base-TX RJ45 ethernet magnetic transformer connector horizontal https://katalog.we-online.de/pbs/datasheet/7499010121A.pdf
+RJ45 ethernet magnetic
+0
+14
+13
+footprints
+RJ45_Wuerth_7499151120_Horizontal
+Wuerth 7499151120, LAN-Transformer WE-RJ45LAN 10/100/1000 BaseT, Dual Ethernet Jack (http://katalog.we-online.de/pbs/datasheet/7499151120.pdf)
+ethernet lan connector
+0
+32
+29
+footprints
+RJ45_Wuerth_74980111211_Horizontal
+RJ45 LAN Transformer 10/100BaseT (https://katalog.we-online.de/pbs/datasheet/74980111211.pdf)
+lan magnetics transformer
+0
+14
+13
+keebs.pretty
+Mx_Alps_100
+MXALPS
+MXALPS
+0
+2
+2
+keebs.pretty
+Mx_Alps_125
+MXALPS
+MXALPS
+0
+2
+2
+keebs.pretty
+Mx_Alps_150
+MXALPS
+MXALPS
+0
+2
+2
+keebs.pretty
+Mx_Alps_175
+MXALPS
+MXALPS
+0
+2
+2
+keebs.pretty
+Mx_Alps_200
+MXALPS
+MXALPS
+0
+2
+2
+keebs.pretty
+Mx_Alps_225
+MXALPS
+MXALPS
+0
+2
+2
+keebs.pretty
+Mx_Alps_275
+MXALPS
+MXALPS
+0
+2
+2
+keebs.pretty
+Mx_Alps_625
+MXALPS
+MXALPS
+0
+2
+2
+keebs.pretty
+Pro_Micro
+
+
+0
+24
+24
+keebs.pretty
+Teensy_20
+
+
+0
+31
+31
+keyboard_parts.pretty
+4P4C
+http://www.assmann.us/specs/A-2004-3-4-LP-N-R_REV00.pdf
+4P4C, RJ
+0
+6
+6
+keyboard_parts.pretty
+ALPS_PLATE_SPRING
+http://deskthority.net/wiki/File:Alps_Electric_--_spec_--_5454_31.pdf
+ALPS, keyboard switch, SKCM, SKCL
+0
+4
+3
+keyboard_parts.pretty
+ALPS_PLATE_SPRING_CUTOUT
+
+
+0
+0
+0
+keyboard_parts.pretty
+ALPS_SKCM
+http://deskthority.net/wiki/File:Alps_Electric_--_spec_--_5454_31.pdf
+ALPS, keyboard switch, SKCM, SKCL
+0
+2
+2
+keyboard_parts.pretty
+ALPS_SKCM_CUTOUT
+
+
+0
+0
+0
+keyboard_parts.pretty
+ALPS_SKCM_CUTOUT_STAB256
+
+
+0
+0
+0
+keyboard_parts.pretty
+ALPS_SKCM_CUTOUT_STAB406
+
+
+0
+0
+0
+keyboard_parts.pretty
+ALPS_SKCM_CUTOUT_STAB883
+
+
+0
+0
+0
+keyboard_parts.pretty
+ALPS_SKCM_LED
+http://deskthority.net/wiki/File:Alps_Electric_--_spec_--_5454_31.pdf
+ALPS, keyboard switch, SKCM, SKCL
+0
+4
+4
+keyboard_parts.pretty
+ALPS_SKCM_reverse_pad
+http://deskthority.net/wiki/File:Alps_Electric_--_spec_--_5454_31.pdf
+ALPS, keyboard switch, SKCM, SKCL
+0
+2
+2
+keyboard_parts.pretty
+AVR_ICSP_3x2
+Double rangee de contacts 2 x 4 pins
+CONN
+0
+6
+6
+keyboard_parts.pretty
+C_1608
+SMT, 1608, 0603
+SMT, 1608, 0603
+0
+2
+2
+keyboard_parts.pretty
+C_1608_rev2
+SMT, 1608, 0603
+SMT, 1608, 0603
+0
+2
+2
+keyboard_parts.pretty
+C_3216
+SMD, 3216, 1210, C
+SMD, 3216, 1210, C
+0
+2
+2
+keyboard_parts.pretty
+C_3216_rev2
+SMD, 3216, 1210, C
+SMD, 3216, 1210, C
+0
+2
+2
+keyboard_parts.pretty
+C_3225
+SMD, 3216, 1210, C
+SMD, 3216, 1210, C
+0
+2
+2
+keyboard_parts.pretty
+C_3528
+SMD, 3216, 1210, C
+SMD, 3216, 1210, C
+0
+2
+2
+keyboard_parts.pretty
+C_3528_pol
+SMD, 3216, 1210, C
+SMD, 3216, 1210, C
+0
+2
+2
+keyboard_parts.pretty
+C_6032
+SMD, 3216, 1210, C
+SMD, 3216, 1210, C
+0
+2
+2
+keyboard_parts.pretty
+DSUB9P
+
+
+0
+11
+10
+keyboard_parts.pretty
+D_SC79
+SMT, 1608, 0603
+SMT, 1608, 0603
+0
+2
+2
+keyboard_parts.pretty
+D_SOD123
+
+
+0
+2
+2
+keyboard_parts.pretty
+D_SOD123W_hand
+
+
+0
+2
+2
+keyboard_parts.pretty
+D_SOD123_axial
+
+
+0
+6
+2
+keyboard_parts.pretty
+D_SOD123_hand
+
+
+0
+2
+2
+keyboard_parts.pretty
+D_axial
+
+
+0
+2
+2
+keyboard_parts.pretty
+FA-238
+
+
+0
+4
+3
+keyboard_parts.pretty
+HC-49_SMT
+
+
+0
+2
+2
+keyboard_parts.pretty
+HHKB_JP_HRS_DF14_15P
+http://www.mouser.com/ds/2/185/e53800017-12550.pdf
+HHKB JP, HRS, Hirose, DF14, 15P
+0
+17
+17
+keyboard_parts.pretty
+HHKB_PRO2_ZH13
+http://www.jst-mfg.com/product/pdf/eng/eZH.pdf
+HHKB pro2, JST, ZH
+0
+15
+15
+keyboard_parts.pretty
+HHKB_PRO2_ZH13_TH
+http://www.jst-mfg.com/product/pdf/eng/eZH.pdf
+JST ZH 13 HHKB pro2
+0
+13
+13
+keyboard_parts.pretty
+HHKB_PRO_PH15
+http://www.jst-mfg.com/product/pdf/eng/ePH.pdf
+JST PH 15 HHKB PRO
+0
+15
+15
+keyboard_parts.pretty
+HOLE_M2.6
+
+
+0
+1
+1
+keyboard_parts.pretty
+HOLE_M3
+
+
+0
+1
+1
+keyboard_parts.pretty
+HRS_DF14_20P
+http://www.mouser.com/ds/2/185/e53800017-12550.pdf
+HHKB JP, HRS, Hirose, DF14, 15P
+0
+22
+22
+keyboard_parts.pretty
+JST_PH2_SMT
+http://www.jst-mfg.com/product/pdf/eng/ePH.pdf
+JST, PH, Lipo, battery
+0
+4
+3
+keyboard_parts.pretty
+JST_PH2_SMT_TH
+http://www.jst-mfg.com/product/pdf/eng/ePH.pdf
+JST, PH, Lipo, battery
+0
+6
+3
+keyboard_parts.pretty
+JST_PH2_TH
+
+JST, PH2, Lipo
+0
+2
+2
+keyboard_parts.pretty
+LED_0805
+LED 0805 smd package
+LED 0805 SMD
+0
+2
+2
+keyboard_parts.pretty
+LED_2012_HSOL
+LED 0805 smd package
+LED 0805 SMD
+0
+2
+2
+keyboard_parts.pretty
+LED_3020_REFLOW
+LED 0805 smd package
+LED 0805 SMD
+0
+2
+2
+keyboard_parts.pretty
+LED_3025_DUAL
+
+
+0
+4
+4
+keyboard_parts.pretty
+LED_TH
+LED 3mm - Lead pitch 100mil (2,54mm)
+LED led 3mm 3MM 100mil 2,54mm
+0
+2
+2
+keyboard_parts.pretty
+LED_TH_BIVAR
+LED 3mm - Lead pitch 100mil (2,54mm)
+LED led 3mm 3MM 100mil 2,54mm
+0
+2
+2
+keyboard_parts.pretty
+LTC4054
+
+Lipo charger
+0
+5
+5
+keyboard_parts.pretty
+L_6x6MM
+
+
+0
+2
+2
+keyboard_parts.pretty
+L_7x7MM
+
+
+0
+2
+2
+keyboard_parts.pretty
+MINI_DIN_8
+
+
+0
+11
+9
+keyboard_parts.pretty
+MOS_FET_SOT23-3_HSOL
+SOT23
+
+0
+3
+3
+keyboard_parts.pretty
+PIN_1
+
+CONN pin 1 circle
+0
+1
+1
+keyboard_parts.pretty
+PIN_1_SQUARE
+
+CONN pin 1 square
+0
+1
+1
+keyboard_parts.pretty
+PPTC_nano
+
+
+0
+2
+2
+keyboard_parts.pretty
+PTC_3225
+
+
+0
+2
+2
+keyboard_parts.pretty
+Poker_oval_hole
+
+
+0
+1
+0
+keyboard_parts.pretty
+Poker_side_edge_long
+
+
+0
+1
+0
+keyboard_parts.pretty
+QFP32
+
+
+0
+32
+32
+keyboard_parts.pretty
+QFP32_reflow
+http://www.atmel.com/images/atmel-8826-seeprom-pcb-mounting-guidelines-surface-mount-packages-applicationnote.pdf
+
+0
+32
+32
+keyboard_parts.pretty
+QFP44
+
+
+0
+44
+44
+keyboard_parts.pretty
+QFP44_reflow
+http://www.atmel.com/images/atmel-8826-seeprom-pcb-mounting-guidelines-surface-mount-packages-applicationnote.pdf
+
+0
+44
+44
+keyboard_parts.pretty
+RN42
+
+
+0
+32
+32
+keyboard_parts.pretty
+R_1608
+SMT, 1608, 0603
+SMT, 1608, 0603
+0
+2
+2
+keyboard_parts.pretty
+R_1608_NOGUIDE
+SMT, 1608, 0603
+SMT, 1608, 0603
+0
+2
+2
+keyboard_parts.pretty
+R_1608_rev2
+SMT, 1608, 0603
+SMT, 1608, 0603
+0
+2
+2
+keyboard_parts.pretty
+R_2012
+SMT, 1608, 0603
+SMT, 1608, 0603
+0
+2
+2
+keyboard_parts.pretty
+SLP3-200-100-F
+
+
+0
+0
+0
+keyboard_parts.pretty
+SM_3216_POL
+
+
+0
+2
+2
+keyboard_parts.pretty
+SOLDER_JUMPER_2
+
+solder jumper bridge configuration
+0
+2
+2
+keyboard_parts.pretty
+SOLDER_JUMPER_2_WIRED
+
+solder jumper bridge configuration
+0
+3
+1
+keyboard_parts.pretty
+SOLDER_JUMPER_3
+
+solder jumper bridge configuration
+0
+3
+3
+keyboard_parts.pretty
+SOT23-3_HSOL
+SOT23
+
+0
+3
+3
+keyboard_parts.pretty
+SOT23-5_HSOL
+SOT23
+
+0
+5
+5
+keyboard_parts.pretty
+SOT23-6_HSOL
+SOT23
+
+0
+6
+6
+keyboard_parts.pretty
+SW_ALPS_SKRP
+
+
+0
+4
+2
+keyboard_parts.pretty
+SW_ALPS_SKSG
+
+
+0
+6
+4
+keyboard_parts.pretty
+SW_ALPS_SSAA
+
+
+0
+8
+8
+keyboard_parts.pretty
+SW_MINI_SLIDE
+
+
+0
+6
+6
+keyboard_parts.pretty
+SW_TACT_TH_HORIZ
+http://www.alps.com/products/WebObjects/catalog.woa/E/HTML/Tact/SnapIn/SKHH/SKHHLMA010.html
+ALPS SKHH tactile switch
+0
+4
+4
+keyboard_parts.pretty
+SW_TACT_TH_HORIZ_LOW
+http://www.alps.com/products/WebObjects/catalog.woa/E/HTML/Tact/SnapIn/SKHL/SKHLLAA010.html
+ALPS SKHLL low tactile switch
+0
+4
+4
+keyboard_parts.pretty
+USB_A
+
+
+0
+6
+5
+keyboard_parts.pretty
+USB_A_PLUG
+
+
+0
+8
+6
+keyboard_parts.pretty
+USB_microB
+USB microB hirose ZX62R-B-5P
+USB micorB hirose
+0
+11
+6
+keyboard_parts.pretty
+USB_miniB
+http://www.hirose.co.jp/cataloge_hp/e24000019.pdf
+USB miniB hirose
+0
+9
+9
+keyboard_parts.pretty
+USB_miniB_hirose_5S8
+USB miniB hirose UX60SC-MB-5S8
+USB miniB hirose through hole UX60SC-MB-5S8
+0
+9
+6
+keyboard_parts.pretty
+USB_miniB_hirose_5ST
+USB miniB hirose UX60SC_MB_5ST
+USB miniB hirose new
+0
+7
+6
+keyboard_parts.pretty
+USB_miniB_hirose_5ST_hand
+USB miniB hirose UX60SC_MB_5ST
+USB miniB hirose new
+0
+7
+6
+keyboard_parts.pretty
+WT12_bluegiga
+
+BlueGiga, WT12, Bluetooth
+0
+31
+31
+keyboard_parts.pretty
+XTAL_HC_49_TH
+
+
+0
+2
+2
+keyboard_parts.pretty
+tmk2016
+
+
+0
+0
+0
+keyboard_parts.pretty
+tmk_logo
+
+
+0
+0
+0
+mxonly
+MXOnly-1.5U
+
+
+0
+4
+4
+mxonly
+MXOnly-1.5U-FLIPPED
+
+
+0
+4
+4
+mxonly
+MXOnly-1.5U-Hotswap
+
+
+0
+2
+2
+mxonly
+MXOnly-1.5U-NoLED
+
+
+0
+2
+2
+mxonly
+MXOnly-1.5U-Vertical
+
+
+0
+4
+4
+mxonly
+MXOnly-1.5U-Vertical-NoLED
+
+
+0
+2
+2
+mxonly
+MXOnly-1.25U
+
+
+0
+4
+4
+mxonly
+MXOnly-1.25U-FLIPPED
+
+
+0
+4
+4
+mxonly
+MXOnly-1.25U-Hotswap
+
+
+0
+2
+2
+mxonly
+MXOnly-1.25U-NoLED
+
+
+0
+2
+2
+mxonly
+MXOnly-1.75U
+
+
+0
+4
+4
+mxonly
+MXOnly-1.75U-FLIPPED
+
+
+0
+4
+4
+mxonly
+MXOnly-1.75U-Hotswap
+
+
+0
+2
+2
+mxonly
+MXOnly-1.75U-NoLED
+
+
+0
+2
+2
+mxonly
+MXOnly-1U
+
+
+0
+4
+4
+mxonly
+MXOnly-1U-FLIPPED
+
+
+0
+4
+4
+mxonly
+MXOnly-1U-Hotswap
+
+
+0
+2
+2
+mxonly
+MXOnly-1U-Hotswap-Antishear
+
+
+0
+10
+2
+mxonly
+MXOnly-1U-NoLED
+
+
+0
+2
+2
+mxonly
+MXOnly-2.25U
+
+
+0
+4
+4
+mxonly
+MXOnly-2.25U-FLIPPED
+
+
+0
+4
+4
+mxonly
+MXOnly-2.25U-FLIPPED-ReversedStabilizers
+
+
+0
+4
+4
+mxonly
+MXOnly-2.25U-Hotswap
+
+
+0
+2
+2
+mxonly
+MXOnly-2.25U-Hotswap-ReversedStabilizers
+
+
+0
+2
+2
+mxonly
+MXOnly-2.25U-NoLED
+
+
+0
+2
+2
+mxonly
+MXOnly-2.25U-ReversedStabilizers
+
+
+0
+4
+4
+mxonly
+MXOnly-2.25U-ReversedStabilizers-NoLED
+
+
+0
+2
+2
+mxonly
+MXOnly-2.75U
+
+
+0
+4
+4
+mxonly
+MXOnly-2.75U-FLIPPED
+
+
+0
+4
+4
+mxonly
+MXOnly-2.75U-FLIPPED-ReversedStabilizers
+
+
+0
+4
+4
+mxonly
+MXOnly-2.75U-Hotswap
+
+
+0
+2
+2
+mxonly
+MXOnly-2.75U-Hotswap-ReversedStabilizers
+
+
+0
+2
+2
+mxonly
+MXOnly-2.75U-NoLED
+
+
+0
+2
+2
+mxonly
+MXOnly-2.75U-ReversedStabilizers
+
+
+0
+4
+4
+mxonly
+MXOnly-2.75U-ReversedStabilizers-NoLED
+
+
+0
+2
+2
+mxonly
+MXOnly-2U
+
+
+0
+4
+4
+mxonly
+MXOnly-2U-FLIPPED
+
+
+0
+4
+4
+mxonly
+MXOnly-2U-FLIPPED-ReversedStabilizers
+
+
+0
+4
+4
+mxonly
+MXOnly-2U-Hotswap
+
+
+0
+2
+2
+mxonly
+MXOnly-2U-Hotswap-ReversedStabilizers
+
+
+0
+2
+2
+mxonly
+MXOnly-2U-NoLED
+
+
+0
+2
+2
+mxonly
+MXOnly-2U-ReversedStabilizers
+
+
+0
+4
+4
+mxonly
+MXOnly-2U-ReversedStabilizers-NoLED
+
+
+0
+2
+2
+mxonly
+MXOnly-3U
+
+
+0
+4
+4
+mxonly
+MXOnly-3U-FLIPPED
+
+
+0
+4
+4
+mxonly
+MXOnly-3U-FLIPPED-ReversedStabilizers
+
+
+0
+4
+4
+mxonly
+MXOnly-3U-NoLED
+
+
+0
+2
+2
+mxonly
+MXOnly-3U-ReversedStabilizers
+
+
+0
+4
+4
+mxonly
+MXOnly-3U-ReversedStabilizers-NoLED
+
+
+0
+2
+2
+mxonly
+MXOnly-6.25U
+
+
+0
+4
+4
+mxonly
+MXOnly-6.25U-FLIPPED
+
+
+0
+4
+4
+mxonly
+MXOnly-6.25U-FLIPPED-ReversedStabilizers
+
+
+0
+4
+4
+mxonly
+MXOnly-6.25U-Hotswap
+
+
+0
+2
+2
+mxonly
+MXOnly-6.25U-Hotswap-ReversedStabilizers
+
+
+0
+2
+2
+mxonly
+MXOnly-6.25U-NoLED
+
+
+0
+2
+2
+mxonly
+MXOnly-6.25U-ReversedStabilizers
+
+
+0
+4
+4
+mxonly
+MXOnly-6.25U-ReversedStabilizers-NoLED
+
+
+0
+2
+2
+mxonly
+MXOnly-6U
+
+
+0
+4
+4
+mxonly
+MXOnly-6U-Centered
+
+
+0
+4
+4
+mxonly
+MXOnly-6U-Centered-FLIPPED
+
+
+0
+4
+4
+mxonly
+MXOnly-6U-Centered-FLIPPED-ReversedStabilizers
+
+
+0
+4
+4
+mxonly
+MXOnly-6U-Centered-NoLED
+
+
+0
+2
+2
+mxonly
+MXOnly-6U-Centered-ReversedStabilizers
+
+
+0
+4
+4
+mxonly
+MXOnly-6U-Centered-ReversedStabilizers-NoLED
+
+
+0
+2
+2
+mxonly
+MXOnly-6U-NoLED
+
+
+0
+2
+2
+mxonly
+MXOnly-6U-ReversedStabilizers
+
+
+0
+4
+4
+mxonly
+MXOnly-6U-ReversedStabilizers-NoLED
+
+
+0
+2
+2
+mxonly
+MXOnly-7U
+
+
+0
+4
+4
+mxonly
+MXOnly-7U-FLIPPED
+
+
+0
+4
+4
+mxonly
+MXOnly-7U-FLIPPED-ReversedStabilizers
+
+
+0
+4
+4
+mxonly
+MXOnly-7U-Hotswap
+
+
+0
+2
+2
+mxonly
+MXOnly-7U-Hotswap-ReversedStabilizers
+
+
+0
+2
+2
+mxonly
+MXOnly-7U-NoLED
+
+
+0
+2
+2
+mxonly
+MXOnly-7U-ReversedStabilizers
+
+
+0
+4
+4
+mxonly
+MXOnly-7U-ReversedStabilizers-NoLED
+
+
+0
+2
+2
+mxonly
+MXOnly-ISO
+
+
+0
+4
+4
+mxonly
+MXOnly-ISO-ROTATED
+
+
+0
+4
+4
+mxonly
+MXOnly-ISO-ROTATED-ReversedStabilizers
+
+
+0
+4
+4
+mxonly
+MXOnly-ISO-ROTATED-ReversedStabilizers-NoLED
+
+
+0
+2
+2
+mxonly
+MXOnly-ISO-ReversedStabilizers
+
+
+0
+4
+4
+mxonly
+MXOnly-LEDONLY
+
+
+0
+2
+2
+mxonly
+MXOnly-LEDONLY-FLIPPED
+
+
+0
+2
+2
