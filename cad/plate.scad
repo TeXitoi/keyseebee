@@ -1,6 +1,23 @@
+// You can change the parameters in the header in openscad, then
+// render, and then export in the format you need.
+//
+// You can also include this file in your own scad file, and use the
+// modules to create your own case:
+//  - outline module (2D outline of the plate),
+//  - plate module (2D draw of the plate, with switch holes),
+//  - key_placement module (2D placement of the keys centered, to be
+//    used with children) to create your own case.
+
 switch_hole=14.0;// by spec should be 14, can be adjusted for printer imprecision
+thickness=1.6;// plate thickness, for 3D rendering
+
+//linear_extrude(thickness) // uncomment for 3D model
+//mirror([1, 0]) // uncomment to mirror the plate
+plate(is_right=true); // true for right thumb placement, false for left thumb placement
+
+// Code here, not to be modified if you want keyseebee compatibility
+
 inter_switch=19.05;
-thickness=1.6;// plate thinkness
 d=2.54;
 delta=[-d,0,d,0,-4*d,-5*d];// column stagger
 right_thumb_offset=0.635;
@@ -39,6 +56,3 @@ module plate(is_right=false) {
      }
 }
 
-//linear_extrude(thickness)
-//mirror([1, 0])
-plate(true);
