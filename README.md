@@ -27,9 +27,17 @@ pure rust firmware.
 
 ## Gallery
 
+### v0.1, build by TeXitoi
+
 ![From above with one side upside down](images/above-with-back.jpg)
 
 ![Side view](images/side-view.jpg)
+
+### v0.2, build by eropleco, with 1.2mm anodized aluminium plate
+
+![Left](images/eropleco-left.jpg)
+
+![Right](images/eropleco-right.jpg)
 
 ## Bill Of Materials
 

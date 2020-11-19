@@ -10,9 +10,7 @@ Modifications:
  * Remove references of the MCU and the USB connector on the left to
    be consistent with the right.
 
-Not ordered nor tested. If you plan to produce them, that's the actual
-recommended version, as it is only a bugfix release. If you build them,
-thanks to share if everything is working as expected.
+Tested by eropleco, fully functionnal.
 
 Bugs:
  * The right thumb cluster is a bit offset comparing to the left one.
