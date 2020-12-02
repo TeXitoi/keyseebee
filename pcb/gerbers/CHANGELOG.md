@@ -1,5 +1,17 @@
 # Gerber change log
 
+## v0.3 (2020-12-03)
+
+Minor modifications for an exact symetry of the key placements.
+
+Modifications:
+ * Change the right thumb cluster placement to be exactly as the left
+   one.
+ * Change a bit the cutout to be (almost) exactly around the extreme
+   thumb key.
+
+Not tested.
+
 ## v0.2 (2020-09-05)
 
 Same as v0.1 with some bugs fixed.
