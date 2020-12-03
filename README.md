@@ -33,6 +33,10 @@ pure rust firmware.
 
 ![Side view](images/side-view.jpg)
 
+### v0.1, build by TeXitoi, Gateron silent clear (MX footprint), 3D printed plate
+
+![From above](images/mx-and-plate.jpg)
+
 ### v0.2, build by eropleco, with 1.2mm anodized aluminium plate
 
 ![Left](images/eropleco-left.jpg)
