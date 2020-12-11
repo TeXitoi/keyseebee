@@ -12,7 +12,7 @@ use hal::prelude::*;
 use hal::serial;
 use hal::usb;
 use hal::{stm32, timers};
-use keyberon::action::{k, l, m, Action, Action::*};
+use keyberon::action::{k, l, m, Action, Action::*, HoldTapConfig};
 use keyberon::debounce::Debouncer;
 use keyberon::impl_heterogenous_array;
 use keyberon::key_code::KbHidReport;
@@ -73,16 +73,43 @@ const CUT: Action = m(&[LShift, Delete]);
 const COPY: Action = m(&[LCtrl, Insert]);
 const PASTE: Action = m(&[LShift, Insert]);
 const L2_ENTER: Action = HoldTap {
-    timeout: 140,
+    timeout: 200,
+    tap_hold_interval: 0,
+    config: HoldTapConfig::Default,
     hold: &l(2),
     tap: &k(Enter),
 };
 const L1_SP: Action = HoldTap {
     timeout: 200,
+    tap_hold_interval: 0,
+    config: HoldTapConfig::PermissiveHold,
     hold: &l(1),
     tap: &k(Space),
 };
 const CSPACE: Action = m(&[LCtrl, Space]);
+
+const SHIFT_ESC: Action = HoldTap {
+    timeout: 200,
+    tap_hold_interval: 0,
+    config: HoldTapConfig::Default,
+    hold: &k(LShift),
+    tap: &k(Escape),
+};
+const CTRL_INS: Action = HoldTap {
+    timeout: 200,
+    tap_hold_interval: 0,
+    config: HoldTapConfig::Default,
+    hold: &k(LCtrl),
+    tap: &k(Insert),
+};
+const ALT_NL: Action = HoldTap {
+    timeout: 200,
+    tap_hold_interval: 0,
+    config: HoldTapConfig::Default,
+    hold: &k(LAlt),
+    tap: &k(NumLock),
+};
+
 macro_rules! s {
     ($k:ident) => {
         m(&[LShift, $k])
@@ -102,10 +129,10 @@ pub static LAYERS: keyberon::layout::Layers = &[
         &[k(Equal),   k(Z), k(X),  k(C),    k(V), k(B),    k(N),     k(M),    k(Comma),k(Dot), k(Slash), k(Bslash)  ],
         &[Trans,      Trans,k(LGui),k(LAlt),L1_SP,k(LCtrl),k(RShift),L2_ENTER,k(RAlt),k(BSpace),Trans,   Trans      ],
     ], &[
-        &[Trans,         k(Pause),Trans,     k(PScreen),Trans,    Trans,Trans,      Trans,  k(Delete),Trans,  Trans,   Trans ],
-        &[Trans,         Trans,   k(NumLock),k(Insert), k(Escape),Trans,k(CapsLock),k(Left),k(Down),  k(Up),  k(Right),Trans ],
-        &[k(NonUsBslash),k(Undo), CUT,       COPY,      PASTE,    Trans,Trans,      k(Home),k(PgDown),k(PgUp),k(End),  Trans ],
-        &[Trans,         Trans,   Trans,     Trans,     Trans,    Trans,Trans,      Trans,  Trans,    Trans,  Trans,   Trans ],
+        &[Trans,         k(Pause),Trans, k(PScreen),Trans,    Trans,Trans,      k(BSpace),k(Delete),Trans,  Trans,   Trans ],
+        &[Trans,         Trans,   ALT_NL,CTRL_INS,  SHIFT_ESC,Trans,k(CapsLock),k(Left),  k(Down),  k(Up),  k(Right),Trans ],
+        &[k(NonUsBslash),k(Undo), CUT,   COPY,      PASTE,    Trans,Trans,      k(Home),  k(PgDown),k(PgUp),k(End),  Trans ],
+        &[Trans,         Trans,   Trans, Trans,     Trans,    Trans,Trans,      Trans,    Trans,    Trans,  Trans,   Trans ],
     ], &[
         &[s!(Grave),s!(Kb1),s!(Kb2),s!(Kb3),s!(Kb4),s!(Kb5),s!(Kb6),s!(Kb7),s!(Kb8),s!(Kb9),s!(Kb0),s!(Minus)],
         &[ k(Grave), k(Kb1), k(Kb2), k(Kb3), k(Kb4), k(Kb5), k(Kb6), k(Kb7), k(Kb8), k(Kb9), k(Kb0), k(Minus)],
@@ -240,7 +267,7 @@ const APP: () = {
     fn handle_event(mut c: handle_event::Context, event: Option<Event>) {
         let report: KbHidReport = match event {
             None => c.resources.layout.tick().collect(),
-            Some(e) => c.resources.layout.event(e).collect(),
+            Some(e) => {c.resources.layout.event(e); return},
         };
         if !c
             .resources
