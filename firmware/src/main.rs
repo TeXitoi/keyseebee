@@ -75,14 +75,14 @@ const PASTE: Action = m(&[LShift, Insert]);
 const L2_ENTER: Action = HoldTap {
     timeout: 200,
     tap_hold_interval: 0,
-    config: HoldTapConfig::Default,
+    config: HoldTapConfig::HoldOnOtherKeyPress,
     hold: &l(2),
     tap: &k(Enter),
 };
 const L1_SP: Action = HoldTap {
     timeout: 200,
     tap_hold_interval: 0,
-    config: HoldTapConfig::PermissiveHold,
+    config: HoldTapConfig::Default,
     hold: &l(1),
     tap: &k(Space),
 };
