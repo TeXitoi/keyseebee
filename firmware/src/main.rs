@@ -5,16 +5,14 @@
 use panic_halt as _;
 
 use core::convert::Infallible;
-use embedded_hal::digital::v2::{InputPin, OutputPin};
-use generic_array::typenum::{U4, U6};
-use hal::gpio::{gpioa, gpiob, Floating, Input, Output, PullUp, PushPull};
+use embedded_hal::digital::v2::InputPin;
+use hal::gpio::{gpiob, Floating, Input, Output, Pin, PullUp, PushPull};
 use hal::prelude::*;
 use hal::serial;
 use hal::usb;
 use hal::{stm32, timers};
 use keyberon::action::{k, l, m, Action, Action::*, HoldTapConfig};
 use keyberon::debounce::Debouncer;
-use keyberon::impl_heterogenous_array;
 use keyberon::key_code::KbHidReport;
 use keyberon::key_code::KeyCode::*;
 use keyberon::layout::{Event, Layout};
@@ -39,34 +37,6 @@ impl<T> ResultExt<T> for Result<T, Infallible> {
             Err(e) => match e {},
         }
     }
-}
-
-pub struct Cols(
-    gpioa::PA15<Input<PullUp>>,
-    gpiob::PB3<Input<PullUp>>,
-    gpiob::PB4<Input<PullUp>>,
-    gpiob::PB5<Input<PullUp>>,
-    gpiob::PB8<Input<PullUp>>,
-    gpiob::PB9<Input<PullUp>>,
-);
-impl_heterogenous_array! {
-    Cols,
-    dyn InputPin<Error = Infallible>,
-    U6,
-    [0, 1, 2, 3, 4, 5]
-}
-
-pub struct Rows(
-    gpiob::PB0<Output<PushPull>>,
-    gpiob::PB1<Output<PushPull>>,
-    gpiob::PB2<Output<PushPull>>,
-    gpiob::PB10<Output<PushPull>>,
-);
-impl_heterogenous_array! {
-    Rows,
-    dyn OutputPin<Error = Infallible>,
-    U4,
-    [0, 1, 2, 3]
 }
 
 const CUT: Action = m(&[LShift, Delete]);
@@ -151,8 +121,8 @@ const APP: () = {
     struct Resources {
         usb_dev: UsbDevice,
         usb_class: UsbClass,
-        matrix: Matrix<Cols, Rows>,
-        debouncer: Debouncer<PressedKeys<U4, U6>>,
+        matrix: Matrix<Pin<Input<PullUp>>, Pin<Output<PushPull>>, 6, 4>,
+        debouncer: Debouncer<PressedKeys<6, 4>>,
         layout: Layout,
         timer: timers::Timer<stm32::TIM3>,
         transform: fn(Event) -> Event,
@@ -210,20 +180,20 @@ const APP: () = {
         let pa15 = gpioa.pa15;
         let matrix = cortex_m::interrupt::free(move |cs| {
             Matrix::new(
-                Cols(
-                    pa15.into_pull_up_input(cs),
-                    gpiob.pb3.into_pull_up_input(cs),
-                    gpiob.pb4.into_pull_up_input(cs),
-                    gpiob.pb5.into_pull_up_input(cs),
-                    gpiob.pb8.into_pull_up_input(cs),
-                    gpiob.pb9.into_pull_up_input(cs),
-                ),
-                Rows(
-                    gpiob.pb0.into_push_pull_output(cs),
-                    gpiob.pb1.into_push_pull_output(cs),
-                    gpiob.pb2.into_push_pull_output(cs),
-                    gpiob.pb10.into_push_pull_output(cs),
-                ),
+                [
+                    pa15.into_pull_up_input(cs).downgrade(),
+                    gpiob.pb3.into_pull_up_input(cs).downgrade(),
+                    gpiob.pb4.into_pull_up_input(cs).downgrade(),
+                    gpiob.pb5.into_pull_up_input(cs).downgrade(),
+                    gpiob.pb8.into_pull_up_input(cs).downgrade(),
+                    gpiob.pb9.into_pull_up_input(cs).downgrade(),
+                ],
+                [
+                    gpiob.pb0.into_push_pull_output(cs).downgrade(),
+                    gpiob.pb1.into_push_pull_output(cs).downgrade(),
+                    gpiob.pb2.into_push_pull_output(cs).downgrade(),
+                    gpiob.pb10.into_push_pull_output(cs).downgrade(),
+                ],
             )
         });
 
@@ -265,10 +235,14 @@ const APP: () = {
 
     #[task(priority = 3, capacity = 8, resources = [usb_dev, usb_class, layout])]
     fn handle_event(mut c: handle_event::Context, event: Option<Event>) {
-        let report: KbHidReport = match event {
-            None => c.resources.layout.tick().collect(),
-            Some(e) => {c.resources.layout.event(e); return},
+        match event {
+            None => c.resources.layout.tick(),
+            Some(e) => {
+                c.resources.layout.event(e);
+                return;
+            }
         };
+        let report: KbHidReport = c.resources.layout.keycodes().collect();
         if !c
             .resources
             .usb_class
