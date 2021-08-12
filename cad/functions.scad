@@ -8,7 +8,7 @@
 //  - key_placement module (2D placement of the keys centered, to be
 //    used with children) to create your own case.
 
-switch_hole=13.8;// by spec should be 14, can be adjusted for printer imprecision
+switch_hole=13.9;// by spec should be 14, can be adjusted for printer imprecision
 
 // Code here, not to be modified if you want keyseebee compatibility
 inter_switch=19.05;
