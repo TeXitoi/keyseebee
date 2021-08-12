@@ -1,4 +1,4 @@
-all: fat_mx_plate.stl plate.svg
+all: fat_mx_plate.stl plate.svg cutting_pattern.stl
 
 %.stl: %.printing.scad functions.scad
 	openscad -o $@ $<
