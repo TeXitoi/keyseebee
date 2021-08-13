@@ -11,11 +11,13 @@ pure rust firmware.
 
 ## Features
 
- * 44 keys, using Cherry MX or Kailh choc switches, only 1U keycaps;
- * USB-C connector on the 2 sides;
- * TRRS cable for connecting the 2 halves (for power and UART communication between the 2 halves);
+ * 44 keys, using Cherry MX or Kailh choc switches, only 1U keycaps.
+ * USB-C connector on the 2 sides.
+ * TRRS cable for connecting the 2 halves (for power and UART communication between the 2 halves).
  * 2 STM32F072 MCU, with hardware USB DFU bootloader and crystal less USB;
- * Only onboard SMD component (except for the switches and TRRS connector).
+ * Only onboard SMD component (except for the switches and TRRS
+   connector).
+ * [Plate files](cad/) (optional).
 
 ## Inspiration
 
@@ -42,6 +44,10 @@ pure rust firmware.
 ![Left](images/eropleco-left.jpg)
 
 ![Right](images/eropleco-right.jpg)
+
+### v0.3, build by TeXitoi, Gateron silent clear, 3D printed fat plate
+
+![Side view](images/fat-plate.jpg)
 
 ## Bill Of Materials
 

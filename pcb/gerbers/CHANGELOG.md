@@ -10,7 +10,7 @@ Modifications:
  * Change a bit the cutout to be (almost) exactly around the extreme
    thumb key.
 
-Not tested.
+Tested by TeXitoi, fully functionnal.
 
 ## v0.2 (2020-09-05)
 
