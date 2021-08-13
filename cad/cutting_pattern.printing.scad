@@ -2,6 +2,7 @@ $fs=0.5;
 $fa=1;
 in=25.4;
 g=0.05*in;
+e=0.5;// added diameter to switch holes
 
 linear_extrude(1.4) {
      difference() {
@@ -12,17 +13,17 @@ linear_extrude(1.4) {
 
           // MX
           circle(d=0.157*in);
-          translate([2*g, 4*g]) circle(d=0.059*in);
-          translate([-3*g, 3*g]) circle(d=0.059*in);
-          translate([-4*g, 0]) circle(d=0.067*in);
-          translate([4*g, 0]) circle(d=0.067*in);
+          translate([2*g, 4*g]) circle(d=0.059*in+e);
+          translate([-3*g, 2*g]) circle(d=0.059*in+e);
+          translate([-4*g, 0]) circle(d=0.067*in+e);
+          translate([4*g, 0]) circle(d=0.067*in+e);
 
           // Choc
           circle(d=3.2);
-          translate([0, -5.9]) circle(d=0.059*in);
-          translate([-5, -3.8]) circle(d=0.059*in);
-          translate([-5.22, 0]) circle(d=1.8);
-          translate([5.22, 0]) circle(d=1.8);
+          translate([0, -5.9]) circle(d=0.059*in+e);
+          translate([-5, -3.8]) circle(d=0.059*in+e);
+          translate([-5.22, 0]) circle(d=1.8+e);
+          translate([5.22, 0]) circle(d=1.8+e);
 
           // PJ320A
           translate([19.05/2+3, 6]) {
