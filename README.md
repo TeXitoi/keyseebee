@@ -60,17 +60,17 @@ Price is for 5 keyboards including shipping.
 |[USB-C connector](https://www.aliexpress.com/item/33056042016.html)       |16 pins|  2|                                       | 1.44€|
 |[1N4148WS](https://www.aliexpress.com/item/32774043752.html)              |SOD-323| 44|Price is for 1000                      | 2.82€|
 |[PJ320A TRRS connector](https://www.aliexpress.com/item/4000661212458.html)|      |  2|                                       | 1.01€|
-|[STM32F072CBT6 MCU](https://www.aliexpress.com/item/32947645404.html)     |LQFP-48|  2|STM32F072C8T6 would also work          | 9.65€|
+|[STM32F072CBT6 MCU](https://www.aliexpress.com/item/1005002841528809.html)|LQFP-48|  2|STM32F072C8T6 would also work          | 9.65€|
 |[XC6206P332MR regulator](https://www.aliexpress.com/item/33015891307.html)|SOT-23 |  2|Price is for 50                        | 1.93€|
 |[SMD switch](https://www.aliexpress.com/item/32914876022.html)            | 3×6mm |  4|Price is for 100                       | 1.35€|
 |[5.1kΩ resistor](https://www.aliexpress.com/item/32865947306.html)        | 0805  |  6|Price is for 100                       |      |
 |[1µF capacitor](https://www.aliexpress.com/item/32964553793.html)         | 0805  |  4|Price is for 100                       |      |
 |[100nF capacitor](https://www.aliexpress.com/item/32964553793.html)       | 0805  | 10|Price is for 100                       | 3.46€|
 |[Bumpers](https://www.aliexpress.com/item/32289191938.html)               | 5×2mm | 10|Price is for 100                       | 1.75€|
-|[Cherry MX compatible](https://www.aliexpress.com/item/32797603005.html) or [Kailh Choc](https://www.aliexpress.com/item/4000907409650.html) switch|5 pins (PCB mount)|44| | |
+|[Cherry MX compatible](https://www.aliexpress.com/item/32836368723.html) or [Kailh Choc](https://www.aliexpress.com/item/4000907409650.html) switch|5 pins (PCB mount)|44| | |
 |1U keycap compatible with the chosen switches                             |       | 44|                                       |      |
 |[TRRS cable](https://www.aliexpress.com/item/32809573546.html)         |Jack 3.5mm|  1|4 contacts needed                      |      |
-|[USB-C cable](https://www.aliexpress.com/item/32678087225.html)           |       |  1|USB-2 is enough                        |      |
+|[USB-C cable](https://www.aliexpress.com/item/4000058245275.html)         |       |  1|USB-2 is enough                        |      |
 
 About 60€ without switches, keycaps and cables for 5 keyboards
 (12€/keyboard).
