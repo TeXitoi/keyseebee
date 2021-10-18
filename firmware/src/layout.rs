@@ -1,5 +1,7 @@
-use keyberon::action::{k, l, m, Action, Action::*, HoldTapConfig};
+use keyberon::action::{k, l, m, Action::*, HoldTapConfig};
 use keyberon::key_code::KeyCode::*;
+
+type Action = keyberon::action::Action<()>;
 
 const CUT: Action = m(&[LShift, Delete]);
 const COPY: Action = m(&[LCtrl, Insert]);
@@ -54,14 +56,14 @@ macro_rules! a {
 }
 
 #[rustfmt::skip]
-pub static LAYERS: keyberon::layout::Layers = &[
+pub static LAYERS: keyberon::layout::Layers<()> = &[
     &[
         &[k(Tab),     k(Q), k(W),  k(E),    k(R), k(T),    k(Y),     k(U),    k(I),   k(O),    k(P),     k(LBracket)],
         &[k(RBracket),k(A), k(S),  k(D),    k(F), k(G),    k(H),     k(J),    k(K),   k(L),    k(SColon),k(Quote)   ],
         &[k(Equal),   k(Z), k(X),  k(C),    k(V), k(B),    k(N),     k(M),    k(Comma),k(Dot), k(Slash), k(Bslash)  ],
         &[Trans,      Trans,k(LGui),k(LAlt),L1_SP,k(LCtrl),k(RShift),L2_ENTER,k(RAlt),k(BSpace),Trans,   Trans      ],
     ], &[
-        &[Trans,         k(Pause),k(ScrollLock),k(PScreen),Trans,    Trans,Trans,      k(BSpace),k(Delete),Trans,  Trans,   Trans],
+        &[Custom(()),    k(Pause),k(ScrollLock),k(PScreen),Trans,    Trans,Trans,      k(BSpace),k(Delete),Trans,  Trans,   Trans],
         &[Trans,         k(LGui), k(LAlt),      CTRL_INS,  SHIFT_ESC,Trans,k(CapsLock),k(Left),  k(Down),  k(Up),  k(Right),Trans],
         &[k(NonUsBslash),k(Undo), CUT,          COPY,      PASTE,    Trans,Trans,      k(Home),  k(PgDown),k(PgUp),k(End),  Trans],
         &[Trans,         Trans,   Trans,        Trans,     NoOp,     Trans,Trans,      L3_ENTER, Trans,    Trans,  Trans,   Trans],
@@ -73,7 +75,7 @@ pub static LAYERS: keyberon::layout::Layers = &[
     ], &[
         &[k(F1),k(F2),  k(F3),  k(F4),   k(F5),    k(F6),k(F7),k(F8),    k(F9),   k(F10), k(F11), k(F12)],
         &[Trans,k(LGui),k(LAlt),k(LCtrl),k(LShift),Trans,Trans,k(RShift),k(RCtrl),k(LAlt),k(RGui),Trans ],
-        &[Trans,Trans,  Trans,  Trans,   Trans,    Trans,Trans,Trans,    Trans,   Trans,  Trans,  Trans ],
+        &[Custom(()),Trans,  Trans,  Trans,   Trans,    Trans,Trans,Trans,    Trans,   Trans,  Trans,  Trans ],
         &[Trans,Trans,  Trans,  Trans,   Trans,    Trans,Trans,Trans,    Trans,   Trans,  Trans,  Trans ],
     ],
 ];

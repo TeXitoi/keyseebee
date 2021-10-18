@@ -13,7 +13,7 @@ use hal::usb;
 use hal::{stm32, timers};
 use keyberon::debounce::Debouncer;
 use keyberon::key_code::KbHidReport;
-use keyberon::layout::{Event, Layout};
+use keyberon::layout::{CustomEvent, Event, Layout};
 use keyberon::matrix::{Matrix, PressedKeys};
 use nb::block;
 use rtic::app;
@@ -46,7 +46,7 @@ const APP: () = {
         usb_class: UsbClass,
         matrix: Matrix<Pin<Input<PullUp>>, Pin<Output<PushPull>>, 6, 4>,
         debouncer: Debouncer<PressedKeys<6, 4>>,
-        layout: Layout,
+        layout: Layout<()>,
         timer: timers::Timer<stm32::TIM3>,
         transform: fn(Event) -> Event,
         tx: serial::Tx<hal::pac::USART1>,
@@ -143,7 +143,7 @@ const APP: () = {
 
             if BUF[3] == b'\n' {
                 if let Ok(event) = de(&BUF[..]) {
-                    c.spawn.handle_event(Some(event)).unwrap();
+                    c.spawn.handle_event(event).unwrap();
                 }
             }
         }
@@ -156,15 +156,21 @@ const APP: () = {
         }
     }
 
-    #[task(priority = 3, capacity = 8, resources = [usb_dev, usb_class, layout])]
-    fn handle_event(mut c: handle_event::Context, event: Option<Event>) {
-        match event {
-            None => c.resources.layout.tick(),
-            Some(e) => {
-                c.resources.layout.event(e);
-                return;
-            }
-        };
+    #[task(priority = 3, capacity = 8, resources = [layout])]
+    fn handle_event(c: handle_event::Context, event: Event) {
+        c.resources.layout.event(event);
+    }
+
+    #[task(priority = 3, resources = [usb_dev, usb_class, layout])]
+    fn tick_keyberon(mut c: tick_keyberon::Context) {
+        let tick = c.resources.layout.tick();
+        if c.resources.usb_dev.lock(|d| d.state()) != UsbDeviceState::Configured {
+            return;
+        }
+        match tick {
+            CustomEvent::Release(()) => unsafe { cortex_m::asm::bootload(0x1FFFC800 as _) },
+            _ => (),
+        }
         let report: KbHidReport = c.resources.layout.keycodes().collect();
         if !c
             .resources
@@ -173,16 +179,13 @@ const APP: () = {
         {
             return;
         }
-        if c.resources.usb_dev.lock(|d| d.state()) != UsbDeviceState::Configured {
-            return;
-        }
         while let Ok(0) = c.resources.usb_class.lock(|k| k.write(report.as_bytes())) {}
     }
 
     #[task(
         binds = TIM3,
         priority = 2,
-        spawn = [handle_event],
+        spawn = [handle_event, tick_keyberon],
         resources = [matrix, debouncer, timer, &transform, tx],
     )]
     fn tick(c: tick::Context) {
@@ -197,9 +200,9 @@ const APP: () = {
             for &b in &ser(event) {
                 block!(c.resources.tx.write(b)).get();
             }
-            c.spawn.handle_event(Some(event)).unwrap();
+            c.spawn.handle_event(event).unwrap();
         }
-        c.spawn.handle_event(None).unwrap();
+        c.spawn.tick_keyberon().unwrap();
     }
 
     extern "C" {
