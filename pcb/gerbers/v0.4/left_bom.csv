@@ -1,0 +1,13 @@
+Comment,Designator,Footprint,LCSC
+"100nF","C1,C2,C3,C4,C5","Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder"," C49678"
+"1µF","C6,C7","Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder","C28323"
+"1N4148WS","D5,D6,D7,D9,D10,D11,D12,D14,D15,D16,D17,D19,D20,D21,D23,D24,D25,D26,D33,D34,D35,D36","Diode_SMD:D_SOD-323_HandSoldering","C2128"
+"USB_C_Receptacle_USB2.0","J1","kicad-usb:USB_C_Receptacle_HRO_TYPE-C-31-M-12","C165948"
+"AudioJack4","J2","keebio:TRRS-PJ-320A-no-Fmask",""
+"Conn_01x12_Male","J3","kicad-harwin:Harwin_M20-89012xx_1x12_P2.54mm_Horizontal",""
+"5.1k","R1,R6,R7","Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder","C27834"
+"BOOT","SW1","Button_Switch_SMD:SW_SPST_CK_RS282G05A3","C720381"
+"RESET","SW2","Button_Switch_SMD:SW_SPST_CK_RS282G05A3","C720381"
+"SW_Push","SW3,SW4,SW5,SW7,SW8,SW9,SW10,SW12,SW13,SW14,SW15,SW17,SW18,SW19,SW21,SW22,SW23,SW24,SW31,SW32,SW33,SW34","custom:CherryMX_Choc_1u",""
+"STM32","U1","Package_QFP:LQFP-48_7x7mm_P0.5mm","C80488"
+"LDO","U2","Package_TO_SOT_SMD:SOT-23","C5446"
