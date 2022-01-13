@@ -1,5 +1,11 @@
 # Gerber change log
 
+## v0.4 (TBD)
+
+Manufactured SMT.
+
+Not finished, not manufactured, not tested.
+
 ## v0.3 (2020-12-03)
 
 Minor modifications for an exact symetry of the key placements.

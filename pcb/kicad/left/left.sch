@@ -1009,7 +1009,7 @@ F 0 "J1" H 10320 1441 50  0000 R CNN
 F 1 "USB_C_Receptacle_USB2.0" H 10320 1350 50  0000 R CNN
 F 2 "kicad-usb:USB_C_Receptacle_HRO_TYPE-C-31-M-12" H 10900 1500 50  0001 C CNN
 F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 10900 1500 50  0001 C CNN
-F 4 "C165948" H 10750 1500 50  0001 C CNN "LCSC"
+F 4 "C136423" H 10750 1500 50  0001 C CNN "LCSC"
 	1    10750 1500
 	-1   0    0    -1  
 $EndComp

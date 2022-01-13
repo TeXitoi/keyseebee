@@ -2,7 +2,7 @@ Comment,Designator,Footprint,LCSC
 "100nF","C1,C2,C3,C4,C5","Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder"," C49678"
 "1µF","C6,C7","Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder","C28323"
 "1N4148WS","D5,D6,D7,D9,D10,D11,D12,D14,D15,D16,D17,D19,D20,D21,D23,D24,D25,D26,D33,D34,D35,D36","Diode_SMD:D_SOD-323_HandSoldering","C2128"
-"USB_C_Receptacle_USB2.0","J1","kicad-usb:USB_C_Receptacle_HRO_TYPE-C-31-M-12","C165948"
+"USB_C_Receptacle_USB2.0","J1","kicad-usb:USB_C_Receptacle_HRO_TYPE-C-31-M-12","C136423"
 "AudioJack4","J2","keebio:TRRS-PJ-320A-no-Fmask",""
 "Conn_01x12_Male","J3","kicad-harwin:Harwin_M20-89012xx_1x12_P2.54mm_Horizontal",""
 "5.1k","R1,R6,R7","Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder","C27834"
