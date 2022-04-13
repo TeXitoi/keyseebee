@@ -49,26 +49,26 @@ macro_rules! a {
 }
 
 #[rustfmt::skip]
-pub static LAYERS: keyberon::layout::Layers<()> = &[
-    &[
-        &[k(Tab),     k(Q), k(W),   k(E),   k(R), k(T),    k(Y),     k(U),k(I),   k(O),    k(P),     k(LBracket)],
-        &[k(RBracket),k(A), k(S),   k(D),   k(F), k(G),    k(H),     k(J),k(K),   k(L),    k(SColon),k(Quote)   ],
-        &[k(Equal),   k(Z), k(X),   k(C),   k(V), k(B),    k(N),     k(M),k(Comma),k(Dot), k(Slash), k(Bslash)  ],
-        &[Trans,      Trans,k(LGui),k(LAlt),L1_SP,k(LCtrl),k(RShift),l(2),k(RAlt),k(Enter),Trans,    Trans      ],
-    ], &[
-        &[Custom(()),    k(Pause),k(ScrollLock),k(PScreen),Trans,    Trans,Trans,      k(BSpace),k(Delete),Trans,  Trans,   Trans],
-        &[Trans,         k(LGui), k(LAlt),      CTRL_INS,  SHIFT_ESC,Trans,k(CapsLock),k(Left),  k(Down),  k(Up),  k(Right),Trans],
-        &[k(NonUsBslash),k(Undo), CUT,          COPY,      PASTE,    Trans,k(Enter),   k(Home),  k(PgDown),k(PgUp),k(End),  Trans],
-        &[Trans,         Trans,   Trans,        Trans,     NoOp,     Trans,Trans,      L3_ENTER, Trans,    Trans,  Trans,   Trans],
-    ], &[
-        &[s!(Grave),s!(Kb1),s!(Kb2),s!(Kb3),s!(Kb4),s!(Kb5),s!(Kb6),s!(Kb7),s!(Kb8),s!(Kb9),s!(Kb0),s!(Minus)],
-        &[ k(Grave), k(Kb1), k(Kb2), k(Kb3), k(Kb4), k(Kb5), k(Kb6), k(Kb7), k(Kb8), k(Kb9), k(Kb0), k(Minus)],
-        &[a!(Grave),a!(Kb1),a!(Kb2),a!(Kb3),a!(Kb4),a!(Kb5),a!(Kb6),a!(Kb7),a!(Kb8),a!(Kb9),a!(Kb0),a!(Minus)],
-        &[Trans,    Trans,  Trans,  Trans,  CSPACE, Trans,  Trans,  NoOp,   Trans,  Trans,  Trans,  Trans    ],
-    ], &[
-        &[k(F1),k(F2),  k(F3),  k(F4),   k(F5),    k(F6),k(F7),k(F8),    k(F9),   k(F10), k(F11), k(F12)],
-        &[Trans,k(LGui),k(LAlt),k(LCtrl),k(LShift),Trans,Trans,k(RShift),k(RCtrl),k(LAlt),k(RGui),Trans ],
-        &[Custom(()),Trans,Trans,Trans,  Trans,    Trans,Trans,Trans,    Trans,   Trans,  Trans,  Trans ],
-        &[Trans,Trans,  Trans,  Trans,   Trans,    Trans,Trans,Trans,    Trans,   Trans,  Trans,  Trans ],
-    ],
-];
+pub static LAYERS: keyberon::layout::Layers<12, 4, 4, ()> = keyberon::layout::layout! {
+    {
+        [Tab Q  W    E     R     T     Y    U  I   O P '[' ],
+        [']' A  S    D     F     G     H    J  K   L ; '\''],
+        [ =  Z  X    C     V     B     N    M  ,   . / '\\'],
+        [ t  t LGui LAlt{L1_SP}LCtrl RShift(2)RAlt t t  t  ],
+    }{
+        [{Custom(())}Pause ScrollLock PScreen       t     t    t    BSpace Delete  t    t   t],
+        [t           LGui     LAlt   {CTRL_INS}{SHIFT_ESC}t CapsLock Left   Down   Up Right t],
+        [NonUsBslash Undo    {CUT}     {COPY}    {PASTE}  t  Enter   Home  PgDown PgUp End  t],
+        [t             t       t         t          n     t    t  {L3_ENTER}  t    t    t   t],
+    }{
+        [{s!(Grave)}{s!(Kb1)}{s!(Kb2)}{s!(Kb3)}{s!(Kb4)}{s!(Kb5)}{s!(Kb6)}{s!(Kb7)}{s!(Kb8)}{s!(Kb9)}{s!(Kb0)}{s!(Minus)}],
+        [{ k(Grave)}{ k(Kb1)}{ k(Kb2)}{ k(Kb3)}{ k(Kb4)}{ k(Kb5)}{ k(Kb6)}{ k(Kb7)}{ k(Kb8)}{ k(Kb9)}{ k(Kb0)}{ k(Minus)}],
+        [{a!(Grave)}{a!(Kb1)}{a!(Kb2)}{a!(Kb3)}{a!(Kb4)}{a!(Kb5)}{a!(Kb6)}{a!(Kb7)}{a!(Kb8)}{a!(Kb9)}{a!(Kb0)}{a!(Minus)}],
+        [t t t t {CSPACE} t t n t t t t],
+    }{
+        [F1           F2   F3    F4    F5  F6 F7  F8     F9  F10  F11 F12],
+        [t           LGui LAlt LCtrl LShift t t RShift RCtrl LAlt RGui  t],
+        [{Custom(())} t    t     t     t    t t   t      t    t    t    t],
+        [t            t    t     t     n    t t   n      t    t    t    t],
+    }
+};
