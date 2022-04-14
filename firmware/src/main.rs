@@ -39,24 +39,30 @@ impl<T> ResultExt<T> for Result<T, Infallible> {
     }
 }
 
-#[app(device = crate::hal::pac, peripherals = true)]
-const APP: () = {
-    struct Resources {
+#[app(device = crate::hal::pac, peripherals = true, dispatchers = [CEC_CAN])]
+mod app {
+    use super::*;
+
+    #[shared]
+    struct Shared {
         usb_dev: UsbDevice,
         usb_class: UsbClass,
+        #[lock_free]
+        layout: Layout<12, 4, 4, ()>,
+    }
+
+    #[local]
+    struct Local {
         matrix: Matrix<Pin<Input<PullUp>>, Pin<Output<PushPull>>, 6, 4>,
         debouncer: Debouncer<PressedKeys<6, 4>>,
-        layout: Layout<12, 4, 4, ()>,
         timer: timers::Timer<stm32::TIM3>,
         transform: fn(Event) -> Event,
         tx: serial::Tx<hal::pac::USART1>,
         rx: serial::Rx<hal::pac::USART1>,
     }
 
-    #[init]
-    fn init(mut c: init::Context) -> init::LateResources {
-        static mut USB_BUS: Option<UsbBusAllocator<usb::UsbBusType>> = None;
-
+    #[init(local = [bus: Option<UsbBusAllocator<usb::UsbBusType>> = None])]
+    fn init(mut c: init::Context) -> (Shared, Local, init::Monotonics) {
         let mut rcc = c
             .device
             .RCC
@@ -75,8 +81,8 @@ const APP: () = {
             pin_dm: gpioa.pa11,
             pin_dp: gpioa.pa12,
         };
-        *USB_BUS = Some(usb::UsbBusType::new(usb));
-        let usb_bus = USB_BUS.as_ref().unwrap();
+        *c.local.bus = Some(usb::UsbBusType::new(usb));
+        let usb_bus = c.local.bus.as_ref().unwrap();
 
         let usb_class = keyberon::new_class(usb_bus, ());
         let usb_dev = keyberon::new_device(usb_bus);
@@ -120,95 +126,97 @@ const APP: () = {
             )
         });
 
-        init::LateResources {
-            usb_dev,
-            usb_class,
-            timer,
-            debouncer: Debouncer::new(PressedKeys::default(), PressedKeys::default(), 5),
-            matrix: matrix.get(),
-            layout: Layout::new(&crate::layout::LAYERS),
-            transform,
-            tx,
-            rx,
-        }
+        (
+            Shared {
+                usb_dev,
+                usb_class,
+                layout: Layout::new(&crate::layout::LAYERS),
+            },
+            Local {
+                timer,
+                debouncer: Debouncer::new(PressedKeys::default(), PressedKeys::default(), 5),
+                matrix: matrix.get(),
+                transform,
+                tx,
+                rx,
+            },
+            init::Monotonics(),
+        )
     }
 
-    #[task(binds = USART1, priority = 5, spawn = [handle_event], resources = [rx])]
+    #[task(binds = USART1, priority = 5, local = [rx])]
     fn rx(c: rx::Context) {
         static mut BUF: [u8; 4] = [0; 4];
 
-        if let Ok(b) = c.resources.rx.read() {
+        if let Ok(b) = c.local.rx.read() {
             BUF.rotate_left(1);
             BUF[3] = b;
 
             if BUF[3] == b'\n' {
                 if let Ok(event) = de(&BUF[..]) {
-                    c.spawn.handle_event(event).unwrap();
+                    handle_event::spawn(event).unwrap();
                 }
             }
         }
     }
 
-    #[task(binds = USB, priority = 4, resources = [usb_dev, usb_class])]
+    #[task(binds = USB, priority = 4, shared = [usb_dev, usb_class])]
     fn usb_rx(c: usb_rx::Context) {
-        if c.resources.usb_dev.poll(&mut [c.resources.usb_class]) {
-            c.resources.usb_class.poll();
-        }
+        (c.shared.usb_dev, c.shared.usb_class).lock(|usb_dev, usb_class| {
+            if usb_dev.poll(&mut [usb_class]) {
+                usb_class.poll();
+            }
+        });
     }
 
-    #[task(priority = 3, capacity = 8, resources = [layout])]
-    fn handle_event(c: handle_event::Context, event: Event) {
-        c.resources.layout.event(event);
+    #[task(priority = 3, capacity = 8, shared = [layout])]
+    fn handle_event(mut c: handle_event::Context, event: Event) {
+        c.shared.layout.event(event)
     }
 
-    #[task(priority = 3, resources = [usb_dev, usb_class, layout])]
+    #[task(priority = 3, shared = [usb_dev, usb_class, layout])]
     fn tick_keyberon(mut c: tick_keyberon::Context) {
-        let tick = c.resources.layout.tick();
-        if c.resources.usb_dev.lock(|d| d.state()) != UsbDeviceState::Configured {
+        let tick = c.shared.layout.tick();
+        if c.shared.usb_dev.lock(|d| d.state()) != UsbDeviceState::Configured {
             return;
         }
         match tick {
             CustomEvent::Release(()) => unsafe { cortex_m::asm::bootload(0x1FFFC800 as _) },
             _ => (),
         }
-        let report: KbHidReport = c.resources.layout.keycodes().collect();
+        let report: KbHidReport = c.shared.layout.keycodes().collect();
         if !c
-            .resources
+            .shared
             .usb_class
             .lock(|k| k.device_mut().set_keyboard_report(report.clone()))
         {
             return;
         }
-        while let Ok(0) = c.resources.usb_class.lock(|k| k.write(report.as_bytes())) {}
+        while let Ok(0) = c.shared.usb_class.lock(|k| k.write(report.as_bytes())) {}
     }
 
     #[task(
         binds = TIM3,
         priority = 2,
-        spawn = [handle_event, tick_keyberon],
-        resources = [matrix, debouncer, timer, &transform, tx],
+        local = [matrix, debouncer, timer, transform, tx],
     )]
     fn tick(c: tick::Context) {
-        c.resources.timer.wait().ok();
+        c.local.timer.wait().ok();
 
         for event in c
-            .resources
+            .local
             .debouncer
-            .events(c.resources.matrix.get().get())
-            .map(c.resources.transform)
+            .events(c.local.matrix.get().get())
+            .map(c.local.transform)
         {
             for &b in &ser(event) {
-                block!(c.resources.tx.write(b)).get();
+                block!(c.local.tx.write(b)).get();
             }
-            c.spawn.handle_event(event).unwrap();
+            handle_event::spawn(event).unwrap();
         }
-        c.spawn.tick_keyberon().unwrap();
+        tick_keyberon::spawn().unwrap();
     }
-
-    extern "C" {
-        fn CEC_CAN();
-    }
-};
+}
 
 fn de(bytes: &[u8]) -> Result<Event, ()> {
     match *bytes {
