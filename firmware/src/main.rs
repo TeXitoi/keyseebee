@@ -59,6 +59,7 @@ mod app {
         transform: fn(Event) -> Event,
         tx: serial::Tx<hal::pac::USART1>,
         rx: serial::Rx<hal::pac::USART1>,
+        buf: [u8; 4],
     }
 
     #[init(local = [bus: Option<UsbBusAllocator<usb::UsbBusType>> = None])]
@@ -139,28 +140,27 @@ mod app {
                 transform,
                 tx,
                 rx,
+                buf: [0; 4],
             },
             init::Monotonics(),
         )
     }
 
-    #[task(binds = USART1, priority = 5, local = [rx])]
+    #[task(binds = USART1, priority = 4, local = [rx, buf])]
     fn rx(c: rx::Context) {
-        static mut BUF: [u8; 4] = [0; 4];
-
         if let Ok(b) = c.local.rx.read() {
-            BUF.rotate_left(1);
-            BUF[3] = b;
+            c.local.buf.rotate_left(1);
+            c.local.buf[3] = b;
 
-            if BUF[3] == b'\n' {
-                if let Ok(event) = de(&BUF[..]) {
+            if c.local.buf[3] == b'\n' {
+                if let Ok(event) = de(&c.local.buf[..]) {
                     handle_event::spawn(event).unwrap();
                 }
             }
         }
     }
 
-    #[task(binds = USB, priority = 4, shared = [usb_dev, usb_class])]
+    #[task(binds = USB, priority = 3, shared = [usb_dev, usb_class])]
     fn usb_rx(c: usb_rx::Context) {
         (c.shared.usb_dev, c.shared.usb_class).lock(|usb_dev, usb_class| {
             if usb_dev.poll(&mut [usb_class]) {
@@ -169,12 +169,12 @@ mod app {
         });
     }
 
-    #[task(priority = 3, capacity = 8, shared = [layout])]
-    fn handle_event(mut c: handle_event::Context, event: Event) {
+    #[task(priority = 2, capacity = 8, shared = [layout])]
+    fn handle_event(c: handle_event::Context, event: Event) {
         c.shared.layout.event(event)
     }
 
-    #[task(priority = 3, shared = [usb_dev, usb_class, layout])]
+    #[task(priority = 2, shared = [usb_dev, usb_class, layout])]
     fn tick_keyberon(mut c: tick_keyberon::Context) {
         let tick = c.shared.layout.tick();
         if c.shared.usb_dev.lock(|d| d.state()) != UsbDeviceState::Configured {
@@ -197,7 +197,7 @@ mod app {
 
     #[task(
         binds = TIM3,
-        priority = 2,
+        priority = 1,
         local = [matrix, debouncer, timer, transform, tx],
     )]
     fn tick(c: tick::Context) {
