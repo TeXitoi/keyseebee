@@ -14,7 +14,7 @@ use hal::{stm32, timers};
 use keyberon::debounce::Debouncer;
 use keyberon::key_code::KbHidReport;
 use keyberon::layout::{CustomEvent, Event, Layout};
-use keyberon::matrix::{Matrix, PressedKeys};
+use keyberon::matrix::Matrix;
 use nb::block;
 use rtic::app;
 use stm32f0xx_hal as hal;
@@ -54,7 +54,7 @@ mod app {
     #[local]
     struct Local {
         matrix: Matrix<Pin<Input<PullUp>>, Pin<Output<PushPull>>, 6, 4>,
-        debouncer: Debouncer<PressedKeys<6, 4>>,
+        debouncer: Debouncer<[[bool; 6]; 4]>,
         timer: timers::Timer<stm32::TIM3>,
         transform: fn(Event) -> Event,
         tx: serial::Tx<hal::pac::USART1>,
@@ -135,7 +135,7 @@ mod app {
             },
             Local {
                 timer,
-                debouncer: Debouncer::new(PressedKeys::default(), PressedKeys::default(), 5),
+                debouncer: Debouncer::new([[false; 6]; 4], [[false; 6]; 4], 5),
                 matrix: matrix.get(),
                 transform,
                 tx,
