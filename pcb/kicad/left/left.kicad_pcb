@@ -3033,9 +3033,6 @@
   (gr_text "JLCJLCJLCJLC" (at 171.45 55.499) (layer "F.SilkS") (tstamp 2b54ab7b-f820-4362-b15d-859e209a16ee)
     (effects (font (size 0.8 0.8) (thickness 0.2)))
   )
-  (gr_text "KeySeeBee v0.4 by TeXitoi" (at 238.76 104.14 90) (layer "F.SilkS") (tstamp 3471cf7e-0e4e-48e5-9d5a-de895a556b26)
-    (effects (font (size 1 1) (thickness 0.2)) (justify left))
-  )
 
   (segment (start 235.331 66.302999) (end 234.823 64.779) (width 0.25) (layer "F.Cu") (net 1) (tstamp 00000000-0000-0000-0000-00005ed36073))
   (segment (start 223.529 71.501) (end 222.123 70.095) (width 0.25) (layer "F.Cu") (net 1) (tstamp 00000000-0000-0000-0000-00005ed38279))
