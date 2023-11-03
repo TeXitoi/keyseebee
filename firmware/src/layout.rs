@@ -1,50 +1,50 @@
-use keyberon::action::{k, l, m, Action::*, HoldTapConfig};
+use keyberon::action::{k, l, m, Action::*, HoldTapAction, HoldTapConfig};
 use keyberon::key_code::KeyCode::*;
 
 type Action = keyberon::action::Action<()>;
 
-const CUT: Action = m(&[LShift, Delete]);
-const COPY: Action = m(&[LCtrl, Insert]);
-const PASTE: Action = m(&[LShift, Insert]);
-const L3_ENTER: Action = HoldTap {
+const CUT: Action = m(&&[LShift, Delete].as_slice());
+const COPY: Action = m(&&[LCtrl, Insert].as_slice());
+const PASTE: Action = m(&&[LShift, Insert].as_slice());
+const L3_ENTER: Action = HoldTap(&HoldTapAction {
     timeout: 200,
     tap_hold_interval: 0,
     config: HoldTapConfig::HoldOnOtherKeyPress,
-    hold: &l(3),
-    tap: &k(Enter),
-};
-const L1_SP: Action = HoldTap {
+    hold: l(3),
+    tap: k(Enter),
+});
+const L1_SP: Action = HoldTap(&HoldTapAction {
     timeout: 200,
     tap_hold_interval: 0,
     config: HoldTapConfig::Default,
-    hold: &l(1),
-    tap: &k(Space),
-};
-const CSPACE: Action = m(&[LCtrl, Space]);
+    hold: l(1),
+    tap: k(Space),
+});
+const CSPACE: Action = m(&&[LCtrl, Space].as_slice());
 
-const SHIFT_ESC: Action = HoldTap {
+const SHIFT_ESC: Action = HoldTap(&HoldTapAction {
     timeout: 200,
     tap_hold_interval: 0,
     config: HoldTapConfig::Default,
-    hold: &k(LShift),
-    tap: &k(Escape),
-};
-const CTRL_INS: Action = HoldTap {
+    hold: k(LShift),
+    tap: k(Escape),
+});
+const CTRL_INS: Action = HoldTap(&HoldTapAction {
     timeout: 200,
     tap_hold_interval: 0,
     config: HoldTapConfig::Default,
-    hold: &k(LCtrl),
-    tap: &k(Insert),
-};
+    hold: k(LCtrl),
+    tap: k(Insert),
+});
 
 macro_rules! s {
     ($k:ident) => {
-        m(&[LShift, $k])
+        m(&&[LShift, $k].as_slice())
     };
 }
 macro_rules! a {
     ($k:ident) => {
-        m(&[RAlt, $k])
+        m(&&[RAlt, $k].as_slice())
     };
 }
 
