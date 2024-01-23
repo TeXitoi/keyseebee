@@ -94,12 +94,13 @@ cd firmware
 cargo objcopy --bin keyseebee --release -- -O binary keyseebee.bin
 ```
 
-To flash using dfu-util, first put the board in dfu mode by pressing
-BOOT, pressing and releasing RESET and releasing BOOT. Then:
-
+To flash using dfu-util, launch it with:
 ```shell
-dfu-util -d 0483:df11 -a 0 -s 0x08000000:leave -D keyseebee.bin
+dfu-util -w -d 0483:df11 -a 0 -s 0x08000000:leave -D keyseebee.bin
 ```
+Then, put the board in dfu mode by pressing BOOT, pressing and releasing
+RESET and releasing BOOT. The upload should began as soon as the
+computer detect the board in dfu mode.
 
 The first time, if the write fail, your flash might be protected. To
 unprotect:
