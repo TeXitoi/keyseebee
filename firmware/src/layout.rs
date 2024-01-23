@@ -3,7 +3,7 @@ use keyberon::key_code::KeyCode::*;
 
 type Action = keyberon::action::Action<()>;
 
-const TIMEOUT: u16 = 150;
+const TIMEOUT: u16 = 180;
 const CUT: Action = m(&&[LShift, Delete].as_slice());
 const COPY: Action = m(&&[LCtrl, Insert].as_slice());
 const PASTE: Action = m(&&[LShift, Insert].as_slice());
