@@ -15,6 +15,7 @@ const L1_SP: Action = HoldTap(&HoldTapAction {
     tap: k(Space),
 });
 const CSP: Action = m(&[LCtrl, Space].as_slice());
+const STAB: Action = m(&[LShift, Tab].as_slice());
 const AL_SH: Action = m(&[RAlt, LShift].as_slice());
 const CT_ES: Action = HoldTap(&HoldTapAction {
     timeout: TIMEOUT,
@@ -43,20 +44,20 @@ macro_rules! t {
 #[rustfmt::skip]
 pub static LAYERS: keyberon::layout::Layers<12, 4, 4, ()> = keyberon::layout::layout! {
     {
-        [n Q  W    E     R     T     Y    U  I     O   P n],
-        [n A  S    D     F     G     H    J  K     L   ; n],
-        [n Z  X    C     V     B     N    M  ,     .   / n],
-        [n n LGui LAlt{L1_SP}LCtrl RShift(2)RAlt{AL_SH}n n],
+        [Tab Q  W    E     R     T     Y    U  I     O   P '[' ],
+        [']' A  S    D     F     G     H    J  K     L   ; '\''],
+        [ =  Z  X    C     V     B     N    M  ,     .   / '\\'],
+        [ n  n LGui LAlt{L1_SP}LCtrl RShift(2)RAlt{AL_SH}n  n  ],
     }{
-        [n Pause CapsLock ScrollLock PScreen n  n BSpace Delete Space Tab n],
-        [n LGui     LAlt   {CT_ES}   LShift Tab n   Left   Down  Up Right n],
-        [n Undo    {CUT}    {COPY}  {PASTE}  n Enter Home PgDown PgUp End n],
-        [n   n       t         t        n    t  t    (3)     t    t    n  n],
+        [n Pause CapsLock ScrollLock PScreen{STAB}n BSpace Delete Insert n n],
+        [n LGui     LAlt   {CT_ES}   LShift  Tab  n  Left   Down  Up Right n],
+        [n Undo    {CUT}    {COPY}  {PASTE}   n Enter Home PgDown PgUp End n],
+        [n   n       t         t        n     t   t   (3)     t    t     n n],
     }{
-        [n{s!(Kb1)}{s!(Kb2)}{s!(Kb3)}{s!(Kb4)}{s!(Kb5)}{s!(Kb6)}{s!(Kb7)}{s!(Kb8)}{s!(Kb9)}{s!(Kb0)}n],
-        [n{ k(Kb1)}{ k(Kb2)}{ k(Kb3)}{ k(Kb4)}{ k(Kb5)}{ k(Kb6)}{ k(Kb7)}{ k(Kb8)}{ k(Kb9)}{ k(Kb0)}n],
-        [n{t!(Kb1)}{t!(Kb2)}{ s!(N) }     .   { a!(G) }     N     KpPlus KpMinus KpSlash KpAsterisk n],
-        [n     n        t        t      {CSP}      t        t        n        t        t        n   n],
+        [{s!(Grave)}{s!(Kb1)}{s!(Kb2)}{s!(Kb3)}{s!(Kb4)}{s!(Kb5)}{s!(Kb6)}{s!(Kb7)}{s!(Kb8)}{s!(Kb9)}{s!(Kb0)}{s!(Minus)}],
+        [{ k(Grave)}{ k(Kb1)}{ k(Kb2)}{ k(Kb3)}{ k(Kb4)}{ k(Kb5)}{ k(Kb6)}{ k(Kb7)}{ k(Kb8)}{ k(Kb9)}{ k(Kb0)}{ k(Minus)}],
+        [{t!(Grave)}{t!(Kb1)}{t!(Kb2)}{ s!(N) }     .   { a!(G) }     N      KpPlus KpMinus KpSlash KpAsterisk{s!(Minus)}],
+        [      n         n        t        t      {CSP}      t        t        n        t        t        n         n    ],
     }{
         [n  F1   F2    F3    F4  F5 F6  F7    F8    F9  F10  n],
         [n LGui LAlt LCtrl LShift n n RShift RCtrl LAlt RGui n],
