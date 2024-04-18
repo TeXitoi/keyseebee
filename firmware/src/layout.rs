@@ -54,10 +54,10 @@ pub static LAYERS: keyberon::layout::Layers<12, 4, 4, ()> = keyberon::layout::la
         [n Undo    {CUT}    {COPY}  {PASTE}   n Enter Home PgDown PgUp End n],
         [n   n       t         t        n     t   t   (3)     t    t     n n],
     }{
-        [{s!(Grave)}{s!(Kb1)}{s!(Kb2)}{s!(Kb3)}{s!(Kb4)}{s!(Kb5)}{s!(Kb6)}{s!(Kb7)}{s!(Kb8)}{s!(Kb9)}{s!(Kb0)}{s!(Minus)}],
-        [{ k(Grave)}{ k(Kb1)}{ k(Kb2)}{ k(Kb3)}{ k(Kb4)}{ k(Kb5)}{ k(Kb6)}{ k(Kb7)}{ k(Kb8)}{ k(Kb9)}{ k(Kb0)}{ k(Minus)}],
-        [{t!(Grave)}{t!(Kb1)}{t!(Kb2)}{ s!(N) }     .   { a!(G) }     N      KpPlus KpMinus KpSlash KpAsterisk{s!(Minus)}],
-        [      n         n        t        t      {CSP}      t        t        n        t        t        n         n    ],
+        [      ~         !        @       #  $    %  ^   &       *       '('      ')'        '_'   ],
+        [     '`'        1        2       3  4    5  6   7       8        9        0          -    ],
+        [{t!(Grave)}{t!(Kb1)}{t!(Kb2)}{s!(N)}.{a!(G)}N KpPlus KpMinus KpSlash KpAsterisk{a!(Minus)}],
+        [      n         n        t       t{CSP}  t  t   n       t        t        n          n    ],
     }{
         [n  F1   F2    F3    F4  F5 F6  F7    F8    F9  F10  n],
         [n LGui LAlt LCtrl LShift n n RShift RCtrl LAlt RGui n],
