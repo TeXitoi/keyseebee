@@ -3,7 +3,7 @@ use keyberon::key_code::KeyCode::*;
 
 type Action = keyberon::action::Action<()>;
 
-const TIMEOUT: u16 = 180;
+const TIMEOUT: u16 = 150;
 const CUT: Action = m(&[LShift, Delete].as_slice());
 const COPY: Action = m(&[LCtrl, Insert].as_slice());
 const PASTE: Action = m(&[LShift, Insert].as_slice());
@@ -25,17 +25,8 @@ const CT_ES: Action = HoldTap(&HoldTapAction {
     hold: k(LCtrl),
     tap: k(Escape),
 });
-
-macro_rules! s {
-    ($k:ident) => {
-        m(&[LShift, $k].as_slice())
-    };
-}
-macro_rules! a {
-    ($k:ident) => {
-        m(&[RAlt, $k].as_slice())
-    };
-}
+const COLON: Action = m(&[LShift, N].as_slice());
+const EQUAL: Action = m(&[RAlt, G].as_slice());
 
 #[rustfmt::skip]
 pub static LAYERS: keyberon::layout::Layers<12, 4, 4, ()> = keyberon::layout::layout! {
@@ -50,9 +41,9 @@ pub static LAYERS: keyberon::layout::Layers<12, 4, 4, ()> = keyberon::layout::la
         [n   Undo    {CUT}  {COPY}  {PASTE}    n     Enter   Home   PgDown   PgUp     End      n],
         [n     n       t       t       n       t       t      (3)      t       t       n       n],
     }{//[+* ***+*** ***+*** ***+*** ***+*** ***+*** ***+*** ***+*** ***+*** ***+*** ***+*** ***+],
-        [n     !       @       #    {NBSP}     n       n       n       n       O       n       n],
+        [~     !       @       #       $       %       ^       &       *      '('     ')'    '_'],
         ['`'   1       2       3       4       5       6       7       8       9       0       -],
-        [n     n    {NBSP}  {s!(N)}    .    {a!(G)}    N    KpPlus  KpMinus KpSlash KpAsterisk n],
+        [n     n    {NBSP}  {COLON}    .    {EQUAL}    N    KpPlus  KpMinus KpSlash KpAsterisk n],
         [n     n       t       t     {CSP}     t       t       n       t       t       n       n],
     }{//[+* ***+*** ***+*** ***+*** ***+*** ***+*** ***+*** ***+*** ***+*** ***+*** ***+*** ***+],
         [n    F1      F2      F3      F4      F5      F6      F7      F8      F9      F10      n],
