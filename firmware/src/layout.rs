@@ -15,6 +15,7 @@ const L1_SP: Action = HoldTap(&HoldTapAction {
     tap: k(Space),
 });
 const CSP: Action = m(&[LCtrl, Space].as_slice());
+const NBSP: Action = m(&[RAlt, LShift, Space].as_slice());
 const STAB: Action = m(&[LShift, Tab].as_slice());
 const AL_SH: Action = m(&[RAlt, LShift].as_slice());
 const CT_ES: Action = HoldTap(&HoldTapAction {
@@ -35,11 +36,6 @@ macro_rules! a {
         m(&[RAlt, $k].as_slice())
     };
 }
-macro_rules! t {
-    ($k:ident) => {
-        m(&[O, $k].as_slice())
-    };
-}
 
 #[rustfmt::skip]
 pub static LAYERS: keyberon::layout::Layers<12, 4, 4, ()> = keyberon::layout::layout! {
@@ -54,10 +50,10 @@ pub static LAYERS: keyberon::layout::Layers<12, 4, 4, ()> = keyberon::layout::la
         [n Undo    {CUT}    {COPY}  {PASTE}   n Enter Home PgDown PgUp End n],
         [n   n       t         t        n     t   t   (3)     t    t     n n],
     }{
-        [      ~         !        @       #  $    %  ^   &       *       '('      ')'        '_'   ],
-        [     '`'        1        2       3  4    5  6   7       8        9        0          -    ],
-        [{t!(Grave)}{t!(Kb1)}{t!(Kb2)}{s!(N)}.{a!(G)}N KpPlus KpMinus KpSlash KpAsterisk{a!(Minus)}],
-        [      n         n        t       t{CSP}  t  t   n       t        t        n          n    ],
+        [ n  !  @       #{NBSP} n  n   n       n        O        n     n],
+        ['`' 1  2       3  4    5  6   7       8        9        0     -],
+        [ n  n{NBSP}{s!(N)}.{a!(G)}N KpPlus KpMinus KpSlash KpAsterisk n],
+        [ n  n  t       t{CSP}  t  t   n       t        t        n     n],
     }{
         [n  F1   F2    F3    F4  F5 F6  F7    F8    F9  F10  n],
         [n LGui LAlt LCtrl LShift n n RShift RCtrl LAlt RGui n],
