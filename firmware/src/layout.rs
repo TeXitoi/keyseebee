@@ -39,25 +39,25 @@ macro_rules! a {
 
 #[rustfmt::skip]
 pub static LAYERS: keyberon::layout::Layers<12, 4, 4, ()> = keyberon::layout::layout! {
-    {
-        [Tab Q  W    E     R     T     Y    U  I     O   P '[' ],
-        [']' A  S    D     F     G     H    J  K     L   ; '\''],
-        [ =  Z  X    C     V     B     N    M  ,     .   / '\\'],
-        [ n  n LGui LAlt{L1_SP}LCtrl RShift(2)RAlt{AL_SH}n  n  ],
-    }{
-        [n Pause CapsLock ScrollLock PScreen{STAB}n BSpace Delete Insert n n],
-        [n LGui     LAlt   {CT_ES}   LShift  Tab  n  Left   Down  Up Right n],
-        [n Undo    {CUT}    {COPY}  {PASTE}   n Enter Home PgDown PgUp End n],
-        [n   n       t         t        n     t   t   (3)     t    t     n n],
-    }{
-        [ n  !  @       #{NBSP} n  n   n       n        O        n     n],
-        ['`' 1  2       3  4    5  6   7       8        9        0     -],
-        [ n  n{NBSP}{s!(N)}.{a!(G)}N KpPlus KpMinus KpSlash KpAsterisk n],
-        [ n  n  t       t{CSP}  t  t   n       t        t        n     n],
-    }{
-        [n  F1   F2    F3    F4  F5 F6  F7    F8    F9  F10  n],
-        [n LGui LAlt LCtrl LShift n n RShift RCtrl LAlt RGui n],
-        [n F11  F12     n     n   n n   n      n    n    n   n],
-        [n n{Custom(())}t     n   t t   n      t    t    n   n],
-    }
+    { //[+* ***+*** ***+*** ***+*** ***+*** ***+*** ***+*** ***+*** ***+*** ***+*** ***+*** ***+],
+        [Tab   Q       W       E       R       T       Y       U       I       O       P     '['],
+        [']'   A       S       D       F       G       H       J       K       L       ;    '\''],
+        [=     Z       X       C       V       B       N       M       ,       .       /    '\\'],
+        [n     n     LGui    LAlt   {L1_SP}  LCtrl  RShift    (2)    RAlt   {AL_SH}    n       n],
+    }{//[+* ***+*** ***+*** ***+*** ***+*** ***+*** ***+*** ***+*** ***+*** ***+*** ***+*** ***+],
+        [n Pause CapsLock ScrollLock PScreen {STAB}    n    BSpace  Delete  Insert     n       n],
+        [n   LGui    LAlt   {CT_ES} LShift    Tab      n     Left    Down     Up     Right     n],
+        [n   Undo    {CUT}  {COPY}  {PASTE}    n     Enter   Home   PgDown   PgUp     End      n],
+        [n     n       t       t       n       t       t      (3)      t       t       n       n],
+    }{//[+* ***+*** ***+*** ***+*** ***+*** ***+*** ***+*** ***+*** ***+*** ***+*** ***+*** ***+],
+        [n     !       @       #    {NBSP}     n       n       n       n       O       n       n],
+        ['`'   1       2       3       4       5       6       7       8       9       0       -],
+        [n     n    {NBSP}  {s!(N)}    .    {a!(G)}    N    KpPlus  KpMinus KpSlash KpAsterisk n],
+        [n     n       t       t     {CSP}     t       t       n       t       t       n       n],
+    }{//[+* ***+*** ***+*** ***+*** ***+*** ***+*** ***+*** ***+*** ***+*** ***+*** ***+*** ***+],
+        [n    F1      F2      F3      F4      F5      F6      F7      F8      F9      F10      n],
+        [n   LGui    LAlt    LCtrl  LShift     n       n    RShift   RCtrl   LAlt    RGui      n],
+        [n    F11     F12      n       n       n       n       n       n       n       n       n],
+        [n     n  {Custom(())} t       n       t       t       n       t       t       n       n],
+    } //[+* ***+*** ***+*** ***+*** ***+*** ***+*** ***+*** ***+*** ***+*** ***+*** ***+*** ***+],
 };
