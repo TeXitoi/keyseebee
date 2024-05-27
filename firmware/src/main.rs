@@ -5,6 +5,8 @@
 use panic_halt as _;
 
 use core::convert::Infallible;
+use core::mem::MaybeUninit;
+use cortex_m::peripheral::SCB;
 use embedded_hal::digital::v2::InputPin;
 use hal::gpio::{gpiob, Floating, Input, Output, Pin, PullUp, PushPull};
 use hal::prelude::*;
@@ -26,6 +28,25 @@ mod layout;
 
 type UsbClass = keyberon::Class<'static, usb::UsbBusType, ()>;
 type UsbDevice = usb_device::device::UsbDevice<'static, usb::UsbBusType>;
+
+const MAGIC_JUMP_BOOTLOADER: u32 = 0xdeadbeef;
+#[link_section = ".uninit.MAGIC"]
+static mut MAGIC: MaybeUninit<u32> = MaybeUninit::uninit();
+
+#[cortex_m_rt::pre_init]
+unsafe fn maybe_jump_bootloader() {
+    let software_reset = (*hal::pac::RCC::ptr()).csr.read().sftrstf().bit_is_set();
+    let jump_bootloader = software_reset && MAGIC.assume_init() == MAGIC_JUMP_BOOTLOADER;
+    MAGIC.as_mut_ptr().write(0);
+    if jump_bootloader {
+        cortex_m::asm::bootload(0x1FFFC800 as _);
+    }
+}
+
+pub fn bootloader() -> ! {
+    unsafe { MAGIC.as_mut_ptr().write(MAGIC_JUMP_BOOTLOADER) }
+    SCB::sys_reset()
+}
 
 trait ResultExt<T> {
     fn get(self) -> T;
@@ -181,7 +202,7 @@ mod app {
             return;
         }
         match tick {
-            CustomEvent::Release(()) => unsafe { cortex_m::asm::bootload(0x1FFFC800 as _) },
+            CustomEvent::Release(()) => bootloader(),
             _ => (),
         }
         let report: KbHidReport = c.shared.layout.keycodes().collect();
