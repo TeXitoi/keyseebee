@@ -1,4 +1,4 @@
-use keyberon::action::{k, l, m, Action::*, HoldTapAction, HoldTapConfig};
+use keyberon::action::{k, m, Action::*, HoldTapAction, HoldTapConfig};
 use keyberon::key_code::KeyCode::*;
 
 type Action = keyberon::action::Action<()>;
@@ -19,7 +19,6 @@ const CUT: Action = m(&[LShift, Delete].as_slice());
 const COPY: Action = m(&[LCtrl, Insert].as_slice());
 const PASTE: Action = m(&[LShift, Insert].as_slice());
 
-const L1_SP: Action = hold_tap!(l(1), Space);
 const C_ESC: Action = hold_tap!(k(LCtrl), Escape);
 
 const G_A: Action = hold_tap!(k(LGui), A);
@@ -40,7 +39,6 @@ const C_8: Action = hold_tap!(k(RCtrl), Kb8);
 const M_9: Action = hold_tap!(k(LAlt), Kb9);
 const G_0: Action = hold_tap!(k(RGui), Kb0);
 
-const CSP: Action = m(&[LCtrl, Space].as_slice());
 const STAB: Action = m(&[LShift, Tab].as_slice());
 const AGS: Action = m(&[RAlt, LShift].as_slice());
 
