@@ -30,20 +30,21 @@ type UsbClass = keyberon::Class<'static, usb::UsbBusType, ()>;
 type UsbDevice = usb_device::device::UsbDevice<'static, usb::UsbBusType>;
 
 #[link_section = ".uninit.GOTO_BOOTLOADER"]
-static mut GOTO_BOOTLOADER: MaybeUninit<bool> = MaybeUninit::uninit();
+static mut GOTO_BOOTLOADER: MaybeUninit<u8> = MaybeUninit::uninit();
+const GO: u8 = 60;
 
 #[cortex_m_rt::pre_init]
 unsafe fn maybe_jump_bootloader() {
     let software_reset = (*hal::pac::RCC::ptr()).csr.read().sftrstf().bit_is_set();
-    let jump_bootloader = software_reset && GOTO_BOOTLOADER.assume_init();
-    GOTO_BOOTLOADER.write(false);
+    let jump_bootloader = software_reset && GOTO_BOOTLOADER.assume_init() == GO;
+    GOTO_BOOTLOADER.write(0);
     if jump_bootloader {
         cortex_m::asm::bootload(0x1FFFC800 as _);
     }
 }
 
 pub fn bootloader() -> ! {
-    unsafe { GOTO_BOOTLOADER.write(true) };
+    unsafe { GOTO_BOOTLOADER.write(GO) };
     SCB::sys_reset()
 }
 
