@@ -29,22 +29,21 @@ mod layout;
 type UsbClass = keyberon::Class<'static, usb::UsbBusType, ()>;
 type UsbDevice = usb_device::device::UsbDevice<'static, usb::UsbBusType>;
 
-const MAGIC_JUMP_BOOTLOADER: u32 = 0xdeadbeef;
-#[link_section = ".uninit.MAGIC"]
-static mut MAGIC: MaybeUninit<u32> = MaybeUninit::uninit();
+#[link_section = ".uninit.GOTO_BOOTLOADER"]
+static mut GOTO_BOOTLOADER: MaybeUninit<bool> = MaybeUninit::uninit();
 
 #[cortex_m_rt::pre_init]
 unsafe fn maybe_jump_bootloader() {
     let software_reset = (*hal::pac::RCC::ptr()).csr.read().sftrstf().bit_is_set();
-    let jump_bootloader = software_reset && MAGIC.assume_init() == MAGIC_JUMP_BOOTLOADER;
-    MAGIC.as_mut_ptr().write(0);
+    let jump_bootloader = software_reset && GOTO_BOOTLOADER.assume_init();
+    GOTO_BOOTLOADER.write(false);
     if jump_bootloader {
         cortex_m::asm::bootload(0x1FFFC800 as _);
     }
 }
 
 pub fn bootloader() -> ! {
-    unsafe { MAGIC.as_mut_ptr().write(MAGIC_JUMP_BOOTLOADER) }
+    unsafe { GOTO_BOOTLOADER.write(true) };
     SCB::sys_reset()
 }
 
